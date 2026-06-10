@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tool Detail — AI Directory</title>
+  <meta name="description" content="Detailed information about this AI tool including features, pricing, and similar tools." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon" aria-hidden="true">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </a>
+
+    <div class="nav__links" role="menubar">
+      <a href="index.html" class="nav__link" role="menuitem">Home</a>
+      <a href="category.html" class="nav__link" role="menuitem">Categories</a>
+      <a href="#" class="nav__link btn-submit" role="menuitem">Submit Tool</a>
+    </div>
+
+    <div class="nav__actions">
+      <button class="btn-submit-nav" aria-label="Submit a tool">
+        <i class="fas fa-plus" style="margin-right:6px"></i>Submit Tool
+      </button>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav__mobile" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+  <ul class="nav__mobile-links">
+    <li><a href="index.html" class="nav__mobile-link">Home</a></li>
+    <li><a href="category.html" class="nav__mobile-link">Categories</a></li>
+    <li><a href="#" class="nav__mobile-link mobile-submit">Submit Tool</a></li>
+  </ul>
+</div>
+
+<main id="detailContent">
+  <!-- ── DETAIL HERO ── -->
+  <section class="detail-hero" aria-labelledby="detailName">
+    <div class="container">
+
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom:28px">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        <a href="category.html">Categories</a>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        <a id="detailBreadcrumbCat" href="category.html">Category</a>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        <span id="detailBreadcrumbTool" aria-current="page">Tool</span>
+      </nav>
+
+      <div class="detail-hero__inner">
+        <div class="detail-hero__main">
+          <div class="detail-hero__icon" id="detailIcon" aria-hidden="true">🤖</div>
+          <h1 class="detail-hero__title" id="detailName">Tool Name</h1>
+
+          <div class="detail-hero__badges">
+            <span class="card__category-badge" id="detailCategory">Category</span>
+            <span class="pricing-badge" id="detailPricing">Pricing</span>
+          </div>
+
+          <div class="detail-hero__rating" aria-label="Tool rating">
+            <div class="stars" id="detailStars"></div>
+            <span class="rating-num" id="detailRatingNum" style="font-size:1rem"></span>
+            <span style="font-size:0.85rem;color:var(--text-muted);margin-left:4px">out of 5</span>
+          </div>
+        </div>
+
+        <div class="detail-hero__actions">
+          <a href="#" id="visitWebsite" class="btn-visit" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Visit Website
+          </a>
+          <a href="index.html" class="btn-back">
+            <i class="fas fa-arrow-left"></i> Back to Directory
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DETAIL BODY ── -->
+  <div class="container detail-content">
+
+    <!-- ── Main Content ── -->
+    <div class="detail-main">
+      <div class="detail-section">
+        <h2 class="detail-section-title">About this tool</h2>
+        <p class="detail-description" id="detailDesc">Loading…</p>
+      </div>
+
+      <div class="detail-section">
+        <h2 class="detail-section-title">Key Features</h2>
+        <ul class="features-list" id="featuresList" aria-label="Tool features">
+          <!-- Rendered by JS -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- ── Sidebar ── -->
+    <aside class="detail-sidebar" aria-label="Tool information">
+
+      <!-- Quick Info Card -->
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Quick Info</div>
+        <div class="info-row">
+          <span class="info-row__label">Rating</span>
+          <span class="info-row__val" id="infoRating">—</span>
+        </div>
+        <div class="info-row">
+          <span class="info-row__label">Pricing</span>
+          <span class="info-row__val" id="infoPricing">—</span>
+        </div>
+        <div class="info-row">
+          <span class="info-row__label">Category</span>
+          <span class="info-row__val" id="infoCategory">—</span>
+        </div>
+      </div>
+
+      <!-- Similar Tools Card -->
+      <div class="sidebar-card" id="similarSection">
+        <div class="sidebar-card-title">Similar Tools</div>
+        <div class="similar-grid" id="similarGrid" aria-label="Similar tools">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+    </aside>
+  </div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <div class="footer__logo-icon" aria-hidden="true">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </div>
+    <p class="footer__copy">© 2025 AI Directory. A curated resource for AI tools.</p>
+    <nav class="footer__links" aria-label="Footer links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="category.html" class="footer__link">Categories</a>
+      <a href="#" class="footer__link btn-submit">Submit Tool</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

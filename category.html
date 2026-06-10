@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Categories — AI Directory</title>
+  <meta name="description" content="Browse AI tools by category: Text Generation, Image, Video, Audio, Coding and more." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon" aria-hidden="true">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </a>
+
+    <div class="nav__links" role="menubar">
+      <a href="index.html" class="nav__link" role="menuitem">Home</a>
+      <a href="category.html" class="nav__link active" role="menuitem">Categories</a>
+      <a href="#" class="nav__link btn-submit" role="menuitem">Submit Tool</a>
+    </div>
+
+    <div class="nav__actions">
+      <button class="btn-submit-nav" aria-label="Submit a tool">
+        <i class="fas fa-plus" style="margin-right:6px"></i>Submit Tool
+      </button>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav__mobile" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+  <ul class="nav__mobile-links">
+    <li><a href="index.html" class="nav__mobile-link">Home</a></li>
+    <li><a href="category.html" class="nav__mobile-link">Categories</a></li>
+    <li><a href="#" class="nav__mobile-link mobile-submit">Submit Tool</a></li>
+  </ul>
+</div>
+
+<main>
+  <!-- ── CATEGORY HERO ── -->
+  <section class="category-hero" aria-labelledby="catHeading">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        <a href="category.html">Categories</a>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        <span id="catBreadcrumb" aria-current="page">All</span>
+      </nav>
+
+      <div class="category-hero__icon" id="catIcon" aria-hidden="true">🤖</div>
+      <h1 class="category-hero__title" id="catHeading catTitle">All Tools</h1>
+      <div class="category-hero__meta">
+        <span id="catCount" aria-live="polite">Loading…</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FILTERS ── -->
+  <section class="filters" aria-label="Filter by category">
+    <div class="container">
+      <div class="filters__inner">
+        <div class="filters__cats" id="categoryNav" role="group" aria-label="Category navigation">
+          <!-- Injected by JS -->
+        </div>
+        <div class="filters__sort">
+          <label class="sort-label" for="catSortSelect">Sort:</label>
+          <select id="catSortSelect" class="sort-select" aria-label="Sort tools">
+            <option value="rating">Top Rated</option>
+            <option value="price">Free First</option>
+            <option value="name">A – Z</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GRID ── -->
+  <section class="tools-section" aria-label="Category tools">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="catTitle">Tools</h2>
+        <span class="section-count" id="catToolCount" aria-live="polite" aria-atomic="true"></span>
+      </div>
+
+      <div class="tools-grid" id="categoryGrid" role="list">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="load-more-wrap">
+        <button class="btn-load-more hidden" id="catLoadMore">Load more</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <div class="footer__logo-icon" aria-hidden="true">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </div>
+    <p class="footer__copy">© 2025 AI Directory. A curated resource for AI tools.</p>
+    <nav class="footer__links" aria-label="Footer links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="category.html" class="footer__link">Categories</a>
+      <a href="#" class="footer__link btn-submit">Submit Tool</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
