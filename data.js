@@ -529,7 +529,7 @@ const AI_TOOLS = [
   features: ["Automated JSON-LD schema generation", "Competitor entity extraction", "Wikipedia & Wikidata integration", "YAKE keyword gap analysis", "No-code schema editor", "GeoRadius schema for local SEO"]
 },
 {
-  id: 44,
+  id: 45,
   name: "HyNote",
   description: "All-in-one AI note-taking app that transcribes audio, summarizes PDFs and YouTube videos, and extracts text from images via OCR.",
   fullDescription: "HyNote is an AI-powered note-taking and productivity platform that turns information from any source — audio, PDFs, images, YouTube videos, and web pages — into structured, actionable notes. Its AI Core Engine provides 99% accurate audio transcription with speaker identification in 50+ languages, OCR-based image and document text extraction, smart text summarization with customizable formats, and one-click web page summarization from a URL. Outputs include meeting summaries, flashcards, quizzes, and action items, exportable to PDF or Word. With encrypted storage compliant with GDPR, CCPA, and HIPAA, integrations with Google Docs and Notion, and cross-device sync across web, iOS, Android, and Chrome Extension, HyNote serves over 1 million users as an AI-powered 'second brain.' The free plan includes 300 AI credits and a 7-day trial, with paid plans starting at $6.66-10.83/month.",
