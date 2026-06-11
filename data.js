@@ -467,6 +467,78 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=rowspeak.ai&sz=64",
   website: "https://rowspeak.ai",
   features: ["AI table structure detection", "Image to editable XLSX export", "Preserves rows, columns & merged cells", "AI chat to clean & analyze data", "Invoice & receipt extraction", "Preview before download"]
+},
+{
+  id: 40,
+  name: "KeyAPI",
+  description: "AI-agent-first unified API giving developers one key to access data from 20+ social media platforms including TikTok, Instagram, and YouTube.",
+  fullDescription: "KeyAPI is an AI-agent-first platform offering a unified REST API to access structured data from over 20 global social media and commerce platforms — TikTok, Instagram, Twitter, YouTube, Reddit, LinkedIn, Facebook, Amazon, Pinterest, and more — through a single API key. It returns clean JSON for profiles, posts, analytics, videos, comments, transcripts, and commerce signals, with under 500ms average latency and a 99.9% uptime SLA. Built for LLM pipelines, automation systems, and autonomous agents, KeyAPI integrates with the Model Context Protocol (MCP) and supports real-time plus historical data up to 1,000 days. Credit-based plans range from a free trial of 100 API calls up to Ultra at $699/31 days for 500,000 credits, eliminating the need for fragmented platform integrations and multi-key management.",
+  category: "Coding",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=keyapi.ai&sz=64",
+  website: "https://keyapi.ai",
+  features: ["Unified API for 20+ platforms", "MCP integration for AI agents", "Under 500ms latency", "Historical data up to 1,000 days", "Clean structured JSON output", "99.9% uptime SLA"]
+},
+{
+  id: 41,
+  name: "Fliki AI",
+  description: "AI text-to-video and text-to-speech platform with 2,500+ voices, AI avatars, and Veo 3 integration for faceless content creation.",
+  fullDescription: "Fliki AI is an all-in-one text-to-video and text-to-speech platform that turns scripts, blog posts, URLs, or PowerPoint files into polished videos using a simple slide-based editor. Each slide automatically receives an AI voiceover from a library of 2,500+ ultra-realistic voices across 80+ languages, matched visuals from millions of stock clips or AI-generated imagery, and auto-subtitles. Recent integrations with Seedance 2.0 and Google's Veo 3 bring cinema-quality video generation directly into the platform. Voice cloning lets creators replicate their own voice for personal branding. With over 4 million users and a 4.7-4.8/5 rating across review platforms, Fliki is widely used for faceless YouTube channels, TikTok content, e-learning videos, and blog-to-video repurposing. A free plan offers 5 minutes of monthly content, with paid plans starting around $8-28/month.",
+  category: "Video",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=fliki.ai&sz=64",
+  website: "https://fliki.ai",
+  features: ["2,500+ AI voices in 80+ languages", "Voice cloning", "Veo 3 & Seedance 2.0 integration", "Slide-based text-to-video editor", "10M+ stock media library", "Blog/URL to video conversion"]
+},  
+{
+  id: 42,
+  name: "Supernormal",
+  description: "Bot-free AI meeting assistant that automatically transcribes, summarizes, and tracks action items across Zoom, Meet, and Teams.",
+  fullDescription: "Supernormal is an AI meeting assistant that automatically takes notes, generates summaries, and tracks action items during meetings — without an awkward bot joining the call. Using its Radiant bot-free technology, it integrates directly with Google Meet, Zoom, and Microsoft Teams to capture key points, decisions, and tasks in real time. Notes are automatically formatted using customizable templates for sales, recruiting, project management, and executive briefings, then centralized and searchable across your team's workspace. Action items sync automatically with tools like Asana, ClickUp, Linear, HubSpot, and Salesforce. With 60+ language support, SOC 2 certification, and trusted by 250,000+ teams including Google and Spotify, Supernormal offers a free plan with unlimited meetings and up to 1,000 minutes of storage, with paid plans from $10-19/user/month.",
+  category: "Text Generation",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=supernormal.com&sz=64",
+  website: "https://supernormal.com",
+  features: ["Bot-free meeting transcription", "Automatic action item tracking", "60+ language support & translation", "Custom note templates", "Zoom, Meet & Teams integration", "SOC 2 certified security"]
+},
+{
+  id: 43,
+  name: "HypeAuditor",
+  description: "AI-powered influencer marketing platform with a 68M+ creator database for fraud detection, audience analysis, and campaign management.",
+  fullDescription: "HypeAuditor is a comprehensive influencer marketing platform covering the entire campaign lifecycle from discovery to reporting. Its AI-powered database contains over 68 million influencer accounts across Instagram, YouTube, TikTok, Twitch, and Twitter, updated daily and searchable across 253 countries by niche. Originally built as a fraud detection tool, it remains industry-leading at identifying fake followers and bot engagement, alongside audience quality scoring, competitor analysis, and CRM tools for managing creator relationships. Campaign management features include outreach automation, performance tracking, and e-commerce integrations. HypeAuditor also offers full-service campaign management where experts handle creator negotiation and strategy. Plans start at $299/month billed annually, with all tiers including the same core modules but differing in usage limits and access to AI Search and advanced filters.",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=hypeauditor.com&sz=64",
+  website: "https://hypeauditor.com",
+  features: ["68M+ influencer database", "AI fraud & fake follower detection", "Audience quality analysis", "Campaign management & CRM", "Competitor analysis", "253 country coverage"]
+},
+{
+  id: 44,
+  name: "SchemaWriter.ai",
+  description: "AI tool that automates JSON-LD schema markup generation for SEO using competitor entity analysis and Wikipedia/Wikidata data.",
+  fullDescription: "SchemaWriter.ai automates the creation of advanced JSON-LD schema markup for on-page SEO optimization. Given a target search term and URL, it crawls the top 10 Google results, extracts relevant entities, and cross-references them with Wikipedia, Wikidata, and Google Knowledge Graph to generate structured data that helps search engines understand your content. Its YAKE keyword analysis identifies important terms from competitor pages, while entity gap analysis shows what your page is missing compared to top performers. A no-code editor lets users customize generated schema before deployment, with specialized templates including GeoRadius schema for local SEO. Plans run from $59/month (50 runs) to $119/month (150 runs, includes GeoRadius), and users supply their own OpenAI API key to keep software costs lower.",
+  category: "Text Generation",
+  rating: 4.1,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=schemawriter.ai&sz=64",
+  website: "https://schemawriter.ai",
+  features: ["Automated JSON-LD schema generation", "Competitor entity extraction", "Wikipedia & Wikidata integration", "YAKE keyword gap analysis", "No-code schema editor", "GeoRadius schema for local SEO"]
+},
+{
+  id: 44,
+  name: "HyNote",
+  description: "All-in-one AI note-taking app that transcribes audio, summarizes PDFs and YouTube videos, and extracts text from images via OCR.",
+  fullDescription: "HyNote is an AI-powered note-taking and productivity platform that turns information from any source — audio, PDFs, images, YouTube videos, and web pages — into structured, actionable notes. Its AI Core Engine provides 99% accurate audio transcription with speaker identification in 50+ languages, OCR-based image and document text extraction, smart text summarization with customizable formats, and one-click web page summarization from a URL. Outputs include meeting summaries, flashcards, quizzes, and action items, exportable to PDF or Word. With encrypted storage compliant with GDPR, CCPA, and HIPAA, integrations with Google Docs and Notion, and cross-device sync across web, iOS, Android, and Chrome Extension, HyNote serves over 1 million users as an AI-powered 'second brain.' The free plan includes 300 AI credits and a 7-day trial, with paid plans starting at $6.66-10.83/month.",
+  category: "Text Generation",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=hynote.ai&sz=64",
+  website: "https://hynote.ai",
+  features: ["AI audio transcription (99% accuracy)", "PDF & YouTube summarization", "OCR image text extraction", "Speaker identification (50+ languages)", "Google Docs & Notion integration", "Cross-device sync (web, iOS, Android)"]
 },  
 ];
 
