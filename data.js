@@ -420,6 +420,54 @@ const AI_TOOLS = [
   website: "https://idox.ai",
   features: ["Real-time data leak prevention", "Prompt injection detection", "Endpoint-level AI monitoring", "Centralized policy governance", "GDPR, HIPAA & SOX compliance", "Family Edition for child safety"]
 },
+{
+  id: 36,
+  name: "Floor Plan AI (Maket)",
+  description: "AI floor plan generator that creates and edits real, dimensioned residential layouts through simple conversation.",
+  fullDescription: "Maket is an AI-powered floor plan generator built for residential design, standing out as the only tool in its category that lets users both generate and edit floor plans through natural conversation. Its generative AI produces real, editable floor plans with accurate dimensions — simply describe your space requirements and Maket creates layout options, which can then be refined further through chat. The workspace supports exploring multiple visual directions for the same plan, making it easy to compare options before committing. With a free tier offering 50 credits and paid plans from $20/month for 300 credits, Maket serves homeowners planning renovations, real estate agents needing listing visuals, and designers prototyping layouts quickly without CAD software.",
+  category: "Image",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=maket.ai&sz=64",
+  website: "https://maket.ai",
+  features: ["Conversational floor plan generation", "Real, editable dimensions", "Multiple layout exploration", "Refine plans via chat", "Free tier with 50 credits", "Residential design focus"]
+},
+{
+  id: 37,
+  name: "Friend",
+  description: "Wearable AI companion device that listens, remembers, and chats with you via text — a $99 one-time purchase, no subscription.",
+  fullDescription: "Friend is a small, glowing wearable AI companion device that clips onto clothing or hangs as a pendant, equipped with a microphone to passively listen to your day. It communicates exclusively through text messages via a companion smartphone app — a deliberate design choice that feels familiar and comfortable. Unlike productivity assistants like Siri, Friend is built purely for emotional companionship: a presence that remembers your conversations and can initiate chats on its own through a 'Free Will' feature. Priced at a one-time $99 with no subscription required, all memories are tied to the physical device — if lost, they're gone forever, reinforcing the personal, irreplaceable nature of the relationship. Initially available in the US and Canada.",
+  category: "Audio",
+  rating: 3.9,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=friend.com&sz=64",
+  website: "https://friend.com",
+  features: ["Wearable always-listening device", "Text-based AI conversations", "One-time $99 cost, no subscription", "'Free Will' proactive messaging", "Persistent on-device memory", "Emotional companionship focus"]
+},
+{
+  id: 38,
+  name: "Whimsical AI (Flowchart AI)",
+  description: "AI diagramming tool powered by Claude that turns text prompts into editable flowcharts, mind maps, and sequence diagrams in seconds.",
+  fullDescription: "Whimsical AI is a fast, single-purpose AI diagramming tool powered by Claude. Type a prompt describing a process, decision tree, or system, and within about 4 seconds Whimsical returns a clean, editable flowchart that typically needs zero manual layout adjustments. Beyond flowcharts, it generates mind maps, sequence diagrams, and user flows on an infinite collaborative canvas with real-time team editing. A built-in MCP server runs locally on the desktop app, allowing AI coding agents like Claude, Cursor, and Codex to read and write directly to your Whimsical workspace. With integrations for Notion, Jira, and Slack, plus a generous free tier and paid plans starting at $6/month, Whimsical is ideal for product managers, engineers, and teams who want to turn brainstorms into structured visuals instantly.",
+  category: "Coding",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=whimsical.com&sz=64",
+  website: "https://whimsical.com/ai",
+  features: ["Text-to-flowchart in ~4 seconds", "Powered by Claude AI", "Mind maps & sequence diagrams", "Local MCP server for AI agents", "Real-time team collaboration", "Notion, Jira & Slack integration"]
+},  
+{
+  id: 39,
+  name: "Image to Excel (RowSpeak)",
+  description: "AI tool that converts photos, screenshots, and scanned tables into editable Excel spreadsheets with 99% accuracy.",
+  fullDescription: "RowSpeak's Image to Excel converter solves a common data entry headache: information trapped in screenshots, scanned reports, invoices, and phone photos. Using AI-powered structure detection (rather than basic OCR), it accurately parses entire grids — rows, columns, cell alignment, and merged cells — to reconstruct a clean, ready-to-use spreadsheet that mirrors the original image. Users upload a PNG, JPG, or JPEG, preview the extracted table for accuracy, optionally chat with RowSpeak to clean or analyze the data, then export as XLSX. Numbers are preserved in separate cells ready for formulas and charts. RowSpeak also offers related workflows for invoice line-item extraction and PDF-to-Excel conversion, making it valuable for analysts, accountants, and researchers digitizing paper or image-based records.",
+  category: "Coding",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=rowspeak.ai&sz=64",
+  website: "https://rowspeak.ai",
+  features: ["AI table structure detection", "Image to editable XLSX export", "Preserves rows, columns & merged cells", "AI chat to clean & analyze data", "Invoice & receipt extraction", "Preview before download"]
+},  
 ];
 
 // Categories derived from data
