@@ -539,7 +539,68 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=hynote.ai&sz=64",
   website: "https://hynote.ai",
   features: ["AI audio transcription (99% accuracy)", "PDF & YouTube summarization", "OCR image text extraction", "Speaker identification (50+ languages)", "Google Docs & Notion integration", "Cross-device sync (web, iOS, Android)"]
+},
+{
+  id: 46,
+  name: "DeepSeek",
+  description: "Open-source Chinese AI model family delivering GPT-class reasoning at up to 50x lower cost, with a free unlimited chat app.",
+  fullDescription: "DeepSeek is an open-source AI model family that has disrupted the industry by delivering GPT-4/GPT-5-class reasoning, coding, and agentic tool-use performance at a fraction of the cost of competitors. Its DeepSeek Sparse Attention (DSA) architecture reduces training and inference costs while maintaining quality on long-context tasks, and the model has achieved gold-medal results on international math and informatics olympiads. The free DeepSeek Chat app offers unlimited messaging and file uploads with no subscription tiers — a core differentiator from ChatGPT and Claude. For developers, the API is priced at roughly $0.14-$0.55 per million tokens depending on the model variant, representing up to 97% savings versus GPT-4 Turbo, with automatic context caching providing additional discounts on repeated prompts. New API users receive 5 million free tokens.",
+  category: "Text Generation",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64",
+  website: "https://chat.deepseek.com",
+  features: ["Free unlimited chat (web & mobile)", "GPT-class reasoning at 2-5% the cost", "Open-source model weights", "1M token context window", "Automatic context caching", "Strong coding & math performance"]
+},
+{
+  id: 47,
+  name: "OpenAI Codex",
+  description: "OpenAI's autonomous cloud coding agent that reads codebases, writes code, runs tests, and submits pull requests — included with ChatGPT Plus.",
+  fullDescription: "OpenAI Codex is an autonomous coding agent that operates as a true software engineer — reading your entire codebase, planning multi-step changes, writing and editing code across files, running tests in a sandboxed cloud environment, and opening pull requests for review. Available via Codex CLI, IDE extensions (VS Code, JetBrains), and Codex Cloud, it supports parallel task execution so multiple features or fixes can run simultaneously. Codex is bundled with ChatGPT subscriptions rather than sold separately: Plus ($20/month) includes solid daily usage with 5-hour rolling caps, while Pro ($200/month) dramatically expands limits for full-time use. As of April 2026, pricing shifted to token-based credit metering across the GPT-5.3-Codex and lighter GPT-5.4-Mini models, with API access also available at $1.50/$6.00 per million input/output tokens.",
+  category: "Coding",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  website: "https://openai.com/codex",
+  features: ["Autonomous codebase-wide editing", "Sandboxed cloud execution", "Automatic test running & PR creation", "Parallel multi-task execution", "VS Code & JetBrains integration", "Bundled with ChatGPT Plus/Pro"]
+},
+{
+  id: 48,
+  name: "Google Jules",
+  description: "Google's asynchronous AI coding agent that clones your GitHub repo into a cloud VM, fixes bugs, and opens pull requests — free tier available.",
+  fullDescription: "Google Jules is an autonomous, asynchronous AI coding agent powered by Gemini 2.5 Pro. Rather than working inline like an autocomplete tool, Jules clones your GitHub repository into an isolated Google Cloud virtual machine, where it can fix bugs, refactor code, update dependencies, and implement bounded features without touching your live codebase. Once finished, it automatically opens a pull request for human review. Environment Snapshots speed up repeated tasks by preserving project setup state. With over 150 million developers on GitHub, Jules' tight PR-based workflow makes it ideal for clearing backlog items like flaky test fixes and dependency updates. The free plan offers 15 daily tasks and 3 concurrent tasks; Google AI Pro ($19.99/month) raises this to 100 daily/15 concurrent, and Ultra ($124.99/month) to 300 daily/60 concurrent.",
+  category: "Coding",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=jules.google&sz=64",
+  website: "https://jules.google",
+  features: ["Asynchronous cloud VM execution", "Powered by Gemini 2.5 Pro", "Automatic GitHub PR creation", "Environment Snapshots", "Free tier (15 tasks/day)", "Background batch task processing"]
+},
+{
+  id: 49,
+  name: "Cline",
+  description: "Free open-source autonomous AI coding agent for VS Code that edits files, runs terminal commands, and works with any AI model via your own API key.",
+  fullDescription: "Cline (originally released as 'Claude Dev') is a free, open-source autonomous AI coding agent with over 5 million installs and 61,000+ GitHub stars under the Apache 2.0 license. Running as a sidebar extension in VS Code, JetBrains, Cursor, Windsurf, Zed, and Neovim, Cline reads your entire codebase, creates and edits files across multiple locations, runs terminal commands, and even drives a real browser via Puppeteer for testing — asking for approval at each step via its Plan/Act workflow. Unlike subscription tools, Cline is completely free; you bring your own API key from Anthropic, OpenAI, Google, or any provider and pay only for the AI inference you use, typically $5-100/month depending on usage intensity. MCP integration connects Cline to databases, APIs, and custom tools, making it a transparent, no-lock-in alternative to Cursor and GitHub Copilot.",
+  category: "Coding",
+  rating: 4.7,
+  pricing: "Free",
+  icon: "https://www.google.com/s2/favicons?domain=cline.bot&sz=64",
+  website: "https://cline.bot",
+  features: ["Free & open-source (Apache 2.0)", "Bring-your-own API key (any model)", "Multi-file autonomous editing", "Terminal command execution", "Browser automation via Puppeteer", "MCP integration for custom tools"]
+},
+{
+  id: 50,
+  name: "Just Build Things",
+  description: "Free hub of 700+ single-purpose AI tools for image, video, music, writing, and code generation — no sign-up needed for most tools.",
+  fullDescription: "Just Build Things is a browser-based hub of over 700 purpose-built AI and creative utilities for makers, marketers, developers, students, and hobbyists. Each tool does exactly one job — from AI image and video generation to writing assistants, music creation, code formatters, SEO checkers, and even browser games like Pong and Snake. Behind the scenes, the platform automatically routes each task to the best of 20+ AI models including OpenAI, Claude, Gemini, FLUX, and ElevenLabs, so users never need to manage prompts or pick models manually. Hundreds of tools are completely free with no sign-up required, and uploads are processed in real time without being stored. New tools ship weekly, often based on user suggestions, and the entire platform is built and run by a solo founder in Berlin with zero VC funding — a refreshingly simple alternative to juggling dozens of separate AI subscriptions.",
+  category: "Image",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=justbuildthings.com&sz=64",
+  website: "https://justbuildthings.com",
+  features: ["700+ single-purpose AI tools", "20+ AI models auto-routed", "No sign-up for free tools", "No daily rate limits", "Privacy-first (no data storage)", "New tools shipped weekly"]
 },  
+  
 ];
 
 // Categories derived from data
