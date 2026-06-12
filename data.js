@@ -1656,6 +1656,138 @@ const AI_TOOLS = [
   website: "https://trainn.co",
   features: ["Screen recording to polished training video", "AI voiceovers replacing recorded audio", "Auto zooms & spotlights on clicks", "25+ language video translation", "Clip-based, no-skill-required editor", "Video & learner analytics dashboard"]
 },
+{
+  id: 139,
+  name: "Liminary",
+  description: "AI-native knowledge management tool that saves webpages, PDFs, and videos, then proactively surfaces relevant notes while you work.",
+  fullDescription: "Liminary is an AI-native knowledge management tool designed to store, organize, and surface personal information exactly when needed. Users save webpages, PDFs, YouTube videos, AI chat transcripts, and desktop files into a unified library. Its AI recall layer monitors what you're working on and proactively surfaces relevant saved content in context, rather than waiting for a manual search — turning a passive bookmark collection into an active knowledge graph. This makes it especially valuable for consultants, researchers, investors, and knowledge workers who accumulate large reference libraries but struggle to retrieve the right material at the right moment. The free Explorer tier covers basic saving and recall, Pro at $29/month adds advanced recall and unlimited writing assistance, and a Team plan supports shared knowledge bases for firms.",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=liminary.com&sz=64",
+  website: "https://liminary.com",
+  features: ["Save webpages, PDFs & videos", "AI recall surfaces relevant content", "Unified knowledge library", "Proactive in-context suggestions", "Unlimited writing assistance (Pro)", "Team shared knowledge bases"]
+},
+{
+  id: 140,
+  name: "Surfn AI",
+  description: "No-code AI page builder that creates conversational chatbot landing pages to qualify leads and answer visitor questions 24/7.",
+  fullDescription: "Surfn AI lets anyone build a shareable conversational AI page — a chatbot-style landing page that visitors can ask questions to, get directed through a funnel, and qualify themselves as leads, all without the creator needing to respond manually. Pages can be published via a link, embedded on a website, dropped into social media bios, included in newsletters, or even shared as a QR code at events. Setup is entirely no-code: configure your agent's knowledge and conversation flow through a simple interface and publish instantly. The free plan includes 40 message credits per month and 1MB of training data, making it a low-risk way for solo creators and small businesses to test AI-powered conversational engagement before committing to a paid tier for higher traffic volumes.",
+  category: "Text Generation",
+  rating: 4.1,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=surfn.ai&sz=64",
+  website: "https://surfn.ai",
+  features: ["No-code AI page builder", "Shareable chat link or embed", "Lead qualification chatbot", "QR code for events", "40 free messages/month", "1MB training data (free tier)"]
+},
+{
+  id: 141,
+  name: "Murf AI",
+  description: "AI voiceover studio with 200+ realistic voices in 30+ languages, video dubbing, voice cloning, and a built-in editor for explainer videos.",
+  fullDescription: "Murf AI is a complete audio content creation suite built around three products: Murf Studio (a browser-based voiceover editor with timeline sync, SSML controls, and a royalty-free music library), Murf Dub (AI video dubbing across 44 languages preserving the original voice), and the Murf API (powered by the Falcon engine for real-time conversational voice applications). With 200+ studio-quality voices across 30+ languages and voice cloning available on Business and Enterprise plans, Murf serves marketing teams, e-learning producers, YouTube creators, and developers alike. Holding SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, and GDPR certifications, it's particularly suited to regulated industries. The free tier offers 10 minutes of non-downloadable preview audio, while Creator plans start around $19-29/month with commercial rights, scaling to Business and custom Enterprise tiers.",
+  category: "Audio",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=murf.ai&sz=64",
+  website: "https://murf.ai",
+  features: ["200+ voices in 30+ languages", "AI video dubbing (44 languages)", "Voice cloning (Business/Enterprise)", "Built-in video editor & timeline", "SOC 2, ISO 27001 & HIPAA certified", "Falcon real-time voice API"]
+},
+{
+  id: 142,
+  name: "Sider AI",
+  description: "Browser sidebar extension giving instant access to 20+ AI models (GPT-4o, Claude, Gemini) on any webpage for chat, translation, and summaries.",
+  fullDescription: "Sider AI is a browser extension with over 6 million weekly active users that adds a universal AI sidebar to every webpage you visit — Gmail, Google Docs, Twitter, Reddit, news sites, and more. It unifies access to 20+ AI models including GPT-4o, Claude 3.5 Sonnet, Gemini, and DeepSeek in one interface, eliminating constant tab-switching between separate AI chat windows. Standout features include AI-powered translation across 50+ languages that understands full-page context (outperforming Google Translate), YouTube video summaries, PDF and file chat, AI image generation and editing, and a Deep Research Agent that scans 100+ sources to produce cited reports. ChatGPT Plus subscribers can also access their existing GPTs through Sider. The free plan gives 30 basic credits daily, with paid plans from roughly $8.30/month for higher usage and access to advanced models.",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=sider.ai&sz=64",
+  website: "https://sider.ai",
+  features: ["20+ AI models in one sidebar", "Works on any webpage", "50+ language translation", "YouTube & PDF summarization", "Deep Research Agent (100+ sources)", "BYO API key support"]
+},
+{
+  id: 143,
+  name: "ResumeCoach",
+  description: "AI resume and cover letter builder with ATS-optimized templates, job-post matching, and multilingual support for job seekers.",
+  fullDescription: "ResumeCoach is an online platform that uses AI to help job seekers create professional, ATS-optimized resumes and cover letters. Users can start from scratch or import an existing resume, then use smart AI suggestions to instantly insert expertly written bullet points for work experience, education, and skills. The platform analyzes resume content, structure, and keyword optimization against industry standards, with job-post matching to tailor documents to specific roles. Customizable templates let users adjust fonts, accent colors, and section order, while a multilingual editor supports diverse language needs. Additional tools include resume scanning and interview preparation guidance. The free plan allows resume and cover letter creation with TXT downloads; Premium unlocks PDF downloads, advanced AI suggestions, and unlimited document creation.",
+  category: "Text Generation",
+  rating: 4.2,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=resumecoach.com&sz=64",
+  website: "https://resumecoach.com",
+  features: ["AI resume & cover letter builder", "ATS-optimized templates", "Job post matching", "Smart bullet point suggestions", "Interview preparation tools", "Multilingual editor"]
+},
+{
+  id: 144,
+  name: "n8n",
+  description: "Open-source workflow automation platform with 400+ integrations and native AI/LangChain support, billing per execution instead of per step.",
+  fullDescription: "n8n is an open-source, fair-code workflow automation platform with a visual node-based editor and 400+ integrations. Its key architectural advantage over Zapier and Make is execution-based pricing: a workflow run counts as one execution regardless of how many steps it contains, making complex multi-step automations dramatically cheaper than per-task or per-operation competitors — up to 10-20x savings for workflows with many steps. n8n has native LangChain integration for building AI agent workflows with OpenAI, Anthropic, or local models directly inside automations. The fully open-source Community Edition is free to self-host on your own server (typically $20-150/month in infrastructure costs), while n8n Cloud offers managed hosting from $24/month (Starter, 2,500 executions) up to $800/month (Business, 40,000 executions with SSO and version control), with custom Enterprise pricing for larger organizations.",
+  category: "Coding",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=n8n.io&sz=64",
+  website: "https://n8n.io",
+  features: ["400+ app integrations", "Execution-based pricing (not per-step)", "Native LangChain/AI agent support", "Visual node-based editor", "Free self-hosted Community Edition", "Fair-code open source license"]
+},
+{
+  id: 145,
+  name: "Magai",
+  description: "All-in-one AI chat platform giving access to 50+ models (GPT-4, Claude, Gemini, DALL-E) in one interface starting at $20/month.",
+  fullDescription: "Magai is an all-in-one AI productivity platform unifying access to 50+ AI models — including ChatGPT/GPT-4o, Claude, Gemini Advanced, Meta Llama, DeepSeek, Grok, DALL-E 3, and Stable Diffusion — within a single subscription, with the ability to switch models mid-conversation without losing context. Its standout feature is a Persona system with 40+ built-in roles (Expert Copywriter, Customer Support, Debate Expert, Regex Generator) that tailor AI output to specific brand voices or tasks. Magai supports PDF uploads, real-time URL reading for context, organizational folders, saved prompts, and team collaboration with a strict privacy policy — content is never used for model training. Plans run from Personal+ at $19/month (5 workspaces) to Professional at $29/month (5 users) and Team at $40/month (~300,000 words/month), with custom Enterprise pricing. No free trial, but a 30-day money-back guarantee and flexible $5-20 usage top-ups are available.",
+  category: "Text Generation",
+  rating: 4.3,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=magai.co&sz=64",
+  website: "https://magai.co",
+  features: ["50+ AI models in one chat", "40+ custom AI Personas", "PDF & URL context reading", "Cross-model conversation memory", "Team collaboration & sharing", "No training on user content"]
+},
+{
+  id: 146,
+  name: "HappyScribe",
+  description: "AI transcription and subtitling platform supporting 120+ languages with optional human review for 99% accuracy.",
+  fullDescription: "HappyScribe is an AI-powered transcription, subtitling, and translation platform delivering 85-95% accuracy across 150+ languages, with an optional professional human review service for 99% accuracy starting at $2/minute. Its AI Notetaker integrates with Google Meet, Microsoft Teams, and Zoom, automating meeting transcription via Outlook or Google Calendar connections. The subtitle workflow connects directly to YouTube and Vimeo, exporting in 40+ formats compatible with Adobe Premiere Pro and Final Cut Pro, with options to burn captions directly into video for Instagram Reels and TikTok. Built-in tools also include audio/video converters, trimmers, joiners, and compressors. Subscription plans start at $17/month (120 AI minutes) up to $89/month (6,000 AI minutes), with overage at $0.20/minute and a 10-minute free trial requiring no credit card.",
+  category: "Audio",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=happyscribe.com&sz=64",
+  website: "https://happyscribe.com",
+  features: ["150+ language transcription", "Human review for 99% accuracy", "Meeting notetaker (Zoom, Meet, Teams)", "40+ subtitle export formats", "Premiere Pro & Final Cut integration", "Audio/video conversion tools"]
+},
+{
+  id: 147,
+  name: "Vidu AI",
+  description: "AI video generator producing cinematic clips up to 1080p in ~10 seconds with multi-reference consistency and a generous free tier.",
+  fullDescription: "Vidu is an AI video generation platform built by Shengshu Technology, a Beijing-based startup founded by Tsinghua University researchers and backed by Baidu and Ant Group. It generates videos from text prompts or reference images at up to 1080p resolution in roughly 10 seconds per clip — among the fastest in its class. Vidu's multi-reference consistency feature lets creators maintain the same character or style across a series of related videos, saving significant time on episodic content. Vidu Q3 and Vidu Claw extend capabilities with smooth 2D animation and sound effect generation. The free plan provides 80 credits (about 20 standard videos) plus unlimited off-peak generation — one of the most generous free tiers in AI video. For social media creators producing short-form or stylized/anime content, Vidu offers an excellent speed-to-quality ratio, while paid Creator plans start around $39/month for higher-volume and priority generation.",
+  category: "Video",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=vidu.com&sz=64",
+  website: "https://vidu.com",
+  features: ["1080p video in ~10 seconds", "Multi-reference consistency", "Text & image-to-video", "Generous free tier (80 credits)", "AI sound effect generation", "2D animation support (Vidu Q3)"]
+},
+{
+  id: 148,
+  name: "CogniGuide (AI Flashcard Maker)",
+  description: "AI flashcard generator that converts PDFs, slides, and notes into Anki-compatible decks with spaced repetition scheduling.",
+  fullDescription: "CogniGuide is an AI flashcard generator that eliminates the most time-consuming part of studying with active recall: manually writing Q&A pairs. Users upload PDFs, PowerPoint slides, or notes, and the AI instantly parses the material to extract key concepts and generate concise, conceptually accurate flashcards — leveraging sophisticated language models rather than simple keyword extraction. Generated decks can be reviewed in CogniGuide's built-in interface, which dynamically adapts via spaced repetition scheduling to optimize long-term retention, or exported for use in Anki. Users can optionally set an exam date for automated study pacing, helping prioritize which material to review and when. The free tier includes a generous allowance of AI generation credits for students to test the workflow, while paid plans unlock higher capacity and access to more advanced AI models for complex source material.",
+  category: "Text Generation",
+  rating: 4.2,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=cogniguide.app&sz=64",
+  website: "https://cogniguide.app",
+  features: ["AI flashcards from PDFs & slides", "Spaced repetition scheduling", "Anki export compatibility", "Exam-date based study pacing", "Automated concept extraction", "Free generation credits"]
+},
+{
+  id: 149,
+  name: "AI Baby Generator",
+  description: "AI tool that predicts what your future baby will look like by blending facial features from photos of both parents in seconds.",
+  fullDescription: "AI Baby Generator is a fun, AI-powered tool that predicts what a future child might look like by analyzing and blending facial features from photos of both parents — or a single portrait if used solo. The AI examines skin tone, eye color, nose shape, and overall facial structure from uploaded JPG, PNG, or WEBP images, then merges these traits to produce a realistic baby face in just a few seconds. Customization options typically include selecting the predicted gender, age (newborn, toddler, or older child), and other visual preferences, with the ability to generate multiple variations to see a range of possibilities. While entertaining and popular for sharing with partners and family, these predictions are for fun rather than scientific accuracy — the AI blends visible features using pattern algorithms rather than genetic modeling. Most platforms offer a free tier with basic generations, while premium tiers (often $1 trial then ~$19.99/month) unlock unlimited generations, higher resolution, and additional customization.",
+  category: "Image",
+  rating: 3.8,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=aibabygenerator.ai&sz=64",
+  website: "https://aibabygenerator.ai",
+  features: ["AI facial feature blending", "Results in seconds", "Gender & age customization", "Multiple variation generation", "Single or dual-parent photo upload", "Privacy-protected uploads"]
+},  
   
   
   
