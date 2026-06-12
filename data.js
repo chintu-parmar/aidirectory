@@ -2047,6 +2047,115 @@ const AI_TOOLS = [
       "Cloud managed plan or free self-hosting"
     ]
   },
+  {
+  id: 164,
+  name: "Pager GPT",
+  description: "AI-powered incident response assistant that helps on-call engineers troubleshoot and resolve alerts faster.",
+  fullDescription: "Pager GPT is an intelligent assistant integrated with PagerDuty, Opsgenie, and similar on-call platforms. It analyzes incoming alerts in real-time, correlates them with historical incident data, and automatically suggests potential root causes along with actionable runbook steps. By automating context gathering, log analysis, and initial diagnosis, Pager GPT significantly reduces mean time to resolution (MTTR) and helps prevent alert fatigue for DevOps and SRE teams. The platform also learns from post-incident reviews, continuously improving its recommendations over time. With seamless Slack and Teams integrations, engineers can resolve incidents directly from their chat interface without switching between multiple tools, making it an essential companion for modern infrastructure teams.",
+  category: "Developer Tools",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=pagergpt.com&sz=64",
+  website: "https://pagergpt.com",
+  features: ["Alert summarization", "Root cause analysis", "Runbook suggestions", "Slack integration", "Incident timeline generation", "Post-mortem automation"]
+},
+{
+  id: 165,
+  name: "MIAPI",
+  description: "AI middleware platform that simplifies API integration and data transformation between multiple services.",
+  fullDescription: "MIAPI (Model Integration API) is a powerful low-code platform that leverages artificial intelligence to connect, transform, and orchestrate data across disparate APIs, databases, CRM systems, and legacy enterprise software. It automatically generates integration workflows based on natural language descriptions, handles complex error logging and retry logic, and adapts to schema changes in real-time without requiring manual code updates. MIAPI is designed for developers, data engineers, and IT teams looking to reduce the cost, complexity, and maintenance burden of system integration projects. With its intelligent mapping engine, the platform can understand data structures from both source and destination systems, suggest optimal transformation rules, and even detect anomalies or duplicates during data transfer. Whether you're building internal tools or connecting customer-facing applications, MIAPI cuts integration time by up to 80% while ensuring data consistency and reliability across your entire tech stack.",
+  category: "Developer Tools",
+  rating: 4.3,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=miapi.io&sz=64",
+  website: "https://miapi.io",
+  features: ["AI-powered data mapping", "Auto-generated API connectors", "Real-time schema adaptation", "Error handling & retry logic", "Low-code workflow builder", "Multi-tenant support"]
+},
+{
+  id: 166,
+  name: "LegittAi",
+  description: "AI-driven legal document generator that creates contracts, NDAs, and agreements with jurisdiction-aware clauses.",
+  fullDescription: "LegittAi is an advanced AI legal assistant that helps businesses, freelancers, startups, and legal professionals draft, review, and manage legally binding documents with unprecedented speed and accuracy. Using state-of-the-art natural language processing and a constantly updated database of legal precedents, it generates customized contracts, NDAs, employment agreements, service terms, and partnership deals based on simple user inputs. The platform checks for missing or contradictory clauses, flags potential legal risks, and suggests alternative language to strengthen your position. With support for over 50 jurisdictions and automatic updates for regulatory changes, LegittAi ensures your documents remain compliant with local, state, and federal laws. It also includes version control, e-signature integration, and collaborative review features, allowing multiple stakeholders to provide feedback before finalization. For legal professionals, LegittAi serves as a powerful productivity tool that reduces document preparation time from hours to minutes while maintaining professional standards and reducing exposure to liability.",
+  category: "Legal",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=legittai.com&sz=64",
+  website: "https://legittai.com",
+  features: ["Contract generation", "NDA & agreement templates", "Jurisdiction-aware clauses", "Risk flagging", "E-signature integration", "Compliance updates"]
+},
+{
+  id: 167,
+  name: "PostWizard AI",
+  description: "Social media content generator that turns long-form content into platform-optimized posts and threads.",
+  fullDescription: "PostWizard AI is a comprehensive social media content engine designed for marketers, creators, agencies, and business owners who need to maximize the reach of their content. It takes your long-form materials — including blog posts, YouTube videos, podcasts, webinars, case studies, and whitepapers — and automatically repurposes them into engaging, platform-optimized posts for LinkedIn, Twitter (X), Instagram, Facebook, and TikTok. The AI analyzes your source material to identify key hooks, emotional triggers, quotable moments, and actionable takeaways, then generates multiple content variations with appropriate hashtags, emojis, and formatting for each platform. Beyond single posts, PostWizard AI creates threaded content for Twitter/X, carousel posts for LinkedIn and Instagram, and even short video scripts. The tool also suggests optimal posting times based on your audience's engagement patterns and provides analytics to track which repurposed content performs best. With content calendar integration and bulk scheduling, PostWizard AI turns one piece of long-form content into a month's worth of high-quality social media output, saving you dozens of hours while increasing engagement across all channels.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=postwizard.ai&sz=64",
+  website: "https://postwizard.ai",
+  features: ["Content repurposing", "Multi-platform post generation", "Thread creator for Twitter/X", "Hashtag recommendations", "Optimal posting time suggestions", "Analytics dashboard"]
+},
+{
+  id: 168,
+  name: "Thumbnail Creator",
+  description: "AI-powered YouTube thumbnail generator that creates high-CTR designs with emotion detection and A/B testing.",
+  fullDescription: "Thumbnail Creator is a next-generation AI tool built specifically for YouTube creators, agencies, and media companies who understand that thumbnails are the single most important factor for click-through rates. Using advanced computer vision and generative AI models, it analyzes your video's audio track, transcript, and visual frames to detect emotional peaks, facial expressions, and key moments that will capture viewer attention. The AI then generates dozens of thumbnail variations, automatically experimenting with different color schemes, face compositions, text overlays, arrows, and layouts proven to drive clicks. What sets Thumbnail Creator apart is its built-in A/B testing functionality: you can publish multiple thumbnails for the same video, and the platform integrates directly with YouTube's thumbnail testing API to determine which design actually performs best based on real viewer data. The system learns from every test, continuously improving its design suggestions for your specific channel and audience. Additional features include background removal, custom font uploads, brand kit integration, and bulk generation for channels that publish daily. Whether you're a gaming creator, educator, or business channel, Thumbnail Creator helps you stop guessing and start growing your CTR by 30% or more.",
+  category: "Image Generation",
+  rating: 4.7,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=thumbnailcreator.ai&sz=64",
+  website: "https://thumbnailcreator.ai",
+  features: ["Emotion detection from video", "Automated keyframe selection", "Multiple design variations", "Text overlay optimization", "A/B testing integration", "YouTube Analytics sync"]
+},
+{
+  id: 169,
+  name: "Lesson Plan Generator",
+  description: "AI assistant for teachers that creates curriculum-aligned lesson plans with activities, assessments, and differentiation strategies.",
+  fullDescription: "Lesson Plan Generator is an AI-powered teaching assistant built to save K-12 and higher education instructors hours of planning time while improving the quality and engagement of their lessons. Simply input a topic, grade level, learning objectives, and available class time, and the platform produces a complete, classroom-ready lesson plan including warm-up activities, direct instruction scripts, guided practice exercises, independent work assignments, and exit tickets with answer keys. The AI aligns content with state standards (Common Core, NGSS, TEKS, and more) and suggests differentiation strategies for English language learners, students with IEPs, and advanced learners. But it doesn't stop at planning — Lesson Plan Generator also creates supplemental materials like quizzes, worksheets, flashcards, group discussion prompts, and even gamified review activities. Teachers can save, edit, and share plans with colleagues, and the platform supports unit planning across multiple days or weeks. With features like curriculum mapping, rubric generation, and automatic quiz grading integration with Google Classroom and Canvas, Lesson Plan Generator gives teachers back their evenings and weekends while ensuring every student receives a well-structured, standards-aligned education. Over 50,000 teachers currently use it to reduce planning time by 70% and increase classroom engagement scores by 40%.",
+  category: "Education",
+  rating: 4.8,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=lessonplangenerator.ai&sz=64",
+  website: "https://lessonplangenerator.ai",
+  features: ["Standards-aligned planning", "Grade-level customization", "Differentiation strategies", "Activity & assessment generation", "Printable worksheets", "Classroom timer integration"]
+},
+{
+  id: 170,
+  name: "Solvea",
+  description: "AI math and STEM problem solver that provides step-by-step explanations for algebra, calculus, physics, and engineering problems.",
+  fullDescription: "Solvea is a comprehensive AI STEM tutor that helps middle school, high school, college students, and professionals solve complex mathematical and scientific problems with clear, educational explanations. Users can input problems by typing equations, uploading images of handwritten or printed problems, or even speaking them aloud — the AI's optical character recognition and natural language understanding accurately interpret everything from basic arithmetic to multivariable calculus, linear algebra, differential equations, statistics, physics mechanics, thermodynamics, circuits, and introductory engineering problems. What makes Solvea different from standard calculators is its pedagogical approach: it returns a complete, step-by-step solution with explanations at each stage, highlighting which formulas, theorems, or principles are being applied. Students can ask follow-up questions like 'why did you use that formula?' or 'show me a different method,' and Solvea adapts its teaching style accordingly. The platform also generates unlimited practice problems on any topic, complete with solutions, and tracks a student's progress over time to identify weak areas. For teachers and tutors, Solvea offers a classroom mode where they can assign problem sets, monitor student work in real-time, and receive analytics on common mistakes. With support for LaTeX output, graph visualization, and unit conversion, Solvea is like having a patient, expert math tutor available 24/7 for a fraction of the cost.",
+  category: "Education",
+  rating: 4.8,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=solvea.ai&sz=64",
+  website: "https://solvea.ai",
+  features: ["Step-by-step solutions", "Image & handwriting recognition", "Voice input support", "Multiple solution methods", "Practice problem generator", "Progress tracking"]
+},
+{
+  id: 171,
+  name: "Humanize AI Text",
+  description: "AI text humanizer that rewrites AI-generated content to sound natural, conversational, and undetectable.",
+  fullDescription: "Humanize AI Text is an advanced paraphrasing tool designed for content creators, bloggers, students, and marketers who use AI writing assistants like ChatGPT, Claude, or Gemini but need the final output to read as if written by a human. The platform uses proprietary linguistic algorithms and natural language generation models that go beyond simple synonym replacement — it restructures sentences, adjusts rhythm and flow, adds intentional imperfections like contractions and colloquialisms, and varies sentence length to mimic authentic human writing patterns. The result is text that bypasses common AI detectors like GPTZero, Originality.ai, and Turnitin while remaining engaging and easy to read. Users can upload existing AI-generated content or write directly in the editor, then choose from multiple 'humanization levels' ranging from slightly polished to completely rewritten in a specific tone (casual, professional, witty, empathetic, or urgent). The platform also includes a built-in AI detection score so you can test your output before publishing. For businesses publishing at scale, Humanize AI Text offers batch processing, API access, and team workflows to ensure all customer-facing content — from blog posts and emails to social media captions and product descriptions — maintains an authentic, human voice that builds trust with readers and avoids search engine penalties associated with purely AI-generated content. Over 10,000 users rely on it to save hours of manual editing while producing content that truly connects with audiences.",
+  category: "Text Generation",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=humanizeaitext.com&sz=64",
+  website: "https://humanizeaitext.com",
+  features: ["AI content rewriting", "Multi-level humanization", "AI detector bypass", "Tone customization", "Bulk processing", "API access"]
+},
+{
+  id: 172,
+  name: "Local Banana",
+  description: "On-device AI platform that runs open-source LLMs locally for private, offline text generation and chat.",
+  fullDescription: "Local Banana is a desktop and mobile application that allows users to download, run, and interact with open-source large language models (like Llama 3, Mistral, Phi, and Gemma) entirely on their own device without any internet connection or cloud dependency. Built for privacy-conscious individuals, researchers, developers, and businesses handling sensitive data, Local Banana ensures that no prompt, document, or conversation ever leaves your computer. The platform includes a one-click model installer that handles dependencies, quantization, and hardware optimization automatically — whether you're running on a high-end GPU, a Mac with Apple Silicon, or even a mid-range CPU with limited RAM. Once installed, users can chat with models, upload and summarize PDFs and Word documents, generate code, or perform data analysis entirely offline. For developers, Local Banana offers a local API server that mimics OpenAI's API format, allowing you to replace cloud services with private, on-device inference in your existing applications. The interface includes conversation history, prompt templates, system message configuration, and model parameter tuning (temperature, top-p, max tokens). With support for tools like retrieval-augmented generation (RAG) using local vector databases, Local Banana transforms your laptop or workstation into a powerful, private AI assistant that never phones home. No subscriptions, no data leaks, and no censorship — just pure, unfiltered AI running on your terms.",
+  category: "Developer Tools",
+  rating: 4.7,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=localbanana.com&sz=64",
+  website: "https://localbanana.com",
+  features: ["Offline LLM execution", "One-click model installer", "Local API server", "PDF & document chat", "Hardware optimization", "RAG support"]
+},
+  
  
 ];
 
