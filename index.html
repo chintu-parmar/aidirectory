@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Tool Directory — Discover the Best AI Tools</title>
   <meta name="description" content="Find and compare the best AI tools for text generation, image creation, video, audio, and coding." />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E45DKPYH9H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E45DKPYH9H');
+  </script>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 </head>
@@ -17,17 +27,13 @@
       <div class="nav__logo-icon" aria-hidden="true">✦</div>
       <span>AI<strong>Directory</strong></span>
     </a>
-
     <div class="nav__links" role="menubar">
       <a href="index.html" class="nav__link" role="menuitem">Home</a>
       <a href="category.html" class="nav__link" role="menuitem">Categories</a>
       <a href="#" class="nav__link btn-submit" role="menuitem">Submit Tool</a>
     </div>
-
     <div class="nav__actions">
-      <button class="btn-submit-nav" aria-label="Submit a tool">
-        <i class="fas fa-plus" style="margin-right:6px"></i>Submit Tool
-      </button>
+      <button class="btn-submit-nav"><i class="fas fa-plus" style="margin-right:6px"></i>Submit Tool</button>
       <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
         <span></span><span></span><span></span>
       </button>
@@ -35,8 +41,7 @@
   </div>
 </nav>
 
-<!-- Mobile Menu -->
-<div class="nav__mobile" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+<div class="nav__mobile" id="mobileMenu">
   <ul class="nav__mobile-links">
     <li><a href="index.html" class="nav__mobile-link">Home</a></li>
     <li><a href="category.html" class="nav__mobile-link">Categories</a></li>
@@ -46,39 +51,27 @@
 
 <main>
   <!-- ── HERO ── -->
-  <section class="hero" aria-labelledby="heroHeading">
+  <section class="hero">
     <div class="container">
       <div class="hero__tag"><i class="fas fa-sparkles"></i> Curated AI Tools</div>
-      <h1 class="hero__title" id="heroHeading">
-        Discover the best<br><em>AI tools</em> for every task
-      </h1>
-      <p class="hero__subtitle">
-        Explore a handpicked directory of leading AI tools — rated, categorized, and compared.
-      </p>
-
+      <h1 class="hero__title">Discover the best<br><em>AI tools</em> for every task</h1>
+      <p class="hero__subtitle">Explore a handpicked directory of leading AI tools — rated, categorized, and compared.</p>
       <div class="hero__search" role="search">
         <i class="fas fa-search" aria-hidden="true"></i>
-        <input
-          type="search"
-          id="heroSearch"
-          placeholder="Search tools by name or description…"
-          aria-label="Search AI tools"
-          autocomplete="off"
-        />
-        <button class="hero__search-btn" id="heroSearchBtn" aria-label="Run search">Search</button>
+        <input type="search" id="heroSearch" placeholder="Search tools by name or description…" aria-label="Search AI tools" autocomplete="off" />
+        <button class="hero__search-btn" id="heroSearchBtn">Search</button>
       </div>
-
-      <div class="hero__stats" aria-label="Directory statistics">
+      <div class="hero__stats">
         <div class="hero__stat">
-          <div class="hero__stat-num">1000</div>
+          <div class="hero__stat-num">14</div>
           <div class="hero__stat-label">Tools Listed</div>
         </div>
-        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat-divider"></div>
         <div class="hero__stat">
-          <div class="hero__stat-num">4</div>
+          <div class="hero__stat-num">5</div>
           <div class="hero__stat-label">Categories</div>
         </div>
-        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat-divider"></div>
         <div class="hero__stat">
           <div class="hero__stat-num">Free</div>
           <div class="hero__stat-label">Always</div>
@@ -88,15 +81,13 @@
   </section>
 
   <!-- ── FILTERS ── -->
-  <section class="filters" aria-label="Filter tools">
+  <section class="filters">
     <div class="container">
       <div class="filters__inner">
-        <div class="filters__cats" id="categoryFilters" role="group" aria-label="Filter by category">
-          <!-- Injected by JS -->
-        </div>
+        <div class="filters__cats" id="categoryFilters" role="group" aria-label="Filter by category"></div>
         <div class="filters__sort">
           <label class="sort-label" for="sortSelect">Sort:</label>
-          <select id="sortSelect" class="sort-select" aria-label="Sort tools">
+          <select id="sortSelect" class="sort-select">
             <option value="rating">Top Rated</option>
             <option value="price">Free First</option>
             <option value="name">A – Z</option>
@@ -107,21 +98,15 @@
   </section>
 
   <!-- ── TOOL GRID ── -->
-  <section class="tools-section" aria-label="AI tools listing">
+  <section class="tools-section">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">All Tools</h2>
-        <span class="section-count" id="toolCount" aria-live="polite" aria-atomic="true">Loading…</span>
+        <span class="section-count" id="toolCount" aria-live="polite">Loading…</span>
       </div>
-
-      <div class="tools-grid" id="toolsGrid" role="list" aria-label="AI tools">
-        <!-- Rendered by JS -->
-      </div>
-
+      <div class="tools-grid" id="toolsGrid" role="list"></div>
       <div class="load-more-wrap">
-        <button class="btn-load-more hidden" id="loadMore" aria-label="Load more tools">
-          Load more tools
-        </button>
+        <button class="btn-load-more hidden" id="loadMore">Load more tools</button>
       </div>
     </div>
   </section>
@@ -131,11 +116,14 @@
 <footer role="contentinfo">
   <div class="container footer__inner">
     <div class="footer__logo">
-      <div class="footer__logo-icon" aria-hidden="true">✦</div>
+      <div class="footer__logo-icon">✦</div>
       <span>AI<strong>Directory</strong></span>
     </div>
-    <p class="footer__copy">© 2026 AI Directory. A curated resource for AI tools.</p>
-    <nav class="footer__links" aria-label="Footer links">
+    <p class="footer__copy">
+      © 2025 AI Directory &nbsp;·&nbsp;
+      Some links are affiliate links — we may earn a commission at no cost to you.
+    </p>
+    <nav class="footer__links">
       <a href="index.html" class="footer__link">Home</a>
       <a href="category.html" class="footer__link">Categories</a>
       <a href="#" class="footer__link btn-submit">Submit Tool</a>
