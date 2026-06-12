@@ -599,6 +599,66 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=justbuildthings.com&sz=64",
   website: "https://justbuildthings.com",
   features: ["700+ single-purpose AI tools", "20+ AI models auto-routed", "No sign-up for free tools", "No daily rate limits", "Privacy-first (no data storage)", "New tools shipped weekly"]
+}, 
+{
+  id: 51,
+  name: "Libertify",
+  description: "AI platform that transforms PDFs, slides, and reports into interactive video walkthroughs with embedded chatbots and engagement analytics.",
+  fullDescription: "Libertify is an AI-powered document performance platform that converts static PDFs, PowerPoint, Word documents, and Google Slides into guided, measurable video experiences. It automatically generates AI video walkthroughs with narration, structured animations, and an embedded AI assistant — all without requiring design skills or manual scripting. Teams can track exactly what readers watch, skip, re-read, and ask, turning every document into an actionable engagement signal that feeds back into CRM systems. Every plan includes the 4-in-1 experience (video explainer, animated document, AI chatbot, and analytics) plus the Smart Journey Engine for onboarding, sales, training, and support use cases. Trusted by Fortune 500 companies and global banks, Libertify offers a free forever tier with paid plans scaling to enterprise.",
+  category: "Coding",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=libertify.com&sz=64",
+  website: "https://libertify.com",
+  features: ["Document-to-video AI walkthroughs", "Embedded AI chatbot", "Engagement analytics & buyer intent", "Smart Journey Engine", "Supports PDF, PPT, Word, Slides", "Free forever tier"]
+},
+{
+  id: 52,
+  name: "Mistral AI (Le Chat)",
+  description: "European AI chat assistant with strong multilingual reasoning, GDPR-compliant privacy, and a generous free tier — Pro at $14.99/month.",
+  fullDescription: "Mistral AI is a European AI company founded in 2023 by former Meta and Google DeepMind researchers, offering Le Chat as its consumer chat interface. Le Chat features in-house models including Mistral Large and Mistral Small, with strong multilingual reasoning, a Canvas feature for collaborative document and code editing, integrated web search, and PDF analysis. Generating up to 1,000 words per second, it's notably faster than ChatGPT. The free tier offers unlimited access to all models with rate limits (around 25 messages/day on mid-tier models), while Le Chat Pro at $14.99/month — 25% cheaper than ChatGPT Plus — adds higher usage caps, Codestral coding assistance, and a No Telemetry privacy toggle. GDPR-compliant with EU data sovereignty, Mistral doesn't use conversations for training by default, making it a strong choice for privacy-conscious and cost-sensitive professionals.",
+  category: "Text Generation",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=mistral.ai&sz=64",
+  website: "https://mistral.ai",
+  features: ["1,000 words/sec generation speed", "GDPR-compliant, EU data sovereignty", "Canvas for docs & code collaboration", "Integrated web search & PDF analysis", "Codestral coding assistant (Pro)", "Generous free tier, no training on data"]
+},
+{
+  id: 53,
+  name: "Windsurf",
+  description: "AI-native code editor with Cascade agent mode for multi-file edits, unlimited Tab autocomplete, and Zero Data Retention privacy.",
+  fullDescription: "Windsurf (formerly Codeium, now owned by Cognition AI) is an AI-native code editor built on VS Code architecture. Its flagship Cascade agent mode reads your entire codebase, understands cross-file context, and makes coordinated multi-file edits, runs terminal commands, fixes lint errors, and previews changes in-browser. Unlimited Tab autocomplete is included on every plan, including Free. Windsurf 2.0 adds local and cloud agents working together, Devin-powered cloud sessions for background development via SWE-1.5/1.6 models, an Agent Command Center, and MCP support for connecting external tools. It offers Zero Data Retention by default and self-hosted deployment options, plus multi-IDE support for JetBrains tools like IntelliJ and PyCharm. As of April 2026, pricing is Free, Pro at $20/month, Max at $200/month, Teams at $40/user/month, and custom Enterprise.",
+  category: "Coding",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=windsurf.com&sz=64",
+  website: "https://windsurf.com",
+  features: ["Cascade multi-file agent editing", "Unlimited Tab autocomplete (all plans)", "Zero Data Retention by default", "Cloud agent sessions (SWE-1.5/1.6)", "JetBrains & VS Code support", "Self-hosted deployment options"]
+},
+{
+  id: 54,
+  name: "Relevance AI",
+  description: "No-code AI agent builder (\"AI Workforce\") for automating sales, support, and operations with 9,000+ app integrations.",
+  fullDescription: "Relevance AI is a no-code platform for building and managing autonomous AI agents, marketed as an 'AI Workforce.' Users describe what they want an agent to do in plain language, and the platform builds it without code — handling tasks like prospect research, personalized outreach, CRM updates, and meeting scheduling through its well-known Bosh AI BDR product. With 9,000+ integrations including HubSpot, Salesforce, Slack, and Gmail, agents can read and write to nearly any business software. Since September 2025, pricing splits into Action credits (cost per agent step) and Vendor credits (the underlying AI model cost, passed through at actual price with no markup) — paid users can bring their own API key to eliminate vendor costs. SOC 2 Type II and GDPR compliant, Relevance AI ranges from a Free plan (200 Actions/month) to Pro at $19/month and Team at $234/month, with custom Enterprise pricing.",
+  category: "Text Generation",
+  rating: 4.2,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=relevanceai.com&sz=64",
+  website: "https://relevanceai.com",
+  features: ["No-code AI agent builder", "9,000+ app integrations", "Bosh AI BDR for sales outreach", "Separate Action & Vendor credits", "Bring-your-own API key", "SOC 2 & GDPR compliant"]
+},
+{
+  id: 55,
+  name: "Consensus",
+  description: "AI-powered academic search engine that synthesizes findings from 200M+ peer-reviewed papers with citations and a Consensus Meter.",
+  fullDescription: "Consensus is an AI-powered academic search engine purpose-built for scientific research, searching over 200 million peer-reviewed papers and using language models to synthesize findings with verifiable citations. Its signature Consensus Meter visualizes the level of agreement across studies on a given question — instantly showing whether the literature leans yes, no, or is mixed. Pro Analysis provides in-depth AI synthesis across up to 50 papers (Deep Search), Study Snapshots summarize individual papers quickly, and the 'Ask Paper' feature lets users query specific documents directly. The Free plan includes unlimited searches plus 10 monthly GPT-4 Pro Analyses, Study Snapshots, and Ask Paper messages — refreshing monthly. Premium at $10/month removes all limits and adds CSV export, while Enterprise offers API access and team management for universities and research institutions. Used by researchers, clinicians, and graduate students for evidence-based literature reviews.",
+  category: "Text Generation",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=consensus.app&sz=64",
+  website: "https://consensus.app",
+  features: ["200M+ peer-reviewed papers", "Consensus Meter (agreement visualization)", "AI Pro Analysis & Deep Search", "Study Snapshots & Ask Paper", "Citation-backed synthesis", "Free unlimited searches, monthly refresh"]
 },  
   
 ];
