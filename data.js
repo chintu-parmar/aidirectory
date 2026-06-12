@@ -1799,11 +1799,255 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=shortpixel.com&sz=64",
   website: "https://shortpixel.com",
   features: ["Lossy, glossy & lossless compression", "WebP & AVIF conversion", "WordPress plugin", "Bulk & automatic optimization", "Developer APIs & CLI tools", "Cloudflare integration"]
-},  
-  
-  
-  
-  
+},
+{
+    id: 151,
+    name: "AiZolo",
+    description: "All-in-one AI workspace that consolidates ChatGPT, Claude, Gemini, Grok, and 2,000+ AI tools under a single affordable subscription with side-by-side model comparison.",
+    fullDescription: "AiZolo is a comprehensive multi-model AI workspace built to eliminate the cost and complexity of managing multiple AI subscriptions. It brings together leading models — including GPT-5, Claude Sonnet 4, Google Gemini 2.5 Pro, Perplexity Sonar Pro, and Grok — into one unified dashboard where users can switch between them or run side-by-side comparisons on the same prompt in real time. Beyond chat, AiZolo includes tools for image generation, video creation, and audio output, alongside a smart prompt manager, AI memory, and the ability to import conversation history from ChatGPT or Claude. Custom encrypted API keys are supported for unlimited usage, and the interface is designed to be beginner-friendly while serving power users and developers. Content creators, marketers, founders, and developers who currently juggle multiple AI tools can consolidate their workflow and save up to $91/month compared to individual subscriptions. AiZolo offers a free plan with limited usage and paid plans starting at $9.99/month.",
+    category: "AI Workspace",
+    rating: 4.4,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=aizolo.com&sz=64",
+    website: "https://aizolo.com",
+    features: [
+      "Side-by-side multi-model comparison",
+      "Access to GPT-5, Claude, Gemini, Grok & more",
+      "AI image, video & audio generation",
+      "Smart prompt manager & AI memory",
+      "Custom encrypted API key support",
+      "Import chats from ChatGPT or Claude"
+    ]
+  },
+  {
+    id: 152,
+    name: "Syllaby",
+    description: "AI-driven platform that streamlines the entire video content workflow — from viral idea discovery and script generation to faceless video creation, scheduling, and social media publishing.",
+    fullDescription: "Syllaby is an all-in-one AI content and video platform built for creators, coaches, agencies, and businesses that want to grow on social media without spending hours on manual production. It starts with AI-powered content ideation that scans trending topics relevant to your industry and surfaces data-backed ideas optimized for TikTok, YouTube Shorts, and Instagram Reels. From there, Syllaby generates fully structured video scripts in seconds, adapted to your brand voice, tone, and desired length. Creators can produce 'faceless' videos using customizable AI avatars and a voice-cloning engine that maintains character consistency and natural dialogue — no camera required. A text-to-video engine supports multiple advanced models for high visual fidelity, while integrated scheduling and a content calendar automate posting across YouTube, TikTok, Instagram, Facebook, and more. Built-in analytics track views, engagement, and audience retention to help users refine their strategy. Syllaby offers a free trial and paid plans starting at $49/month.",
+    category: "Video & Social Media",
+    rating: 4.3,
+    pricing: "Paid",
+    icon: "https://www.google.com/s2/favicons?domain=syllaby.io&sz=64",
+    website: "https://syllaby.io",
+    features: [
+      "AI viral topic & trend discovery",
+      "Automated script generation",
+      "Faceless video creation with AI avatars",
+      "Voice cloning & text-to-video engine",
+      "Multi-platform content scheduling",
+      "Engagement analytics & audience insights"
+    ]
+  },
+  {
+    id: 153,
+    name: "PixVerse",
+    description: "Advanced AI video generator that transforms text prompts and images into dynamic, high-quality short videos with motion control, lip-sync, and multi-model support.",
+    fullDescription: "PixVerse is a powerful AI video generation platform designed to help creators, marketers, and artists turn ideas into visually compelling short videos with minimal effort. Users can input a text prompt (e.g. 'cyberpunk cityscape at night') or upload an image, and PixVerse renders an animated video clip with realistic motion, cinematic quality, and creative flair. The platform supports text-to-video, image-to-video, and lip-sync generation, along with advanced controls like Motion Brush for per-element animation, multi-prompting, and camera movement customization. PixVerse uses a credit-based system with a functional free tier, Preview Mode for testing prompts at a 20% credit discount, and Off-Peak Mode for reduced costs during low-traffic hours. It is praised for its intuitive interface, fast generation times, and strong value relative to competitors like Runway and Pika. Commercial rights are granted on paid plans. PixVerse is available on web, iOS, and Android, with an API for developer integrations.",
+    category: "Video Generation",
+    rating: 4.4,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=pixverse.ai&sz=64",
+    website: "https://pixverse.ai",
+    features: [
+      "Text-to-video & image-to-video generation",
+      "Lip-sync video creation",
+      "Motion Brush & camera movement controls",
+      "Multi-model support (PixVerse v5, v5.5)",
+      "Preview Mode & Off-Peak cost savings",
+      "API access for developers"
+    ]
+  },
+  {
+    id: 154,
+    name: "VoiceAppear",
+    description: "AI-powered dictation software for Windows and Mac that types up to 3× faster than keyboard in any app — with automatic punctuation, smart autocorrect, and GDPR-compliant EU processing.",
+    fullDescription: "VoiceAppear is a modern AI dictation tool for Windows and Mac that turns speech into perfectly formatted text wherever your cursor is — inside Gmail, Word, Outlook, Teams, Slack, Chrome, or any other application. Unlike legacy dictation software that requires manual commands for punctuation, VoiceAppear uses AI to infer sentence structure from context, strip filler words, and auto-correct on the fly, delivering clean output up to three times faster than typing. A whisper detection feature picks up dictation at very low speaking volumes, making it ideal for open-plan offices. The tool adapts its output tone to the application in use — treating a Teams message differently from a formal email draft — and supports custom vocabulary training for niche terminology, brand names, or technical terms. All voice processing runs on EU-based servers with GDPR compliance, data is deleted within seconds of transcription, and it is never used to train AI models. Enterprise plans are SOC2 Type II certified and HIPAA-suitable. VoiceAppear offers a free 14-day trial with full functionality and paid subscription plans.",
+    category: "Productivity",
+    rating: 4.5,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=voiceappear.de&sz=64",
+    website: "https://voiceappear.de",
+    features: [
+      "System-wide dictation in any app",
+      "AI autocorrect & smart punctuation",
+      "Custom vocabulary & snippet training",
+      "Whisper detection for quiet environments",
+      "GDPR-compliant EU server processing",
+      "SOC2 Type II & HIPAA-suitable plans"
+    ]
+  },
+  {
+    id: 155,
+    name: "Claude AI",
+    description: "Anthropic's advanced AI assistant built for thoughtful conversation, complex reasoning, coding, writing, research, and analysis — with a strong focus on safety and helpfulness.",
+    fullDescription: "Claude is an AI assistant created by Anthropic, designed to be safe, accurate, and genuinely helpful across a wide range of tasks. It excels at nuanced long-form writing, in-depth research, code generation and debugging, document analysis, math, and multi-step reasoning. Claude is known for following instructions carefully, producing detailed and thoughtful responses, and handling large amounts of text in a single conversation thanks to its extended context window. It is available across multiple platforms — the Claude.ai web and mobile app, Claude Code for agentic software development, and the Anthropic API for businesses building AI-powered products. The current model family includes Claude Opus 4 for frontier tasks, Claude Sonnet 4 for everyday intelligence, and Claude Haiku for speed-optimized use cases. Claude offers a free tier on Claude.ai as well as Claude Pro and Team paid plans, plus enterprise pricing for organizations.",
+    category: "AI Assistant",
+    rating: 4.8,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
+    website: "https://claude.ai",
+    features: [
+      "Advanced reasoning & complex analysis",
+      "Long-form writing & document review",
+      "Code generation, debugging & explanation",
+      "Extended context window for large inputs",
+      "Web search & deep research modes",
+      "API access for custom integrations"
+    ]
+  },
+  {
+    id: 156,
+    name: "Decktopus",
+    description: "AI-powered presentation maker that generates fully designed, branded slide decks from a prompt or document upload in minutes — with an AI Q&A coaching mode unique in its category.",
+    fullDescription: "Decktopus is an AI-driven presentation tool used by over 4 million people to create professional, on-brand slide decks without spending hours on design or formatting. Users type a topic prompt or upload up to 5 documents (PDFs, Word files, or images), and the AI generates a complete presentation with slides, layouts, images, icons, and speaker notes — automatically aligned with brand colors, fonts, and logos. It saves an estimated 10 hours per week for teams producing regular presentations. Beyond slide generation, Decktopus offers an AI Q&A coaching mode that generates likely audience questions and quizzes users with timed practice answers before a real pitch — a feature not found in competing tools like Gamma or Beautiful.ai. The platform also supports AI-generated custom images, interactive lead capture forms, and presentation analytics to track audience engagement. Decktopus has a free tier with a 3-deck limit, and paid plans start at $14.99/month (Pro) and $34.99/month (Business).",
+    category: "Presentations",
+    rating: 4.3,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=decktopus.com&sz=64",
+    website: "https://decktopus.com",
+    features: [
+      "AI slide generation from prompt or document",
+      "Auto-branded with colors, fonts & logos",
+      "AI Q&A coaching & pitch practice mode",
+      "AI image & icon generation for slides",
+      "Interactive forms & lead capture",
+      "Audience engagement analytics"
+    ]
+  },
+  {
+    id: 157,
+    name: "CloneViral",
+    description: "AI-powered viral video platform that analyzes trending content formulas and generates YouTube, TikTok, and Reels videos via specialized AI agents — from concept to final production.",
+    fullDescription: "CloneViral is an AI video generation platform purpose-built to help content creators, agencies, and marketers produce viral-ready videos for TikTok, YouTube, Instagram Reels, and other social platforms. Its standout feature is the Agent Mode system, where users describe their idea and specialized AI agents — Film Master, Viral Genius, Ad Specialist, and Character Creator — collaborate to handle everything from scripting and scene generation to editing and model selection. The platform integrates frontier video models including Sora 2, Veo 3, Kling 2.5, Hailuo 02, and Wan 2.5, enabling cinematic long-form YouTube content with multi-chapter storytelling as well as snappy short-form clips. Additional capabilities include perfect lip-sync technology, UGC Ads generation for authentic-looking user testimonials and product demos, viral thumbnail creation, ASMR mode, AI image editing via Nano Banana, and multi-language content localization. CloneViral uses a credit-based subscription model with plans from approximately $29/month (Starter) to $75/month (Creator, billed annually).",
+    category: "Video Generation",
+    rating: 4.3,
+    pricing: "Paid",
+    icon: "https://www.google.com/s2/favicons?domain=cloneviral.ai&sz=64",
+    website: "https://cloneviral.ai",
+    features: [
+      "AI Agent Mode (Film Master, Viral Genius, etc.)",
+      "Multi-model video generation (Sora 2, Veo 3, Kling)",
+      "Perfect lip-sync technology",
+      "UGC Ads & product demo generation",
+      "Long-form Director Mode with chapters",
+      "Viral thumbnail creation & ASMR mode"
+    ]
+  },
+  {
+    id: 158,
+    name: "Focuse",
+    description: "AI-powered Chrome extension that intelligently blocks distracting websites based on your current task — enforcing unbreakable focus sessions with streak tracking and a personal productivity dashboard.",
+    fullDescription: "Focuse (Focus AI) is a smart Chrome extension designed to keep users in deep work by dynamically blocking websites that are unrelated to the task at hand. Unlike traditional blockers that use static lists, Focus AI understands the context of what you're working on. You define your current objective — such as 'write Q3 marketing report' or 'study for history exam' — and the AI evaluates each opened site against that task, allowing relevant pages while gently blocking unrelated content. Users choose a session length (25, 45, or 60 minutes, or custom), and once started, the unbreakable focus mode prevents disabling or accessing settings until the session ends. A personal dashboard tracks completed tasks and displays daily and weekly focus time streaks, helping users visualize productivity growth over time. Focus AI is rated 4.5 stars on the Chrome Web Store and is free to use.",
+    category: "Productivity",
+    rating: 4.5,
+    pricing: "Free",
+    icon: "https://www.google.com/s2/favicons?domain=focuseai.com&sz=64",
+    website: "https://chromewebstore.google.com/detail/focus-ai-ai-powered-focus/ngboiiifeoioghodfglighnahefnjbib",
+    features: [
+      "Task-based intelligent website blocking",
+      "Unbreakable focus mode sessions",
+      "Custom session lengths (Pomodoro & more)",
+      "AI evaluation of site relevance per task",
+      "Daily & weekly focus streak tracking",
+      "Personal productivity dashboard"
+    ]
+  },
+  {
+    id: 159,
+    name: "Gal Code",
+    description: "AI-powered CRM platform that automates sales calls, messaging, and lead management across multiple communication channels with intelligent lead scoring and smart search.",
+    fullDescription: "Galcode is an AI-powered CRM (Customer Relationship Management) platform designed for B2B teams that want to automate and accelerate their sales and lead management workflows. Its core offering combines AI-driven automated sales calls, multi-channel messaging, and a centralized lead management hub — enabling businesses to engage prospects across voice, email, and messaging without manual intervention. The platform features Intelligent Lead & Contact Scoring that automatically analyzes engagement and profile data to prioritize the most promising prospects, alongside AI-Powered Smart Search that understands context to surface relevant CRM records instantly. Galcode also includes Dynamic AI Custom Fields that adapt to unique business needs, a Proactive AI Lead Generation engine that helps identify new lead sources and optimize nurturing strategies, and integrations with communication tools for seamless outreach. Built on Malta-based legal infrastructure and GDPR-compliant data handling, Galcode targets startups and SMBs looking for a smart, automated sales CRM.",
+    category: "CRM & Sales",
+    rating: 4.2,
+    pricing: "Paid",
+    icon: "https://www.google.com/s2/favicons?domain=galcode.ai&sz=64",
+    website: "https://galcode.ai",
+    features: [
+      "Automated AI sales calls & messaging",
+      "Multi-channel lead management",
+      "Intelligent lead & contact scoring",
+      "AI-powered smart search",
+      "Dynamic AI custom fields",
+      "Proactive lead generation & nurturing"
+    ]
+  },
+  {
+    id: 160,
+    name: "Stable Commerce",
+    description: "AI-native ecommerce infrastructure that lets solo operators build, launch, and manage independent online stores via chat — originally designed to help Etsy sellers migrate to their own storefronts.",
+    fullDescription: "Stable Commerce is an AI-powered ecommerce platform that replaces the traditional roles of developer, designer, and merchandise manager with a single conversational AI agent. Its flagship Stable Commerce Agent creates and manages all aspects of an ecommerce store through simple natural language prompts — from importing a product catalog (including from Etsy) and building a storefront, to updating collections, regenerating product images, and adjusting layout copy. The platform targets independent sellers, creators, and DTC brands who want to escape marketplace fees (Etsy takes 10–25% per sale) and own their customer list on a custom domain. Stable Commerce handles mobile-responsive design out of the box and is building 50+ integrations with platforms including Shopify, WooCommerce, Stripe, and PayPal. It is particularly suited for operators running multiple store concepts who need to launch, test, and iterate quickly without dedicated technical headcount.",
+    category: "Ecommerce",
+    rating: 4.2,
+    pricing: "Paid",
+    icon: "https://www.google.com/s2/favicons?domain=stablecommerce.ai&sz=64",
+    website: "https://stablecommerce.ai",
+    features: [
+      "AI agent-driven store creation & management",
+      "Etsy catalog import in minutes",
+      "Chat-driven store operations (no-code)",
+      "Custom domain & mobile-responsive design",
+      "AI product image regeneration",
+      "50+ integrations (Stripe, PayPal & more)"
+    ]
+  },
+  {
+    id: 161,
+    name: "Lorka AI",
+    description: "Multi-model AI platform giving unified access to 12+ leading AI systems — GPT, Claude, Gemini, Grok, DeepSeek, and more — plus image generation, PDF chat, web search, and voice mode under one subscription.",
+    fullDescription: "Lorka AI is an all-in-one AI aggregator that consolidates more than 12 leading large language models into a single dashboard, including GPT-5.2, Claude, Gemini, Grok, DeepSeek, Qwen, Mistral, and Perplexity. Rather than maintaining separate subscriptions, users access all models at a fraction of the combined cost, with the ability to switch mid-workflow or compare outputs side-by-side in real time. Beyond chat, the platform bundles an AI-powered web search engine, image generation and editing tools, PDF chat for document analysis, voice mode for hands-free interaction, multilingual translation, a writing humanizer, grammar check, AI detector, and an AI tutoring assistant. All models and tools are available on every plan tier — there is no feature tiering. Lorka launched in early 2026 and targets professionals, content teams, researchers, and students. The free plan covers basic features; the Pro plan is $19.99/month (or ~$5/month on annual billing); an Enterprise plan offers custom pricing.",
+    category: "AI Workspace",
+    rating: 4.4,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=lorka.ai&sz=64",
+    website: "https://lorka.ai",
+    features: [
+      "Access to 12+ AI models in one dashboard",
+      "Side-by-side model comparison",
+      "AI web search & PDF chat",
+      "Image generation & editing tools",
+      "Voice mode & multilingual translation",
+      "Writing humanizer & AI detector"
+    ]
+  },
+  {
+    id: 162,
+    name: "Atoms",
+    description: "AI-powered website and app builder that deploys a team of 7 specialized AI agents — from Product Manager to SEO Specialist — to take ideas from concept to live, production-ready product.",
+    fullDescription: "Atoms is an AI-native development platform that compresses what traditionally takes 240+ hours and 15+ separate tools into a single collaborative build environment. Instead of relying on one AI model, Atoms orchestrates a coordinated team of seven specialized AI agents: a Product Manager, Architect, Engineer, SEO Specialist, Data Analyst, Deep Researcher, and Team Leader. These agents collaborate to handle market research, product planning, full-stack code generation, deployment, payment integration (via Stripe), and growth automation — all triggered by natural language conversation. Built on the open-source MetaGPT framework with over 100,000 GitHub stars, Atoms is suited for solo founders, early-stage startups, and marketers who need to ship MVPs, landing pages, internal tools, or SaaS products quickly. Race Mode runs a prompt across multiple AI models simultaneously to identify the best-performing output. Atoms offers a freemium plan with paid tiers starting at $20/month, scaling with credits and usage.",
+    category: "Coding & App Building",
+    rating: 4.3,
+    pricing: "Freemium",
+    icon: "https://www.google.com/s2/favicons?domain=atoms.dev&sz=64",
+    website: "https://atoms.dev",
+    features: [
+      "7-agent AI team (PM, Engineer, SEO & more)",
+      "Natural language to full-stack app",
+      "Race Mode: multi-model output comparison",
+      "Built-in SEO agent & growth automation",
+      "Stripe payments & one-click deployment",
+      "Market research & product validation"
+    ]
+  },
+  {
+    id: 163,
+    name: "OpenClaw",
+    description: "Open-source autonomous AI agent framework that connects LLMs to your emails, calendar, files, and browsers — acting as a personal AI assistant that takes real actions, not just generates text.",
+    fullDescription: "OpenClaw is a free, open-source autonomous AI agent runtime that transforms large language models into a personal AI assistant capable of performing real tasks — sending emails, managing your calendar, monitoring websites, running overnight workflows, and remembering context about your business. Unlike chatbots that respond and stop, OpenClaw agents are connected to your tools and take action while you sleep. Originally known as Clawdbot/Moltbot, it gained over 60,000 GitHub stars within 72 hours of launch in early 2026 and now has over 346,000 stars. The core framework is entirely free and open-source, with operational costs coming from LLM API usage ($15–$200+/month depending on models used) and hosting ($5–$45/month). For users who prefer not to self-host, OpenClaw Cloud is available at $49/month — a managed, zero-setup version with smart model routing to keep API costs low. OpenClaw supports Claude Sonnet, GPT models, DeepSeek, and others, with community-driven skill extensions available via ClawHub.",
+    category: "AI Agents",
+    rating: 4.5,
+    pricing: "Free",
+    icon: "https://www.google.com/s2/favicons?domain=getopenclaw.ai&sz=64",
+    website: "https://getopenclaw.ai",
+    features: [
+      "Autonomous AI agent with real actions",
+      "Email, calendar & browser automation",
+      "Supports Claude, GPT, DeepSeek & more",
+      "Smart model routing to reduce costs",
+      "Community skill extensions via ClawHub",
+      "Cloud managed plan or free self-hosting"
+    ]
+  },
+ 
 ];
 
 // Categories derived from data
