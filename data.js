@@ -2851,6 +2851,79 @@ const AI_TOOLS = [
   website: "https://ailawyer.pro",
   features: ["Legal question answering", "Jurisdiction-specific responses", "Legal document generation", "Contract review & explanation", "Legal research assistance", "Document e-signature integration"]
 },
+{
+  id: 231,
+  name: "Netus AI",
+  description: "AI paraphrasing and detection platform that rewrites, humanizes, and analyzes text while bypassing AI content detectors.",
+  fullDescription: "Netus AI is a comprehensive AI-powered writing assistant designed to help content creators, marketers, students, and SEO professionals refine, repurpose, and protect their written content. The platform combines multiple capabilities into a single suite: an AI bypasser that rewrites AI-generated text to sound human and evade detection tools like GPTZero and Originality.ai, an AI detector that analyzes whether content was written by humans or machines, a paraphrasing tool that rephrases text while preserving original meaning, an AI summarizer that condenses long documents into key points, and an SEO article generator that produces search-optimized content. Additional tools include keyword extraction, title and slogan generation, email and cover letter writing, and YouTube-specific metadata generators for titles, descriptions, and hashtags. Netus AI supports 36 languages and maintains user privacy with 100% data protection. The platform operates on a credit-based system where 1 credit equals 10 words for most features, with unlimited AI detector usage on all plans. Use cases range from students avoiding AI detection flags on assignments to content marketers repurposing blog posts for multiple channels without duplicate content penalties, and SEO professionals generating keyword-optimized articles that rank well while passing as human-written. With pricing from free (50 credits/month) to enterprise levels, Netus AI serves over 36 language markets and has become a go-to solution for anyone who needs to navigate the increasingly complex landscape of AI content detection while maintaining content quality and originality.",
+  category: "Text Generation",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=netus.ai&sz=64",
+  website: "https://netus.ai",
+  features: ["AI bypasser & humanizer", "AI detector (unlimited usage)", "Paraphrasing & summarization", "SEO article generator", "36+ language support", "Email & YouTube metadata tools"]
+},
+{
+  id: 232,
+  name: "Deblank",
+  description: "AI-powered design ideation platform that generates color schemes, font pairings, and image collages to overcome creative blocks.",
+  fullDescription: "Deblank is an intelligent AI design suite created to help graphic designers, UI/UX professionals, artists, and content marketers overcome the dreaded 'blank page syndrome' and jumpstart creative projects. The platform acts as a collaborative design partner, using sophisticated AI algorithms trained on vast design datasets to generate smart recommendations for color schemes, font combinations, layouts, and image collages based on user prompts and preferences. Instead of starting from scratch, users input basic parameters about their project's mood, audience, or industry, and Deblank produces multiple design variations to explore and refine. Key capabilities include AI-driven color palette generation that creates harmonious, on-brand schemes; typography recommendations that pair fonts effectively for headings, subheadings, and body text; and image collage creation that arranges visuals into compelling compositions. The platform's explore-and-discover workflow encourages experimentation, with users able to mix and match suggested elements, then export final designs in standard formats. Deblank saves significant time compared to manual design exploration, with users reporting that tasks taking hours are reduced to minutes. While the tool is intuitive for beginners, professionals appreciate how it surfaces unexpected combinations that spark fresh creative directions. Common use cases include branding projects (logos, color schemes, typography systems), social media graphics, presentation decks, website mockups, and marketing collateral. The freemium model allows users to test basic features before upgrading to paid plans with advanced customization and higher export resolutions. For design teams facing tight deadlines or creative ruts, Deblank serves as an ever-present muse that never runs out of ideas.",
+  category: "Image Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=deblank.com&sz=64",
+  website: "https://deblank.com",
+  features: ["AI color palette generation", "Intelligent font pairing", "Image collage creation", "Design exploration workflow", "Export to standard formats", "Creative block assistance"]
+},
+{
+  id: 233,
+  name: "Skybox Lab",
+  description: "AI-powered 360° panoramic skybox generator for game developers, VR creators, and filmmakers using text prompts.",
+  fullDescription: "Skybox Lab (also known as Skybox AI from Blockade Labs) is a specialized generative AI tool that creates stunning 360-degree equirectangular panoramic skyboxes from simple text descriptions or uploaded reference images. Built specifically for game developers, VR/AR creators, VFX studios, filmmakers, and architectural visualization professionals, the platform transforms prompts like 'stormy ocean at dusk,' 'alien nebula,' or 'stylized anime sunset' into production-ready immersive environments in as fast as 15 seconds. Skybox Lab supports a wide array of artistic styles including Fantasy Landscape, Anime Art, Surreal, Digital Painting, Nebula, Realistic, Sci-Fi, Dreamlike, and Interior Views, with an Advanced option for custom 'style words' that enable precise personalization. Output resolutions reach up to 16K with 32-bit HDRI exports, ensuring crisp visuals even at extreme zoom levels or in VR headsets with no upscaling artifacts. The platform offers deep integrations with major game engines including a native Unity plugin (available on the Unity Asset Store with a buy-once model, 50 monthly generations included, no subscription required), exports to Unreal Engine and Blender, plus comprehensive API/SDK support for custom pipelines. Additional capabilities include remixing existing 360 images into new styles, moods, or times of day, negative prompts to exclude unwanted elements, and automated seam-correction that eliminates the vertical edge artifact common in raw AI panoramas. Pricing follows a freemium model with paid plans starting from $10/month for higher generation volumes and resolution tiers. For professionals building virtual environments, Skybox Lab eliminates the need for expensive 360° photography equipment, 3D environment modeling, or stock asset licensing, enabling rapid iteration and unique, custom environments for every scene.",
+  category: "Image Generation",
+  rating: 4.7,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=skyboxlab.com&sz=64",
+  website: "https://skyboxlab.com",
+  features: ["Text-to-360° panoramic generation", "16K resolution & 32-bit HDRI", "Unity, Unreal & Blender integration", "12+ artistic style presets", "Seam-correction technology", "Remix existing 360° images"]
+},
+{
+  id: 234,
+  name: "Ghost Writer",
+  description: "AI writing assistant Chrome extension that generates and types content directly into Google Docs, bypassing revision history detection.",
+  fullDescription: "Ghost Writer is a specialized Chrome extension designed for students, professionals, and content creators who use Google Docs as their primary writing environment and want AI assistance that seamlessly integrates without triggering revision-history-based tracking tools. Unlike standard AI writing tools where users copy-paste generated text (creating abrupt paste events in document revision history), Ghost Writer's unique capability is that it types generated content directly into Google Docs character by character, mimicking human typing patterns and bypassing detection tools like Brisk and Grammarly that monitor for paste events or suspicious editing patterns. Users activate the extension within any Google Doc, provide a prompt describing what they want written, and Ghost Writer's AI generates and types the response in real-time while the user watches. The tool handles essays, reports, creative content, emails, and professional documents. Key features include real-time AI typing that blends naturally with manual writing workflows, a user-friendly interface requiring no complex setup, and a strong privacy-first approach where data is never stored or shared with third parties. The developer has disclosed that the extension does not collect or use personal data, and it will not sell information to third parties or use data for purposes beyond core functionality. An upcoming 'humanizer' feature aims to further bypass AI content detectors by adjusting writing patterns to appear more human-like. For students concerned about academic integrity policies regarding AI assistance, Ghost Writer provides a method of integration that leaves fewer traces than traditional copy-paste workflows. For professionals, it accelerates drafting while maintaining a natural writing flow. It's important to note that users should ensure compliance with their organization's or institution's policies when using AI tools. With its free price point and specialized Google Docs integration, Ghost Writer has attracted users seeking AI writing assistance that respects existing tracking systems and privacy expectations.",
+  category: "Text Generation",
+  rating: 4.3,
+  pricing: "Free",
+  icon: "https://www.google.com/s2/favicons?domain=chromewebstore.google.com&sz=64",
+  website: "https://chromewebstore.google.com/detail/ghost-writer-free/dkafampgighkehgckgbodlidipmjmppf",
+  features: ["Direct typing into Google Docs", "Bypasses revision history detection", "Real-time AI text generation", "Privacy-first (no data collection)", "Free Chrome extension", "Upcoming AI humanizer feature"]
+},
+{
+  id: 235,
+  name: "Bannerbear",
+  description: "API-first platform that automatically generates custom images, videos, and social media graphics from design templates.",
+  fullDescription: "Bannerbear is a developer-friendly automated media generation platform that enables businesses and creators to programmatically create custom images, videos, and social media graphics from reusable design templates. Unlike traditional graphic design tools where every asset is manually created, Bannerbear's API allows users to define templates with dynamic text fields, image placeholders, and other modifiable elements, then generate thousands of unique, on-brand visuals automatically by passing different data to each API call. The platform serves marketing teams, e-commerce businesses, content creators, and SaaS companies who need to produce large volumes of personalized visual content for email campaigns, social media posts, quote cards, product listings, YouTube thumbnails, Open Graph images, and more. Bannerbear's workflow starts with template creation in a drag-and-drop editor where users design a base visual containing both static objects (like logos and background elements that remain identical across generations) and dynamic objects (like text headings, user names, profile pictures, product images, or discount codes that change based on input data). Once a template is saved, the API accepts JSON payloads mapping data fields to dynamic objects and returns a URL to the generated image or video. The platform offers libraries in multiple programming languages including Node.js, Ruby, and PHP, plus Zapier and Make integrations for no-code automation. Example use cases include generating personalized quote cards from highlighted blog text for social sharing, creating YouTube end screens with dynamic video titles and channel avatars, producing product images with custom text overlays for e-commerce catalogs, and generating social media posts for thousands of user profiles in a mobile app. Bannerbear supports image exports in PNG, JPG, and WebP formats, plus video generation with MP4 output. Pricing follows a usage-based model with a free tier for testing. For developers building applications that require visual content at scale, Bannerbear eliminates the engineering effort of rendering images server-side, replacing complex headless browser setups with a simple, reliable API call.",
+  category: "Image Generation",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=bannerbear.com&sz=64",
+  website: "https://bannerbear.com",
+  features: ["Template-based image generation", "Dynamic text & image placeholders", "Multi-language API (Node, Ruby, PHP)", "Zapier & Make no-code integration", "Video generation support", "Social media & e-commerce templates"]
+},
+{
+  id: 236,
+  name: "SEO GPT",
+  description: "AI-powered search optimization tool that generates SEO-optimized content, meta tags, and keyword strategies for better rankings.",
+  fullDescription: "SEO GPT is a specialized artificial intelligence platform that combines large language model capabilities with search engine optimization best practices to help content creators, marketers, and website owners produce content that ranks well in search results. Unlike generic AI writing tools that create content without SEO consideration, SEO GPT's models are fine-tuned on ranking factors, keyword research methodologies, search intent analysis, and on-page optimization patterns. Users input their target keyword or topic, and the platform generates SEO-optimized articles, blog posts, product descriptions, and landing page copy that naturally incorporate primary keywords, semantic variations, and related entities. Beyond long-form content, SEO GPT produces metadata including title tags (55-60 characters) and meta descriptions (155-160 characters) optimized for click-through rates, header tag hierarchies (H1, H2, H3) that improve content structure for search engines, FAQ schema markup for rich snippets, and internal linking recommendations. The platform includes keyword research tools that analyze search volume, competition level, and user intent, then suggests content clusters for topical authority building. Additional features include competitor content analysis that identifies content gaps and keyword opportunities, content brief generation for writers or other AI tools, and search intent classification to match content format (informational blog post, commercial landing page, transactional product page) with what users actually want when searching for a given term. SEO GPT integrates with popular SEO platforms including SEMrush, Ahrefs, and Google Search Console for data enrichment and performance tracking. For agencies and high-volume publishers, the platform offers batch processing and API access for automated content production at scale. While SEO GPT does not replace technical SEO audits or backlink strategies, it addresses the foundational requirement for any ranking website: high-quality, relevant content that search engines want to send traffic to. Users report that content generated with SEO GPT consistently ranks on the first page for low-to-medium difficulty keywords and reduces the time spent on SEO content creation from hours to minutes.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=seogpt.com&sz=64",
+  website: "https://seogpt.com",
+  features: ["SEO-optimized content generation", "Title & meta description creation", "Keyword research & analysis", "Competitor content gap analysis", "Schema markup generation", "Search intent classification"]
+},
+  
   
   
   
