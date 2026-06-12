@@ -1787,6 +1787,18 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=aibabygenerator.ai&sz=64",
   website: "https://aibabygenerator.ai",
   features: ["AI facial feature blending", "Results in seconds", "Gender & age customization", "Multiple variation generation", "Single or dual-parent photo upload", "Privacy-protected uploads"]
+}, 
+{
+  id: 150,
+  name: "ShortPixel",
+  description: "Image optimization service that compresses and converts website images to WebP/AVIF for faster load times and better SEO, with WordPress plugin support.",
+  fullDescription: "ShortPixel is an image optimization service that makes websites faster by significantly reducing image file sizes without compromising visual quality. Using proprietary algorithms, it optimizes images through multiple passes — lossy, glossy, or lossless — to achieve the smallest possible file size while keeping an original-looking appearance. ShortPixel converts images to modern formats like WebP and AVIF for better browser compatibility and performance, with bulk optimization and automatic compression applied to new uploads. It offers a popular WordPress plugin alongside comprehensive APIs and client libraries for developers integrating optimization into custom PHP applications, plus a web interface and command-line tool for broader use. The free plan includes 100 image optimizations per month with credit-based limits; paid plans start at $3.99/month for 5,000 images and scale up to $9.99/month for 12,000 images, ideal for sites with large media libraries needing improved load speed and SEO.",
+  category: "Coding",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=shortpixel.com&sz=64",
+  website: "https://shortpixel.com",
+  features: ["Lossy, glossy & lossless compression", "WebP & AVIF conversion", "WordPress plugin", "Bulk & automatic optimization", "Developer APIs & CLI tools", "Cloudflare integration"]
 },  
   
   
