@@ -5563,6 +5563,103 @@ const AI_TOOLS = [
   website: "https://gptinf.com",
   features: ["AI content generation", "Marketing copy creation", "GPT-based language models"]
 },
+{
+  id: 457,
+  name: "Keyword Insights AI",
+  description: "AI-powered SEO content optimization platform that analyzes top-ranking pages and provides data-driven recommendations for keyword targeting and content structure.",
+  fullDescription: "Keyword Insights AI is a specialized content optimization tool that helps SEO professionals and content creators improve their search rankings by analyzing top-performing content for target keywords and providing actionable recommendations. The platform uses artificial intelligence to scan the top-ranking pages in search results for a specific keyword, then extracts insights on optimal word count, latent semantic indexing (LSI) keywords, content structure, heading hierarchy, and readability scores [citation:6]. Unlike general SEO tools that focus on backlinks and domain authority, Keyword Insights AI specializes in on-page optimization, helping users understand exactly what search engines reward in their niche. Key features include competitor content analysis that identifies patterns across ranking pages, keyword difficulty assessment for prioritizing low-competition opportunities, content scoring that evaluates SEO readiness, and structured recommendations for title tags, meta descriptions, heading placement, and keyword density. The platform is designed for bloggers, small business owners, and content marketers who need to create search-optimized content without deep technical SEO knowledge. For content teams producing multiple articles per week, Keyword Insights AI replaces manual competitor research with automated analysis, reducing the time from keyword selection to optimized draft while improving the likelihood of ranking on the first page of search results. The tool is available via web browser with tiered pricing based on usage volume.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=keywordinsights.ai&sz=64",
+  website: "https://keywordinsights.ai",
+  features: ["AI-powered competitor content analysis", "LSI keyword & semantic entity recommendations", "Content scoring & SEO readiness metrics", "Title tag & meta description optimization", "Heading structure & readability analysis", "Low-competition keyword identification"]
+},
+{
+  id: 458,
+  name: "Gling AI",
+  description: "AI video editing platform for YouTube creators that automatically removes silences, awkward pauses, and mistakes from raw footage.",
+  fullDescription: "Gling AI is a specialized video editing tool designed specifically for YouTube creators who want to drastically reduce the time spent on post-production. The platform uses artificial intelligence to analyze raw talking-head footage, automatically detecting and removing silences, awkward pauses, mistakes, retakes, and filler words like 'um' and 'uh' . This transforms hours of raw recording into a clean, watchable first edit in minutes. Unlike traditional video editing software where editors watch footage linearly and manually cut each mistake, Gling's AI scans the audio waveform and visual timeline to identify low-value segments while preserving natural pacing and flow. For creators who film themselves speaking to camera—such as educational YouTubers, reviewers, vloggers, and course creators—this eliminates the most time-consuming part of editing. The platform exports to standard video formats compatible with Adobe Premiere, Final Cut Pro, DaVinci Resolve, and other professional NLEs for final polish. Gling offers both free tiers for casual creators and paid subscriptions for higher volume usage. By automating the mechanical work of cutting out mistakes, Gling enables creators to focus on creative editing decisions, color grading, and adding B-roll—turning an 8-hour editing session into 2 hours of high-value work.",
+  category: "Video",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=gling.ai&sz=64",
+  website: "https://gling.ai",
+  features: ["Automatic silence & pause removal", "Filler word detection ('um', 'uh')", "Mistake & retake elimination", "Raw footage to clean edit in minutes", "Export to Premiere, Final Cut, DaVinci", "Free tier available"]
+},
+{
+  id: 459,
+  name: "Softer AI",
+  description: "No-code web development platform with AI blocks for generating text, images, and copywriting within visual application builder.",
+  fullDescription: "Softer AI is a premium no-code web development platform that integrates AI capabilities directly into its visual builder, enabling users to create sophisticated web applications without writing code [citation:3]. Unlike traditional no-code tools that only offer pre-built components, Softer introduces AI blocks that bring generative intelligence into the development workflow. The platform features three primary AI blocks: the AI Copywriter Tool generates creative and engaging titles or subtitles from simple prompts, helping users craft captivating headings without writer's block [citation:3]. The AI Text Generation Block allows dynamic and customizable text outputs where users can adjust title, subtitle, placeholder text, and creativity factor to achieve desired results [citation:3]. The AI Image Generation Block enables users to create visually appealing images on-demand within their web applications, from personalized avatars to dynamic visual content [citation:3]. These AI blocks can be customized with fine-tuning parameters such as output length and creativity level, with advanced options available through integration with external tools and APIs like Make and OpenAI. Softer's AI blocks support multiple languages and can generate content dynamically based on user interactions. For entrepreneurs, small business owners, and non-technical founders who need to build custom web applications but lack coding skills, Softer AI bridges the gap between vision and execution by embedding AI generation directly into the development environment—eliminating the need to switch between separate AI tools and website builders.",
+  category: "Developer Tools",
+  rating: 4.3,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=softer.ai&sz=64",
+  website: "https://softer.ai",
+  features: ["No-code visual application builder", "AI Copywriter Tool (titles & subtitles)", "AI Text Generation Block (dynamic outputs)", "AI Image Generation Block (on-demand visuals)", "Creativity factor & output length controls", "External API integration (Make, OpenAI)"]
+},
+{
+  id: 460,
+  name: "Aim Reply",
+  description: "Boutique AI consulting firm offering AI strategy, data science solutions, and AI-led process automation for retail, manufacturing, and financial services.",
+  fullDescription: "Aim Reply is a boutique AI consulting and services company that helps enterprises leverage, industrialize, and monetize artificial intelligence for transformative business growth and value creation [citation:4]. As part of the Reply Group, Aim Reply provides comprehensive capabilities in data and advanced analytics, fostering strong partnerships with leading tech firms and an extensive network of AI startups [citation:4]. The firm's services span three core areas: AI Strategy Consulting for helping organizations define AI roadmaps aligned with business objectives, Data Science Solutions & Platforms for building analytical models and infrastructure, and AI-Led Process Automation for streamlining operations [citation:4]. Industry-specific solutions include Retail & CPG (customer segmentation, lifetime value analysis, revenue analytics, AI recommenders, digital agents), Manufacturing & Logistics (intelligent warehouses, predictive maintenance, demand forecasting), and Financial Services & Insurance (AI Centers of Excellence, KYC/AML automation, document digitization, cost optimization) [citation:4]. Unlike product-focused AI vendors, Aim Reply provides end-to-end consulting services from strategy through implementation, working with enterprise clients to embed AI into core business processes. For organizations struggling to move from AI experimentation to production-scale value, Aim Reply offers the expertise and methodologies to bridge that gap, drawing on Reply's global network of AI practitioners and technology partners.",
+  category: "Analytics",
+  rating: 4.4,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=reply.com&sz=64",
+  website: "https://www.reply.com/aim-reply/en",
+  features: ["AI Strategy & Transformation Consulting", "Data Science & Advanced Analytics", "AI-Led Process Automation", "Retail & CPG AI solutions (recommenders, segmentation)", "Manufacturing AI (predictive maintenance, forecasting)", "Financial Services AI (KYC, AML, document digitization)"]
+},
+{
+  id: 461,
+  name: "PDF AI",
+  description: "Mobile AI document assistant powered by Gemini 3.0, ChatGPT-5, and Claude 4.5 for instant summarization, analysis, and visual note generation.",
+  fullDescription: "PDF AI is a comprehensive mobile document assistant available on Google Play that combines multiple cutting-edge AI models—including Gemini 3.0, ChatGPT-5, Claude 4.5, and DeepSeek AI—into a single application for instant document understanding [citation:5]. The platform supports a wide range of file formats including PDF, Word, Excel, PowerPoint, TXT, HTML, CSV, Markdown, and JSON, eliminating the need to switch between apps [citation:5]. Core AI capabilities include Smart Insights for asking questions about any document and receiving instant answers, summaries, and explanations; AI Note Generation for converting long texts into structured visual notes, mind maps, and academic-style charts; Multimodal Understanding for analyzing documents, images, tables, figures, and slides in one place; and AI Search for finding key facts, definitions, tables, or references instantly [citation:5]. The app also includes powerful document editing tools: PDF to Word/TXT conversion, digital signature creation, highlight and annotation tools, paper document scanning to clean PDFs, text and image editing, cloud sync with Google Drive, Dropbox, Box, and OneDrive, and password-protected PDF support [citation:5]. New features include Insight Cards for turning reports or books into stunning visual notes with one tap, plus a Gallery Community for exploring and sharing AI-powered mind maps and infographics [citation:5]. The app is free to download with in-app purchases for premium features. For students, researchers, lawyers, business professionals, and anyone who works with long documents, PDF AI transforms passive reading into active analysis, enabling users to extract insights from hundreds of pages in seconds rather than hours.",
+  category: "Productivity",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=play.google.com&sz=64",
+  website: "https://play.google.com/store/apps/details?id=chatpdf.pro",
+  features: ["Gemini 3.0, ChatGPT-5 & Claude 4.5 integration", "PDF/Word/Excel/PowerPoint/HTML/CSV support", "AI Note Generation (mind maps, charts)", "Document scanning & PDF editing", "Cloud sync (Drive, Dropbox, OneDrive)", "Insight Cards (visual note extraction)"]
+},
+{
+  id: 462,
+  name: "RankIQ",
+  description: "SEO content optimization platform with curated low-competition keyword library, AI content analyzer, and scoring system for faster search rankings.",
+  fullDescription: "RankIQ is an AI-powered content optimization tool designed specifically for bloggers, content creators, and small business owners who want to rank faster by targeting low-competition keywords with high traffic potential [citation:6]. Unlike comprehensive SEO platforms that offer rank tracking and backlink monitoring, RankIQ focuses exclusively on content optimization and keyword selection, providing a curated library of low-competition keywords across various niches that have been pre-researched to ensure users are targeting terms that are easier to rank for [citation:6]. The platform's key features include a Content Optimizer that scans the top-performing pages for a specific keyword and provides insights on word count, LSI (latent semantic indexing) keywords, content structure, and title tag optimization; an AI Content Analyzer that evaluates SEO readiness and provides a ranking score indicating how well content is optimized for its target keyword; and a Content Scoring System that gives users a clear understanding of what improvements are needed [citation:6]. The curated keyword library gives content creators a clear advantage in competitive niches by highlighting opportunities that traditional keyword research tools might miss. For bloggers and affiliate marketers who struggle to compete with high-authority sites for competitive keywords, RankIQ provides a strategic path to faster rankings by focusing on less contested terms while ensuring on-page optimization meets search engine standards. The platform's simplicity and guided recommendations make it accessible to non-SEO experts while still providing value for experienced content strategists. RankIQ does not include rank tracking or backlink monitoring, positioning it as a specialized tool best used alongside comprehensive SEO platforms [citation:6].",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=rankiq.com&sz=64",
+  website: "https://rankiq.com",
+  features: ["Curated low-competition keyword library", "AI Content Optimizer (word count, LSI keywords)", "Content scoring & SEO readiness system", "Top-ranking page analysis", "Title tag & heading recommendations", "No rank tracking (specialized tool)"]
+},
+{
+  id: 463,
+  name: "Bertha AI",
+  description: "WordPress AI content generator that writes unique content and creates images using GPT-3 technology, integrated natively into page builders.",
+  fullDescription: "Bertha AI is a WordPress content generation plugin that uses OpenAI's GPT-3 technology to write unique content and produce images directly within the WordPress editing environment [citation:7]. Unlike external AI writing tools that require copy-pasting into WordPress, Bertha AI is natively integrated into the Gutenberg block editor and major page builders including Elementor, Divi, Beaver Builder, WPBakery, Visual Composer, and Bricks, appearing as an icon in every text area [citation:7]. The plugin offers a range of content generation capabilities: website copy generation for any page section, AI Art image creation from imagination with auto-generated descriptions, blog post outline generation, blog post intro and conclusion paragraphs, SEO meta title and description generation, product/service descriptions for e-commerce, personal bio writing, email and social media content, a Chat GPT module for conversational AI, a content rephraser for improving existing text, and frameworks including AIDA (Attention-Interest-Desire-Action), Before-After-Bridge, and PAS (Problem-Agitate-Solution) [citation:7]. For e-commerce stores (WooCommerce and Easy Digital Downloads), Bertha AI supports bulk content generation across product catalogs. The plugin includes a free tier with 2,000 words to start plus regular free word allocations, with paid subscriptions unlocking 1,000,000 words per month, priority support, and advanced features. Bertha AI is designed to work as a partnership between human editor and AI writer—the AI handles the heavy lifting of first draft creation while the user guides direction and edits output to fit their needs [citation:7]. For WordPress site owners, bloggers, and agencies managing multiple client sites, Bertha AI reduces content creation time by up to 90%, replacing the blank page problem with AI-generated drafts that require only editing and refinement. The plugin supports unlimited users per website, making it ideal for teams and agencies [citation:7].",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=bertha.ai&sz=64",
+  website: "https://bertha.ai",
+  features: ["WordPress native AI content generation", "GPT-3 powered writing & image creation", "Elementor, Divi, Beaver Builder integration", "Blog outlines, intros & conclusions", "SEO meta titles & descriptions", "AIDA, Before-After-Bridge & PAS frameworks"]
+},
+{
+  id: 464,
+  name: "Media.io",
+  description: "All-in-one AI creative studio for generating and editing videos, images, and audio with enterprise-grade API and MediaAgent automation.",
+  fullDescription: "Media.io is an all-in-one AI creative platform that provides a complete suite of tools for generating and editing video, image, and audio content from simple text prompts [citation:8]. The platform positions itself as a unified creative studio where users can go from idea to finished content faster, eliminating the need to switch between multiple specialized tools for different media types. Key features include AI video generation from text prompts, AI image creation, AI music and audio generation, plus professional editing tools across all media types [citation:8]. The platform is free to get started with daily login credits, allowing users to experiment without upfront cost. Premium features unlock higher-quality exports, watermark-free downloads, and access to advanced AI models through flexible pay-as-you-go or subscription plans [citation:8]. For organizations, Media.io offers Enterprise-Grade AI APIs with 99.9% uptime SLA and sub-200ms average latency, enabling integration of Media.io's AI models into existing products and workflows [citation:8]. The platform's MediaAgent (currently in beta) serves as an AI-native creative agent that understands user ideas, plans workflows, and turns prompts into polished content automatically, offering personalized creative assistance across the entire production pipeline [citation:8]. Privacy is a priority—all uploaded files and generated content are automatically deleted from servers within 7 days, and content generated on the free plan includes a Media.io watermark that is removed upon upgrading [citation:8]. For content creators, marketing teams, and enterprises producing high volumes of visual and audio content, Media.io replaces fragmented creative workflows with a single platform where AI handles generation, editing, and remixing across all media types, dramatically reducing production time while maintaining professional quality.",
+  category: "Video",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=media.io&sz=64",
+  website: "https://www.media.io",
+  features: ["AI video, image & audio generation", "Professional editing across media types", "MediaAgent AI-native creative assistant", "Enterprise API (99.9% uptime, <200ms latency)", "Daily free credits to start", "7-day auto-deletion of uploads"]
+},
+  
   
   
 
