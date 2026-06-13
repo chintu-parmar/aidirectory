@@ -4987,6 +4987,152 @@ const AI_TOOLS = [
   website: "https://hypefury.com",
   features: ["Smart scheduling & optimal timing", "Content recycling (evergreen posts)", "Engagement automation (likes, replies)", "Analytics dashboards (impressions, engagement)", "Thread creation tools", "Twitter (X) & LinkedIn focus"]
 },
+{
+  id: 409,
+  name: "Make",
+  description: "Visual automation platform with Maia AI assistant that builds custom integrations and AI agents through natural language conversation.",
+  fullDescription: "Make is a leading visual automation platform that has introduced Maia, an AI assistant that enables users to build end-to-end automations and AI solutions simply by describing what they want in natural language [citation:1]. Unlike traditional automation tools that require complex configuration, Maia acts as a personal buddy that looks over your shoulder, ready with guidance and advice whenever you need it, making automation accessible to everyone regardless of technical background [citation:1]. The platform operates on a simple mission: to free your ideas by empowering users to automate, build with AI, connect tools, and create new opportunities through a visual, transparent interface [citation:1]. Maia's key differentiator is its transparency — users see exactly what's happening as the AI translates conversations into working scenarios, ensuring full control over every automation. The AI understands dependencies and connections across systems holistically, going beyond individual workflows to grasp your entire technical landscape [citation:1]. Future capabilities include proactive monitoring where Maia identifies areas needing attention and offers recommendations to improve everything you build. For beginners, Maia provides an easier way to get started with automation, while power users benefit from accelerated development of complex, agentic workflows. Make's vision is to make Maia omnipresent — always on, everywhere you go in the platform, ready to assist at any moment [citation:1]. The platform serves businesses of all sizes, from solo entrepreneurs to enterprises, who need to connect SaaS applications, automate repetitive tasks, and build AI-powered business processes without writing code.",
+  category: "Developer Tools",
+  rating: 4.7,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=make.com&sz=64",
+  website: "https://www.make.com",
+  features: ["Maia AI assistant for natural language automation", "Visual scenario builder", "Proactive monitoring & recommendations", "Multi-app integration", "Agentic AI workflow creation", "Transparent & controllable automation"]
+},
+{
+  id: 410,
+  name: "Riverside Audio Transcription",
+  description: "AI transcription tool that converts audio and video to text with 99% accuracy across 100+ languages, available for free.",
+  fullDescription: "Riverside offers a powerful AI transcription feature that converts audio and video files into text with remarkable speed and accuracy. Where a human transcriber would take three to eight hours to transcribe a single hour of audio, Riverside's AI completes the task in seconds or minutes [citation:2]. The platform achieves 99% accuracy across more than 100 languages, making it one of the most reliable transcription tools available for podcasters, journalists, researchers, and content creators [citation:2]. Unlike many competitors that charge per minute or per hour, Riverside provides free transcription for uploaded files, democratizing access to high-quality transcription for users with limited budgets. The workflow is simple: users upload their video or audio files, Riverside's AI automatically begins transcribing, and once complete, users can edit the text directly — clicking on any word to fix inaccuracies [citation:2]. Beyond basic transcription, the platform enables users to create captions for videos, generate show notes, and extract shareable social media clips from the transcribed content. For podcasters recording interviews, Riverside's local recording technology ensures crystal-clear audio even with unstable internet connections, capturing each participant's track locally before uploading [citation:2]. For businesses conducting customer interviews, market research, or internal meetings, Riverside AI Transcription transforms hours of recorded conversation into searchable, actionable text documentation, dramatically reducing the time and cost associated with manual transcription services.",
+  category: "Audio",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=riverside.fm&sz=64",
+  website: "https://riverside.fm",
+  features: ["99% transcription accuracy", "100+ language support", "Free audio/video transcription", "Editable transcripts", "Caption generation", "Show notes & clip creation"]
+},
+{
+  id: 411,
+  name: "Parlant",
+  description: "Open-source conversation modeling engine for building predictable, compliant AI agents with dynamic guideline matching and tool integration.",
+  fullDescription: "Parlant is an open-source conversation modeling engine designed to solve the fundamental challenge of LLM unpredictability in production environments [citation:3]. Unlike standard AI chatbots that often suffer from attention drift and inconsistency in complex conversations, Parlant provides a structured framework that delivers deliberate, reliable, and compliant agentic user experiences [citation:3]. The platform's core innovation is dynamic guideline matching — ensuring that behavioral instructions are always contextually relevant and consistently applied throughout conversations, eliminating the irrelevant instructions that plague raw LLM implementations [citation:3]. Key features include behavioral guidelines for defining rules and guardrails, semantic relationships for creating sophisticated conversational flows with dependencies and prioritization, tool integration for seamlessly attaching external APIs and databases, context awareness that intelligently tracks conversation progress, utterance templates that sanitize LLM outputs, glossary management for controlling agent vocabulary, and continuous re-evaluation of the conversational situation [citation:3]. Parlant is particularly valuable for regulated industries where compliance is critical — including financial services ensuring regulatory adherence in customer interactions, healthcare communications providing accurate and compliant patient information, legal assistance delivering reliable and verifiable guidance, and brand-sensitive customer service maintaining consistent voice and policies across all interactions [citation:3]. For enterprises deploying conversational AI in high-stakes environments, Parlant replaces the unpredictability of raw LLMs with a controlled, auditable, and purpose-driven framework that ensures every interaction meets business and legal requirements.",
+  category: "Chatbots",
+  rating: 4.5,
+  pricing: "Open Source",
+  icon: "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+  website: "https://github.com/AryasKeeper/PARLANT",
+  features: ["Dynamic guideline matching", "Behavioral guardrails & compliance", "Semantic relationship management", "Tool integration (APIs, databases)", "Utterance template sanitization", "Context-aware conversation tracking"]
+},
+{
+  id: 412,
+  name: "Numerous AI",
+  description: "Excel add-in that brings ChatGPT directly into spreadsheets to generate formulas, categorize text, summarize messages, and automate repetitive tasks.",
+  fullDescription: "Numerous AI is a powerful Excel add-in that integrates ChatGPT directly into spreadsheet workflows, enabling users to perform AI-powered tasks without leaving Excel [citation:4]. The core functionality is the =NUM.AI() function, which allows users to feed prompts directly to ChatGPT from any cell. For example, users can write =NUM.AI(“Here's a message from a customer:”, A2, “summarize it in 1-2 bullet points”) to instantly process and summarize customer support messages [citation:4]. The tool excels at learning by example — users can show the AI a few examples of how to categorize items, perform sentiment analysis, or format cells, and the AI will automatically apply that logic to hundreds or thousands of additional rows [citation:4]. The =NUM.WRITE() function generates text based on prompts, such as creating taglines for brands or drafting thank-you messages incorporating specific product features [citation:4]. For complex formula challenges, users can simply describe what they want in plain English — from basic SUM and COUNTIF to advanced VLOOKUP, QUERY, and REGEX — and Numerous AI generates the correct formula. The platform also includes an \"Explain formula\" feature that translates complex formulas from colleagues into plain English descriptions. Every user receives 60 free tokens (roughly 30,000 characters of text input and output), with paid subscriptions starting at $10 per month for additional usage [citation:4]. For business analysts, finance professionals, and Excel power users who spend hours on repetitive data tasks, Numerous AI transforms spreadsheets from static calculation tools into intelligent automation platforms, dramatically reducing manual work while maintaining data integrity within the familiar Excel environment.",
+  category: "Productivity",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=numerous.ai&sz=64",
+  website: "https://numerous.ai",
+  features: ["=NUM.AI() ChatGPT function in Excel", "Example-based learning (categorization, sentiment)", "=NUM.WRITE() text generation", "Plain English formula generation", "Complex formula explanation", "60 free tokens (30,000 characters)"]
+},
+{
+  id: 413,
+  name: "Cuppa AI",
+  description: "Agentic AI platform that autonomously researches, creates, publishes, and optimizes content with brand voice integration and multi-step workflows.",
+  fullDescription: "Cuppa AI is an agentic content creation platform that goes far beyond traditional AI writing assistants by autonomously executing multi-step workflows from a single natural language goal [citation:5]. Unlike standard AI chat where users ask and the AI answers, Cuppa AI is truly agentic: you give it a goal, and it figures out the steps, executes them, and delivers complete results [citation:5]. The platform's core capabilities span research, content generation, content management, publishing, and advanced workflows. Research tools include keyword research from seed terms, SERP analysis with competitor breakdown, quick-win identification for keywords ranking 4-20, keyword clustering by intent/topic, content performance analytics, and retrieval of existing content [citation:5]. Content generation tools produce full articles targeting specific keywords, platform-specific social posts, AI featured images, multi-slide carousel content, and article comparison scoring [citation:5]. Content management enables saving drafts, scheduling in content planners, creating keyword clusters, and editing existing articles [citation:5]. Publishing tools push content directly to WordPress, Ghost, and Webflow, plus schedule social content via Late.dev integration [citation:5]. What makes Cuppa unique is its memory system — it remembers brand context, voice preferences, session context, and learning preferences over time [citation:5]. The platform operates with tiered approval levels: Auto executes immediately for research, Quick requires brief confirmation for saving drafts, Suggest shows a plan first for content generation, and Explicit requires clear approval for deletions or publishing [citation:5]. For content marketers, SEO professionals, and agencies managing content calendars, Cuppa AI replaces fragmented workflows with an autonomous agent that handles everything from keyword research to scheduled publication, maintaining brand consistency while scaling content production dramatically.",
+  category: "Marketing",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=cuppa.ai&sz=64",
+  website: "https://cuppa.ai",
+  features: ["Agentic multi-step content workflows", "Keyword research & SERP analysis", "Full article & social post generation", "WordPress/Ghost/Webflow publishing", "Brand voice integration", "Tiered approval system (auto to explicit)"]
+},
+{
+  id: 414,
+  name: "X-Design",
+  description: "AI design platform with agentic tools for generating images, logos, posters, videos, and performing background removal and image enhancement.",
+  fullDescription: "X-Design is a comprehensive AI design platform that provides a suite of intelligent tools for creating and editing visual content, including images, logos, posters, menus, packaging materials, and videos [citation:6]. The platform features an AI Design Agent that supports users at every step, allowing them to experiment with layouts and produce creative, professional-looking output without design experience [citation:6]. For e-commerce merchants, X-Design offers specialized AI tools including product photography generation, virtual try-ons, color changers, and smart image resizing that help boost sales while saving time and costs [citation:6]. The AI Background Editor enables users to remove, replace, or refine backgrounds in seconds, with batch editing support for large projects and one-click background changes [citation:6]. Image optimization tools enhance picture quality by adjusting contrast and brightness, sharpening details, improving texture, and automatically formatting images for different platforms. The platform also includes AI video tools that allow users to create high-quality videos from text prompts, eliminating the need for expensive studio equipment [citation:6]. X-Design is designed for users with no design background — simply upload an image or describe what you need, and the tool delivers results in seconds. For offline stores, dedicated design workflows cover everything from brand design, shop logo design, poster design, facade design, to packaging — enabling store owners to handle all their design tasks without hiring professional designers [citation:6]. The platform offers a free trial with access to all features, with business plans available for advanced needs including higher output quality, more usage credits, and professional-grade services [citation:6].",
+  category: "Image Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=x-design.com&sz=64",
+  website: "https://www.x-design.com",
+  features: ["AI Design Agent (images, logos, posters, videos)", "AI Background Editor (remove/replace/refine)", "Batch editing for large projects", "E-commerce tools (product photography, virtual try-on)", "Image optimization (sharpening, contrast, formatting)", "Offline store design workflows"]
+},
+{
+  id: 415,
+  name: "Dante AI",
+  description: "WordPress plugin that adds a customizable, human-sounding AI chatbot to websites with one-click training on existing content.",
+  fullDescription: "Dante AI is a WordPress plugin that enables website owners to add a customizable, human-sounding AI chatbot to their site in minutes, without any technical skills [citation:7]. The chatbot automatically handles visitor questions, guides users through the site, and generates leads — turning more visitors into customers by providing instant support that increases trust and conversion rates [citation:7]. Setup is remarkably simple: users sign up for a free Dante AI account, create their chatbot with no coding, copy the API key, connect it to WordPress, and they're live [citation:7]. The platform's one-click training feature instantly trains the chatbot using the website's existing content — all pages, blog posts, and product descriptions become the chatbot's knowledge base. Users can customize the chatbot's appearance (colors, welcome message) and personality to match their brand [citation:7]. The dashboard provides easy-to-read statistics showing how the chatbot is helping with visitor engagement. Dante AI is fully responsive, working beautifully on phones, tablets, and desktops [citation:7]. Privacy and data security are prioritized: chat data belongs to the website owner and is visible only in their Dante AI dashboard; no personal information is collected unless a user voluntarily types it; conversations are processed and stored securely; and the chatbot can be disabled anytime from the WordPress admin panel [citation:7]. The free plan provides access to get started, with premium features available for advanced needs. For bloggers, local businesses, and online shops, Dante AI provides a cost-effective way to offer 24/7 customer support and lead qualification without hiring live agents or developing custom chatbot solutions from scratch.",
+  category: "Chatbots",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=dante-ai.com&sz=64",
+  website: "https://dante-ai.com",
+  features: ["WordPress chatbot plugin", "One-click training on existing site content", "No-code setup (minutes)", "Customizable appearance & personality", "Performance dashboard", "Mobile responsive & privacy-focused"]
+},
+{
+  id: 416,
+  name: "Hooked AI",
+  description: "LinkedIn content creation platform that drafts posts, generates ideas, and remixes top-performing content to build engagement.",
+  fullDescription: "Hooked AI is a specialized LinkedIn content creation platform designed to help professionals, executives, and marketers build consistent, engaging posting schedules without living on the platform [citation:8]. The platform addresses the common challenge of maintaining regular LinkedIn presence while juggling other responsibilities by using AI to surface trending topics, draft outlines, and remix successful posts into new angles [citation:8]. The recommended workflow integrates Hooked AI into a structured content strategy: users first map their big quarterly goals (fundraising, recruiting, inbound leads) and reverse-engineer 3-4 content themes that support them. Hooked AI then surfaces trending topics and industry pain points from recent posts, newsletters, and reports, eliminating blank page paralysis [citation:8]. Users feed their ideas into Hooked AI to generate draft outlines, then assign each day a theme (Tactical Tuesday, Founder Story Friday) so they always know what to write next. After batching AI draft approvals once per week, posts are scheduled to auto-post, maintaining consistency even when users are slammed. The platform saves best-performing posts as templates, allowing Hooked AI to remix them for new angles — turning viral hits into a repeatable playbook [citation:8]. For professionals who understand that consistent LinkedIn presence drives business opportunities but struggle with the time commitment, Hooked AI reduces content creation from hours per day to a weekly 30-minute sprint, enabling executive visibility and lead generation without sacrificing productivity.",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=hookedai.ai&sz=64",
+  website: "https://hookedai.ai",
+  features: ["LinkedIn content drafting & ideation", "Trending topic discovery", "Best-post remixing into templates", "Content calendar planning", "Batch approval workflow", "Auto-scheduling"]
+},
+{
+  id: 417,
+  name: "Castmagic",
+  description: "AI platform transforming audio and video content into transcripts, summaries, show notes, and social assets with Make.com integration.",
+  fullDescription: "Castmagic is an AI-powered platform specifically designed for content creators, podcasters, and businesses who need to repurpose audio and video content into multiple written and social assets [citation:10]. The platform automatically transforms raw recordings into transcripts, summaries, show notes, timestamps, quotes, social media posts, newsletters, and blog posts, dramatically reducing the time spent on content repurposing. For podcasters, Castmagic converts a single episode into everything from SEO-optimized show notes and chapter markers to Twitter threads, LinkedIn posts, and email newsletters — turning one recording session into weeks of distributable content. The platform integrates with Make.com, enabling automated content repurposing workflows where uploaded media triggers automatic transcription, asset generation, and distribution to multiple channels without manual intervention [citation:10]. Users connect their Castmagic account to Make via API secret and bearer token authentication, then build scenarios that process media files and send generated assets to CMS platforms, social schedulers, email marketing tools, or cloud storage. For creators and marketing teams struggling to maintain consistent content output across channels, Castmagic transforms the post-production bottleneck from a multi-day manual process into an automated workflow that delivers ready-to-publish assets in minutes, multiplying content ROI from every recording session.",
+  category: "Audio",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=castmagic.io&sz=64",
+  website: "https://castmagic.io",
+  features: ["Audio/video to transcript conversion", "Show notes & summary generation", "Social asset creation (posts, threads)", "Make.com integration for automation", "Timestamps & quote extraction", "Newsletter & blog post generation"]
+},
+{
+  id: 418,
+  name: "Speak AI",
+  description: "AI-powered language learning app with conversational practice, real-time pronunciation feedback, and 80+ language support.",
+  fullDescription: "Speak AI is a language learning application that focuses on developing speaking fluency through AI-powered conversational practice, real-time pronunciation feedback, and interactive roleplay scenarios. Designed for learners who struggle with traditional methods that emphasize vocabulary and grammar over actual speaking ability, Speak AI provides a private, judgment-free environment where users can practice conversations without the anxiety of speaking with real people. The platform's AI understands context, adapts to user proficiency levels, and provides immediate corrective feedback on pronunciation, grammar, and word choice. Key features include interactive conversations across hundreds of real-world scenarios (ordering at restaurants, job interviews, travel situations, business meetings), real-time pronunciation analysis that scores accuracy at the phoneme level, personalized vocabulary and grammar recommendations based on mistakes, and progress tracking with streak systems to maintain motivation. The app supports over 80 languages including English, Spanish, Mandarin, Japanese, Korean, French, German, Italian, Portuguese, Russian, and Arabic, with regional accent variations for many languages. Speak AI is accessible via mobile apps (iOS and Android) and web browser, with freemium pricing offering basic conversation practice and paid subscriptions unlocking full access to all scenarios, advanced feedback, and offline mode. For language learners who have studied grammar and vocabulary but still freeze in real conversations, Speak AI bridges the gap between knowing a language and speaking it fluently, providing the repetitive, adaptive practice that builds the muscle memory and confidence needed for real-world communication.",
+  category: "Education",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=speakai.com&sz=64",
+  website: "https://speakai.com",
+  features: ["AI conversational practice", "Real-time pronunciation feedback", "80+ language support", "Roleplay scenarios (travel, work, etc.)", "Grammar & word choice correction", "Progress tracking & streaks"]
+},
+{
+  id: 419,
+  name: "Typefully",
+  description: "Writing platform for Twitter and LinkedIn with AI drafting, scheduling, analytics, and engagement tools for creators.",
+  fullDescription: "Typefully is a professional writing platform designed specifically for creators, founders, marketers, and professionals who use Twitter (X) and LinkedIn as primary channels for audience building and lead generation. The platform provides a distraction-free writing environment optimized for thread creation — the format that drives engagement on both platforms. Users write posts and threads, schedule them for optimal times, and track performance with comprehensive analytics. Key features include a built-in AI writing assistant that helps draft posts, suggest variations, and improve phrasing, an auto-publishing system that posts scheduled content even when users are offline, a thread preview that shows exactly how threads will appear before publishing, an engagement dashboard tracking likes, retweets, replies, and mentions, and a collaborative calendar for teams managing multiple accounts. For power users, Typefully includes a \"retweet queue\" for scheduling retweets, a \"bookmark\" feature for saving inspiration, and custom analytics showing which content drives profile visits and follower growth. The platform integrates with Buffer and Zapier for extended automation workflows. Typefully is available via web browser and mobile web (no native app), with freemium pricing: free for up to 10 scheduled posts per month, and paid plans starting at reasonable monthly rates for unlimited scheduling and advanced analytics. For professionals who understand that consistent social posting drives career and business opportunities but struggle to maintain the daily discipline, Typefully transforms content creation from a daily burden into a weekly batch process, enabling quality over quantity and data-driven iteration on what resonates.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=typefully.com&sz=64",
+  website: "https://typefully.com",
+  features: ["Distraction-free thread writing", "AI drafting & improvement suggestions", "Auto-scheduling & publishing", "Engagement analytics dashboard", "Thread preview & formatting", "Team calendar & collaboration"]
+},
+{
+  id: 420,
+  name: "CodeDesign",
+  description: "AI website builder that converts Figma designs into clean code and generates websites from text descriptions with drag-and-drop editing.",
+  fullDescription: "CodeDesign is an AI-powered website building platform that bridges the gap between design and development by converting Figma designs into clean, production-ready code, and generating complete websites from text descriptions. The platform is designed for designers, developers, and entrepreneurs who want to go from concept to live website without manual coding or template limitations. For users starting with designs, CodeDesign imports Figma files and automatically generates responsive HTML, CSS, and JavaScript that matches the original design's layout, spacing, typography, and interactions. For users starting from scratch, the platform's AI generates complete websites from simple text descriptions, creating layouts, selecting color schemes, writing copy, and sourcing images. The generated sites are fully editable with a drag-and-drop builder, allowing non-technical users to make changes without touching code. Key features include responsive design that automatically adapts to desktop, tablet, and mobile; clean code export for developers who want to host elsewhere; e-commerce integration for product pages and checkout; and a library of pre-built components (forms, galleries, pricing tables, testimonials) that can be dragged into any design. CodeDesign serves freelancers who need to deliver client websites faster, agencies that want to scale production without hiring more developers, and entrepreneurs who want to launch MVPs without learning to code. The platform offers tiered pricing based on feature access and project limits, with a free tier for basic testing.",
+  category: "Developer Tools",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=codedesign.ai&sz=64",
+  website: "https://codedesign.ai",
+  features: ["Figma design to clean code conversion", "Text description to website generation", "Drag-and-drop builder", "Responsive design (desktop, tablet, mobile)", "E-commerce integration", "Pre-built component library"]
+},
+
+  
   
 
 
