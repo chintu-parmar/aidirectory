@@ -5443,6 +5443,127 @@ const AI_TOOLS = [
   website: "https://www.seopress.org",
   features: ["WordPress editor integration", "Meta title & description optimization", "Content readability & keyword analysis", "Schema markup (FAQs, reviews, products)", "XML sitemaps & Google News sitemaps", "Redirection & broken link checker"]
 },
+{
+  id: 447,
+  name: "Upmetrics",
+  description: "AI-powered business planning platform with intelligent assistants for writing, research, forecasting, and financial suggestions.",
+  fullDescription: "Upmetrics is an AI-powered business planning platform that provides structured, context-aware assistance across the entire planning lifecycle—from initial drafting to financial forecasting and market research [citation:1]. Unlike generic AI writing tools that generate text without business context, Upmetrics features four specialized AI assistants: the AI Plan Generator builds complete first drafts from structured inputs about your business via relevant Q&A; the AI Writing Assist improves existing content with rewrite, shorten, expand, translate, and tone adjustment capabilities while keeping full control over changes; the AI Research Assist gathers market and competitor information tied directly to your business context, keeping research focused and usable; and the AI Forecasting Assist suggests relevant revenue and expense streams, answers finance-related questions, and reviews assumptions while keeping projections transparent and aligned with your inputs [citation:1]. The platform functions as a virtual business advisor with task-specific AI agents that help answer plan-related questions, explain structure, and guide section-level decisions based on user input—ensuring clarity, consistency, and alignment across the entire business plan [citation:1]. Upmetrics is designed for entrepreneurs, startups, and small business owners who need to create investor-ready business plans without hiring expensive consultants or spending weeks on research and writing. The AI assistant starts by collecting basic details about your business idea and posing tailored questions; based on responses, it crafts a comprehensive draft that serves as a solid starting point for your venture [citation:1].",
+  category: "Productivity",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=upmetrics.co&sz=64",
+  website: "https://upmetrics.co",
+  features: ["AI Plan Generator (structured Q&A to draft)", "AI Writing Assist (rewrite, expand, translate)", "AI Research Assist (market & competitor insights)", "AI Forecasting Assist (revenue/expense suggestions)", "Virtual business advisor with task-specific agents", "Section-level guidance & consistency checking"]
+},
+{
+  id: 448,
+  name: "ProductScope AI",
+  description: "AI-powered product design and marketing platform that creates stunning product photos, videos, and optimized listings for e-commerce brands.",
+  fullDescription: "ProductScope AI is a comprehensive AI platform designed specifically for e-commerce brands to design, market, and optimize products effortlessly using the latest image and language models [citation:2]. Founded by Vijay Jacob (who also established Amazon Verified Ad Agency FosterFBA) and publicly launched in December 2023, ProductScope AI is helping over 50,000 companies create stunning product photos and high-quality content in minutes [citation:2]. Dubbed the \"Canva for E-commerce Brands,\" the platform is changing the game for small brands by making it 10x cheaper and 10x faster for small teams to generate high-quality content at scale—leveling the playing field with big brands that traditionally have access to large budgets and in-house marketing talent [citation:2]. Key features include an AI product photography studio for creating lifestyle images without costly photoshoots, listing optimizers for platforms like Amazon, sentiment analysis tools, and automated content creation for social media marketing [citation:2]. The platform is also attracting influencers and photographers who use it to augment their content creation workflows. The platform's official tagline—\"Design & Market ANY Product in Days, Not Months\"—reflects its mission to empower small e-commerce business owners and marketers. The team focuses on having a very simple and intuitive UI, with the ultimate goal that anyone could sign up and within minutes create product photos, videos, or social media content themselves [citation:2].",
+  category: "Image Generation",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=productscope.ai&sz=64",
+  website: "https://productscope.ai",
+  features: ["AI product photography studio (lifestyle images)", "Listing optimizers for Amazon & e-commerce", "Sentiment analysis tools", "Automated content creation for marketing", "Social media video generation", "50,000+ companies served"]
+},
+{
+  id: 449,
+  name: "SiteSpeak AI",
+  description: "No-code AI chatbot platform that creates custom support agents trained on documents, web pages, and databases for 24/7 automated customer support.",
+  fullDescription: "SiteSpeak AI is a no-code platform that allows you to create AI-based chatbots trained on your content—documents, web pages, sitemaps, PDFs, CSV files, text/audio files, and databases—to provide accurate, relevant, and always up-to-date responses to customer inquiries [citation:3]. The chatbot can be integrated into websites, apps, Slack, Telegram, and Discord, offering 24/7 automated support that stays active even when you're offline [citation:3]. Using advanced language models such as GPT-3.5 and Claude, SiteSpeak AI handles most user queries independently, reducing support tickets and improving operational efficiency. The platform includes extensive graphic and language customization options to keep the chatbot consistent with your brand—adjusting colors, icons, tone of voice, and even the chatbot's name [citation:3]. For WebSite X5 users, a dedicated SiteSpeak AI Object makes integration incredibly easy: simply paste the JavaScript code snippet into the appropriate section, and the chatbot appears as an overlay on selected pages or sitewide [citation:3]. Analytics tools allow you to monitor conversations to refine your content and better understand your audience's needs. SiteSpeak AI offers a free plan that includes everything needed to test integration, with paid plans unlocking advanced features and a 10% discount available for WebSite X5 customers [citation:3]. For businesses tired of answering the same questions repeatedly or missing after-hours inquiries, SiteSpeak AI provides an always-on support solution that improves visitor satisfaction while saving valuable time.",
+  category: "Chatbots",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=sitespeak.ai&sz=64",
+  website: "https://sitespeak.ai",
+  features: ["No-code AI chatbot builder", "Trained on documents, web pages, PDFs, databases", "24/7 automated customer support", "GPT-3.5 & Claude language models", "Customizable appearance & tone", "Slack, Telegram & Discord integration"]
+},
+{
+  id: 450,
+  name: "Koala AI",
+  description: "SEO-optimized AI writing platform with WordPress integration, SERP analysis, internal linking automation, and bulk content creation.",
+  fullDescription: "Koala AI (KoalaWriter) is an AI writing tool specifically optimized for SEO, creating listicles, blog posts, Amazon affiliate articles, and other content types with built-in features that help content rank [citation:4]. The platform analyzes SERPs for target keywords and includes relevant entities and semantic keywords to help content rank higher—making it superior to generic ChatGPT for SEO applications [citation:4]. KoalaWriter includes automatic internal linking based on your site structure, improving SEO architecture and user experience without manual link insertion. The real-time SERP analysis feature accesses up-to-date search data to create content that effectively meets search intent. Users appreciate the ability to cite sources with real-time data, generate AI images, and embed YouTube videos directly into content [citation:4]. The official Koala AI WordPress plugin makes it easy to securely connect your account with your WordPress site to publish content from KoalaWriter in one click—with options to select the WordPress author when publishing [citation:4]. For affiliate marketers, KoalaWriter includes built-in product research to generate high-converting affiliate content. The bulk content creation feature allows scaling SEO content strategy by creating multiple optimized articles simultaneously. The WordPress plugin is free (Koala AI account required for content generation) and shares only your site URL and a secret token for authentication—no personal user data from your WordPress site is collected or transmitted [citation:4]. For content marketers and SEO professionals who need to produce ranking content at scale, Koala AI combines AI writing efficiency with SEO intelligence that understands search intent and topical authority.",
+  category: "Text Generation",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=koala.sh&sz=64",
+  website: "https://koala.sh",
+  features: ["SEO-optimized listicle & blog generation", "SERP analysis & semantic keyword integration", "Automatic internal linking", "Real-time data & source citations", "AI image generation & YouTube embedding", "WordPress one-click publishing"]
+},
+{
+  id: 451,
+  name: "Keywords People Use",
+  description: "Keyword research MCP server providing Google People Also Ask data, autocomplete suggestions, Reddit/Quora questions, and semantic keywords.",
+  fullDescription: "Keywords People Use is an SEO keyword research platform that provides an MCP (Model Context Protocol) server allowing AI assistants to directly access live keyword data sourced from Google [citation:5]. The platform delivers four key data types: People Also Ask questions (real questions searchers ask about any topic), Google Autocomplete suggestions (predictive search queries), Reddit and Quora questions (user-generated content from Q&A platforms), and Semantic Keywords (related terms and entities) [citation:5]. The MCP server integration means SEO professionals and content creators can directly interact with keyword research functionality within their AI chat—accessing live, real-time data without switching between browser tabs or manual searching [citation:5]. For developers, the server can be configured locally or via remote connection using npx with the mcp-remote command and an API key for authentication. Use cases include content ideation (finding questions your target audience is actually asking), SEO optimization (discovering semantic keywords to include for topical authority), competitive research (understanding what users are searching about your niche), and AI prompt engineering (feeding real search data into AI content generation for better relevance). For SEO professionals who spend hours manually compiling keyword data from Google's autocomplete and PAA boxes, Keywords People Use automates this research, delivering structured, real-time data directly into AI-powered workflows.",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=keywordspeopleuse.com&sz=64",
+  website: "https://keywordspeopleuse.com",
+  features: ["Google People Also Ask data", "Google Autocomplete suggestions", "Reddit & Quora questions", "Semantic keyword discovery", "MCP server for AI integration", "Real-time live search data"]
+},
+{
+  id: 452,
+  name: "Manatal AI",
+  description: "AI-powered recruitment platform with candidate sourcing, AI scoring, automated video interviewing, and 600M+ profile search capabilities.",
+  fullDescription: "Manatal AI is an enterprise-grade recruitment platform that uses artificial intelligence to automate the entire hiring workflow—from sourcing to shortlisting to preliminary screening calls [citation:7]. Trusted by over 900,000 active recruiting teams, Manatal integrates AI across multiple stages of recruitment. The AI Recommendation Engine scores candidate profiles against job descriptions, reading required skills and experience to assign percentage match scores, and understands semantic context (e.g., finding 'React' and 'JavaScript' experience when searching for 'Frontend Developer') [citation:7]. The Sourcing Hub allows searching from over 600 million profiles globally to find exact talent needed. The AI Interviewer conducts automated asynchronous video interviews: recruiters input questions or let AI generate a relevant list based on the job description, candidates receive an invitation link, and the system generates a full text transcript plus an assessment summary grading spoken answers against required criteria [citation:7]. Additional features include the People-Match Chrome Extension for capturing candidate information from LinkedIn/GitHub with one click, contact detail discovery, resume parsing from any format into structured profiles in multiple languages, and automatic social platform enrichment. Manatal offers a 14-day free trial with SOC 2 Type II security certification, transparent flexible pricing, and 24/5 live chat support [citation:7]. For recruitment teams drowning in applications from AI-assisted job seekers, Manatal AI provides the automation infrastructure to handle volume while ensuring qualified candidates never get overlooked.",
+  category: "Recruitment",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=manatal.com&sz=64",
+  website: "https://www.manatal.com",
+  features: ["AI candidate scoring (semantic matching)", "600M+ profile sourcing hub", "AI video interviewer with transcript & grading", "Chrome extension for LinkedIn/GitHub capture", "Resume parsing (multiple languages)", "SOC 2 Type II certified"]
+},
+{
+  id: 453,
+  name: "One Click Human",
+  description: "AI text humanizer that transforms GPT-generated content into undetectable, natural-sounding text with one click.",
+  fullDescription: "One Click Human (Humanize AI) is a mobile application available on iOS that transforms AI-generated content—from ChatGPT, Gemini, Jasper, and other tools—into natural, human-like text that bypasses AI detection programs [citation:8]. With one click, users can upload GPT-written content to the input box, click the 'Humanize AI' button, and export humanized content that sounds as if written by a native writer [citation:8]. The app uses modern technologies including natural language processing and multiple machine-learning language models to create authentic, human-like content that achieves 100% human scores through AI detection programs [citation:8]. Key features include zero-cost utility (free to download and use), original and error-free results that remove robotic characteristics while avoiding duplication, and a neat, clean interface that requires no prior experience [citation:8]. The app does not permanently save data, making it safe and secure for users handling sensitive content. It's designed for students, professional marketers, bloggers, writers, and freelancers who want to eliminate robotic characteristics from AI-generated text and protect their credibility and authority from accusations of AI authorship [citation:8]. The app requires iOS 13.0 or later and is available on iPhone, iPad, Mac (macOS 13.0+), and Apple Vision with in-app purchases for Yearly ($49.99), Monthly ($9.99), and Weekly ($5.99) plans [citation:8]. For content creators who use AI for drafting but need final output that passes as human-written for SEO, academic, or publication requirements, One Click Human provides a simple, effective solution that preserves meaning while transforming style.",
+  category: "Text Generation",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=apps.apple.com&sz=64",
+  website: "https://apps.apple.com/md/app/humanize-ai-text-humanizer/id6670242293",
+  features: ["One-click AI text humanization", "Bypasses GPT detection (ChatGPT, Gemini, Jasper)", "NLP & machine learning models", "No permanent data storage (privacy-focused)", "Free with in-app purchases (Yearly $49.99, Monthly $9.99)", "iOS, iPad, Mac & Apple Vision"]
+},
+{
+  id: 454,
+  name: "Coursebox AI",
+  description: "AI course creation platform that transforms ideas into complete online courses with quizzes, videos, memory cards, and an AI tutor.",
+  fullDescription: "Coursebox AI is a comprehensive mobile and web application that enables educators, trainers, and content creators to turn any idea into a complete, engaging online course in seconds [citation:9]. The platform features an AI Quiz and Assessment Generator that instantly creates interactive assessments and quizzes to test learner knowledge. An AI Video and Memory Card Generator converts text into engaging educational videos and smart memory cards to enhance retention [citation:9]. The Personalized AI Tutor provides learners with an AI mentor that answers questions 24/7 based specifically on the course content you've provided. The AI LMS (Learning Management System) allows customization of AI-driven learning platforms with reporting and analytics to track learner progress and social interaction features [citation:9]. For mobile learners, the companion app allows students to browse courses their administrators have assigned to them. Coursebox is developed by Coursebox Pty Ltd based in Perth, Australia, with support available at travis@coursebox.ai [citation:9]. For educators, corporate trainers, and course creators who spend weeks or months developing curriculum, slide decks, and assessments, Coursebox AI compresses the entire course creation process into minutes—enabling rapid deployment of training materials, scalable onboarding, and immediate updates when information changes. The platform's AI tutor feature ensures learners get instant answers without waiting for instructor responses, dramatically improving learning outcomes and satisfaction.",
+  category: "Education",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=coursebox.ai&sz=64",
+  website: "https://coursebox.ai",
+  features: ["AI quiz & assessment generation", "AI video & memory card creation", "Personalized AI tutor (24/7 Q&A)", "AI LMS with analytics & reporting", "Mobile app for learners", "Text-to-educational video conversion"]
+},
+{
+  id: 455,
+  name: "QR Galaxy",
+  description: "AI-powered branded QR code generator that creates visually distinctive codes from reference images with comprehensive scan analytics.",
+  fullDescription: "QR Galaxy is an AI-powered QR code generator built specifically for marketing and offline advertising, enabling brands to create visually distinctive QR codes that stand out in print and real-world placements while remaining machine-readable [citation:10]. Unlike standard black-and-white QR codes that blend into backgrounds or appear generic, QR Galaxy generates AI-powered designs based on a reference image—users provide a photo or illustration, and the AI creates a QR code inspired by that image while linking to a website, landing page, or downloadable file [citation:10]. The result looks closer to your brand style while maintaining scannability. For scan analytics, QR Galaxy records every scan including cases affected by ad blockers, unstable connections, or in-app browsing—providing complete transition statistics whether the QR leads to a webpage or a downloadable file [citation:10]. The platform is specifically made for print and outdoor placements including posters, packaging, business cards, storefronts, and other offline touchpoints. The combination of standout QR visuals and accurate scan tracking helps evaluate campaign performance and adjust creatives based on real scan data [citation:10]. For marketers running offline campaigns where QR code engagement is a key metric, QR Galaxy eliminates the blind spots of standard QR generators—delivering both brand-aligned design and comprehensive analytics to measure real-world impact. Use cases include retail packaging (branded codes that match product aesthetics), event marketing (scan tracking to measure foot traffic conversion), and direct mail (tracking response rates by campaign variant).",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=qrgalaxy.com&sz=64",
+  website: "https://qrgalaxy.com",
+  features: ["AI QR design from reference images", "Link to websites, landing pages & files", "Full scan analytics (ad-blocker resistant)", "Print & outdoor placement optimization", "Campaign performance evaluation", "Brand-aligned visual customization"]
+},
+{
+  id: 456,
+  name: "GPT Inf",
+  description: "AI content generation platform (limited information available—likely focused on scalable content creation and marketing applications).",
+  fullDescription: "GPT Inf appears to be an AI content generation platform, though detailed public information about its specific features and capabilities is currently limited. Based on its name and positioning, the platform likely leverages GPT-based language models to assist with content creation, marketing copy generation, and other text-based workflows. Users interested in learning more about GPT Inf's specific features, pricing, and availability are encouraged to visit the official website for the most current information as the platform continues to develop its market presence.",
+  category: "Text Generation",
+  rating: 0,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=gptinf.com&sz=64",
+  website: "https://gptinf.com",
+  features: ["AI content generation", "Marketing copy creation", "GPT-based language models"]
+},
+  
   
 
   
