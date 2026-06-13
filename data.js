@@ -5251,6 +5251,56 @@ const AI_TOOLS = [
   website: "https://hoppycopy.co",
   features: ["AI ad copy (Facebook, Instagram, Google)", "Product description generation", "Email sequence creation (welcome, cart, post-purchase)", "Shopify integration", "A/B testing creative variations", "Starter $29, Pro $49, Pro+ $99/month"]
 },
+{
+  id: 431,
+  name: "Creaitor",
+  description: "AI content creation platform with specialized Assistants for SEO, social media, ads, email, and blog content generation.",
+  fullDescription: "Creaitor is an AI-powered content creation platform that provides specialized AI Assistants — purpose-built tools designed to help creators produce high-quality, task-specific content with ease . The platform organizes its AI Assistants into categories including Blog, Digital Ad, SEO, Social Media, and Email, with each assistant optimized for its unique task . For example, the Headline assistant helps create attention-grabbing titles, while other assistants generate ad copy, blog post intros, product descriptions, concise summaries, and social media captions . The platform's AI assistants feature granular controls for fine-tuning output: users can adjust Creativity level (from straightforward to highly imaginative), select Tone of voice (professional, friendly, persuasive, humorous, or other options), and choose from multiple output languages . The Premium toggle enhances output quality for users with eligible subscriptions, and users can specify the number of variants they want generated per request . The workflow is simple: users select an assistant from the library, enter a description of what they need (optionally including product/service name), configure content settings, and click Create — with results appearing on the right-hand side of the screen for review, copying, or scheduling . Favorites can be saved for quick access to most-used assistants without browsing. For content creators, marketers, and business owners who need to produce consistent, brand-aligned content across multiple channels, Creaitor replaces generic AI writing with specialized tools that understand the specific requirements of each content type — SEO articles need keyword integration, ads need persuasive hooks, social posts need brevity and engagement — delivering tailored output that requires minimal editing before publishing . The platform's structured approach makes quality content creation accessible to users without specialized writing skills while giving power users fine-grained control over creativity and tone.",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=creaitor.ai&sz=64",
+  website: "https://creaitor.ai",
+  features: ["Specialized AI Assistants (Blog, Ads, SEO, Social, Email)", "Creativity level control (low to high)", "Tone of voice selection (professional, friendly, persuasive, humorous)", "Multi-language output", "Multiple output variants per generation", "Favorites system for quick access"]
+},
+{
+  id: 432,
+  name: "Icon AI",
+  description: "AI-powered icon generator for designers and developers that produces production-ready icons with consistent style matching and vector export.",
+  fullDescription: "Icon AI (AI Icon Generator) is a specialized tool that uses machine learning to create high-quality, production-ready icons based on text prompts — transforming how designers source and create icons for digital products . The platform turns simple text descriptions into visual icon concepts, generating multiple variations from a single idea while maintaining consistent style across entire icon sets . Unlike basic icon tools that produce one-off visuals, Icon AI is designed for actual design workflows from early exploration to final delivery, with outputs optimized for apps, websites, and design systems . Popular icon styles include Minimal (clean, simple icons ideal for modern interfaces), Line (stroke-based icons used in UI design for clarity and scalability), 3D (depth-based icons for landing pages and marketing), Gradient (color-rich icons for apps and presentations), and App Icons (brand-led visuals for product representation) . Key features include text prompt to visual icon conversion, multiple variations per prompt for faster exploration, consistent style matching across icon sets (stroke weight, proportions, visual language), vector export for scalability and flexibility, and fast generation without complicated setup . The AI understands design principles and context, producing icons that are clean, visually balanced, and usable straight away — fewer distortions, clearer shapes, and outputs that feel intentional rather than experimental . For best results, designers should define a clear visual style before generating, write detailed prompts (including shape, style, mood, thickness, usage context), choose colors aligned with brand identity, and think in sets rather than individual icons . The platform is available via web browser with options for PNG, ICO, ICNS, and JPEG export . For designers spending hours searching for or manually creating icons, Icon AI replaces repetitive groundwork with AI-powered generation, letting designers focus on decisions that matter — style, usability, and brand fit — while the AI handles the technical execution at speed.",
+  category: "Image Generation",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=iconscout.com&sz=64",
+  website: "https://iconscout.com/ai-icon-generator",
+  features: ["Text prompt to icon generation", "Multiple variations per prompt", "Consistent style matching across sets", "Vector export (scalable)", "Popular styles: Minimal, Line, 3D, Gradient, App Icons", "Production-ready output"]
+},
+{
+  id: 433,
+  name: "Voluum",
+  description: "AI-powered affiliate tracking platform with real-time analytics, AI-powered bid optimization, and anomaly detection for performance marketers.",
+  fullDescription: "Voluum is a leading affiliate tracking and campaign management platform that has integrated AI capabilities to help performance marketers optimize ad spend, detect anomalies, and improve ROI in real-time . The platform is designed for affiliates, media buyers, and performance marketing agencies who need to manage campaigns across multiple traffic sources including Google Ads, Facebook, and native advertising networks . Voluum's AI features include real-time visualization tools and auto-alerts that flag unusual campaign behavior as it happens — spikes in click costs, sudden drops in conversions, and changes in traffic source quality — all visible on a single unified dashboard . The AI-powered suggestion engine recommends bid changes, campaign pausing, or audience adjustments based on live performance trends, acting like \"an extra pair of eyes on my campaigns 24/7\" according to one user . AI Navigation allows users to quickly navigate Voluum's features and settings by simply typing where they want to go, making the platform more intuitive to use . For AI-optimized campaign paths, the platform supports Traffic Distribution AI that intelligently distributes traffic across landers and offers to maximize conversion rates . Improved integrations with major ad networks pull in more detailed cost and engagement data, enabling ROI tracking at granular levels without manual cost inputs or juggling multiple spreadsheets . The platform provides real-time data with daily and hourly breakdowns, allowing affiliates to tweak campaigns mid-flight instead of relying on post-mortem reports . Voluum supports complex campaign funnels with multiple paths, landers, and offers, with limits varying by pricing plan (Profit and Scale plans) . For performance marketers who depend on paid traffic, delayed reporting can burn budgets on broken links or underperforming geos — Voluum's real-time AI monitoring enables immediate action rather than after-the-fact analysis, turning campaign optimization from reactive to proactive.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=voluum.com&sz=64",
+  website: "https://voluum.com",
+  features: ["Real-time campaign analytics", "AI-powered anomaly detection & alerts", "AI bid optimization recommendations", "AI Navigation for platform navigation", "Traffic Distribution AI (auto-optimization)", "Google Ads, Facebook & Taboola integration"]
+},
+{
+  id: 434,
+  name: "Neural Love",
+  description: "AI art generation platform with text-to-image, image enhancement, and custom AI model training features, offering CC0-licensed commercial use.",
+  fullDescription: "Neural Love is an AI-powered creative platform founded in 2020 and headquartered in Harju maakond, Estonia, that offers a comprehensive suite of tools for image generation, enhancement, and customization serving over 15 million images created by its users . The platform's core offering is a Free AI Art Generator that supports both text-to-image and image-to-image generation, with users able to choose between Neural Love's proprietary AI model and DALL-E 3 integration for higher quality outputs . Beyond art generation, Neural Love provides multiple enhancement tools including image upscaling, blur repair, color restoration for black-and-white photos, and an Uncrop tool that extends image dimensions for different social media aspect ratios . A standout feature is the custom AI model training — users can upload 20 or more images to train a personalized AI model that generates truly unique pictures in their specific style . The platform operates on a credit system: new users receive 5 free credits, with HD images and DALL-E 3 generation costing 2-3 credits each . For heavier usage, subscription plans offer monthly credits or pay-as-you-go options with no recurring commitment . All generated images are released under a CC0 license, meaning users are free to use and sell them commercially without attribution . The platform includes privacy controls with a \"Private results\" option for paid users, and API access is available for business clients with high volume needs, including webhook support for completed training and image generation . For creators, designers, and businesses needing AI-generated visuals — from marketing assets to product concepts — Neural Love combines accessibility (free tier), quality (DALL-E 3 integration), and flexibility (custom model training) in a single platform, with the added benefit of commercial-use rights that make generated assets safe for client work and product integration.",
+  category: "Image Generation",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=neural.love&sz=64",
+  website: "https://neural.love",
+  features: ["Free AI Art Generator (text-to-image, image-to-image)", "DALL-E 3 integration (premium)", "Custom AI model training (20+ images)", "Image enhancement (upscale, repair, colorize)", "Uncrop tool (aspect ratio extension)", "CC0 license for commercial use"]
+},
+
+  
   
 
   
