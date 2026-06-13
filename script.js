@@ -161,7 +161,7 @@ function initHomepage() {
     sortSelect.addEventListener('change', () => {
       currentSort = sortSelect.value;
       saveSort(currentSort);
-      visibleCount = 6;
+      visibleCount = 10;
       render();
     });
   }
@@ -169,14 +169,14 @@ function initHomepage() {
   if (searchInput) {
     searchInput.addEventListener('input', () => {
       currentSearch = searchInput.value.toLowerCase().trim();
-      visibleCount = 6;
+      visibleCount = 10;
       render();
     });
     const searchBtn = document.getElementById('heroSearchBtn');
     if (searchBtn) {
       searchBtn.addEventListener('click', () => {
         currentSearch = searchInput.value.toLowerCase().trim();
-        visibleCount = 6;
+        visibleCount = 10;
         render();
       });
     }
@@ -184,7 +184,7 @@ function initHomepage() {
 
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', () => {
-      visibleCount += 6;
+      visibleCount += 10;
       render();
       window.scrollTo({ top: loadMoreBtn.offsetTop - 200, behavior: 'smooth' });
     });
@@ -197,7 +197,7 @@ function initHomepage() {
     btn.dataset.cat = val;
     btn.addEventListener('click', () => {
       currentCategory = val;
-      visibleCount = 6;
+      visibleCount = 10;
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       render();
@@ -288,13 +288,13 @@ function initCategoryPage() {
     sortSelect.addEventListener('change', () => {
       currentSort = sortSelect.value;
       saveSort(currentSort);
-      visibleCount = 6;
+      visibleCount = 10;
       render();
     });
   }
 
   if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', () => { visibleCount += 6; render(); });
+    loadMoreBtn.addEventListener('click', () => { visibleCount += 10; render(); });
   }
 
   function getFiltered() {
