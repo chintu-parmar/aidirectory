@@ -3175,6 +3175,139 @@ const AI_TOOLS = [
   website: "https://promptlayer.com",
   features: ["Centralized prompt registry", "Version control & rollback", "Automated prompt testing", "Canary deployments & A/B testing", "LLM provider integration", "Performance & cost analytics"]
 }, 
+{
+  id: 258,
+  name: "RTILA",
+  description: "AI automation engine with specialized language models that generate configurations for web scraping, data extraction, and workflow automation.",
+  fullDescription: "RTILA is an AI automation platform centered around the RTILA Assistant family of specialized language models—fine-tuned versions of Alibaba's Qwen3 models designed specifically for generating automation configurations for the RTILA Automation Engine [citation:1]. Unlike general-purpose LLMs that provide broad assistance, RTILA's models are purpose-built for tasks including web navigation and interaction (clicking, scrolling, typing, handling popups, multi-tab workflows), data extraction (CSS and XPath selectors, tables, lists, nested data, pagination), logic and flow control (loops, conditionals, error handling, retry patterns), and integrations (webhooks, PostgreSQL, MySQL, Slack, email notifications) [citation:1]. The RTILA Assistant family includes three tiers: the full Assistant (based on Qwen3-14B, ~9 GB, requires 16GB RAM for maximum quality and complex automations), Assistant Lite (Qwen3-8B, ~5 GB for balanced performance), and Assistant Mini (Qwen3-4B, ~2.5 GB, confirmed working on Mac M1 with 8GB RAM and low-VRAM GPUs) [citation:1]. The Mini version is specifically optimized for resource-constrained environments including CPU-only systems with reasonable inference speed, making AI-powered automation accessible on standard laptops rather than requiring expensive cloud infrastructure [citation:1]. The model family is released under the Apache 2.0 license and has been downloaded over 1,300 times in the past month, indicating active adoption in the automation community [citation:1]. For developers and automation engineers, RTILA reduces the complexity of creating web scrapers and RPA workflows from hours of manual configuration to AI-assisted generation, accelerating development while maintaining precision and reliability.",
+  category: "Developer Tools",
+  rating: 4.5,
+  pricing: "Open Source",
+  icon: "https://www.google.com/s2/favicons?domain=rtila.com&sz=64",
+  website: "https://rtila.com",
+  features: ["Specialized automation LLM", "Web scraping configuration generation", "Data extraction (CSS/XPath)", "Multi-tab workflow automation", "Integration triggers (webhooks, DBs)", "Lightweight model for low-resource devices"]
+},
+{
+  id: 259,
+  name: "Okkslides",
+  description: "AI-native presentation coworker that transforms scattered notes and documents into executive-grade, decision-ready slide decks.",
+  fullDescription: "okkslides is an AI-native presentation platform developed at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) that reimagines how professionals create executive-grade presentations [citation:2]. Unlike traditional slide generators that produce generic content from simple prompts, okkslides positions itself as a 'presentation coworker' that works alongside users to transform messy inputs—research notes, data, legacy decks, meeting notes, and documents—into clear, decision-ready narratives that preserve organizational logic, tone, and intent [citation:2]. The platform was founded by Lan Wei (a Brown University computer science and literature graduate and current MBZUAI Ph.D. candidate researching multi-agent systems and preference alignment) and Professor Steve Liu (former VP of R&D at Samsung AI Center and Chief Scientist at Tinder) [citation:2]. okkslides differentiates from competitors like Microsoft Copilot, Gamma, and Beautiful.ai by being 'human-in-the-loop by design'—users can edit, interrupt, and redirect at any point while the system maintains state, intent, and consistency, more like collaborating with a colleague than issuing commands to a tool [citation:2]. The platform ingests documents, extracts structure and intent, and iteratively organizes them into narratives, layouts, and visuals suitable for executive audiences, combining multi-agent coordination, preference alignment, and quality-first reinforcement to optimize for accuracy, clarity, and strategic usefulness [citation:2]. Already serving paying users across the United States, Europe, the Middle East, and Asia with enterprise pilots underway, okkslides offers monthly subscription or one-time credits-based purchase options [citation:2]. The team plans to expand beyond presentations into what Wei describes as 'a broader executive AI workspace, deeply embedded in enterprise workflows' over the next 12-24 months [citation:2].",
+  category: "Productivity",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=okkslides.com&sz=64",
+  website: "https://okkslides.com",
+  features: ["Executive-grade presentation generation", "Multi-source document ingestion", "Human-in-the-loop design", "Multi-agent coordination", "Preference learning over time", "PowerPoint-native editable outputs"]
+},
+{
+  id: 260,
+  name: "AZE AI Videos",
+  description: "AI filmmaking platform from director Aze Alter for creating cinematic sci-fi shorts and visual effects with generative AI tools.",
+  fullDescription: "AZE AI Videos is the creative platform of Aze Alter, a visionary director with years of experience in the music video industry who has built a cult following for his distinctive visual direction [citation:3]. Alter has gained recognition for his AI-generated sci-fi short film 'Age of Beyond,' a 3.5-minute cinematic masterpiece created entirely using generative AI tools over a period of two and a half months, representing thousands of image and video generations before the final cut [citation:3]. The production utilized a multi-tool workflow combining Midjourney for image generation, ElevenLabs for voice synthesis, Luma and Kling for video generation, Runway for additional video AI capabilities, and MiniMax for other generative tasks [citation:3]. Alter describes the film as 'my ode to space and love for science fiction,' expressing optimism about humanity's future when working together with AI: 'If we work together, we can achieve amazing things' [citation:3]. While AZE AI Videos as a formal platform may be emerging from Alter's creative practice, his work demonstrates the current frontier of what's possible with multi-model AI video generation—combining specialized tools for different aspects of production rather than relying on a single solution. For creators inspired by his approach, his workflow illustrates a template for high-quality AI filmmaking: use Midjourney for consistent character and environment design, Luma/Kling/Runway for motion generation, ElevenLabs for voice, and meticulous human editing to weave outputs into coherent narrative [citation:3]. The film's reception has sparked discussion about whether one-person AI-generated films can achieve theatrical quality, with Alter noting he'd 'love to revisit' the concept when AI technology improves further to provide in-depth tours of each location [citation:3].",
+  category: "Video",
+  rating: 4.7,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=64",
+  website: "https://x.com/AzeAlter",
+  features: ["Cinematic AI film generation", "Multi-tool workflow (Midjourney, Luma, Kling, Runway)", "Voice synthesis (ElevenLabs)", "Sci-fi & visual effects specialization", "Single-creator production workflow", "Short film generation"]
+},
+{
+  id: 261,
+  name: "Singify",
+  description: "AI song and music generator that creates studio-quality tracks from text prompts, images, or videos with voice cloning capabilities.",
+  fullDescription: "Singify is an online AI music creation platform developed by Fineshare that enables musicians, content creators, and music enthusiasts to generate studio-quality songs from multiple input types: text prompts, images, or videos [citation:4]. The platform's AI-powered technology handles the entire music production process, allowing users to create, cover, and remix music effortlessly with one-click generation for professional-level results [citation:4]. Key capabilities include AI voice cloning for creating custom singers with realistic, expressive vocals, stem splitting for isolating individual instrument or vocal tracks, and text-to-song conversion that transforms written descriptions into complete musical compositions [citation:4]. For users starting from visual media, Singify can extract musical ideas from images or videos, making it accessible to creators who think visually rather than musically. The platform has attracted enterprise customers including University College London (UCL), demonstrating institutional confidence in its output quality [citation:4]. Whether you're a musician needing quick demo production, a content creator seeking original background music without licensing hassles, or a hobbyist exploring musical creativity without formal training, Singify provides an all-in-one platform that removes technical barriers between inspiration and finished song. The platform's voice cloning differentiator—creating custom vocalists rather than using generic AI voices—enables creators to develop recognizable sonic brands across multiple tracks, essential for artists building a following or businesses creating consistent audio identity.",
+  category: "Audio",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=fineshare.com&sz=64",
+  website: "https://fineshare.com/singify",
+  features: ["Text-to-song generation", "Image & video to music", "AI voice cloning for custom singers", "Stem splitting (instrument isolation)", "Studio-quality output", "One-click generation"]
+},
+{
+  id: 262,
+  name: "Xero AI",
+  description: "Small business accounting platform with JAX agentic AI that automates reconciliation, surfaces insights, and provides verifiable audit trails.",
+  fullDescription: "Xero has evolved from a cloud accounting platform into an AI-powered system of action with 'Accountable Intelligence'—a dual promise where verifiable AI handles routine heavy lifting while humans remain accountable for final outcomes [citation:5]. At the core of Xero's AI transformation is JAX, an agentic AI platform that automates over 90% of routine tasks like bank reconciliation while maintaining complete visibility and explainability [citation:5]. Unlike black-box AI that makes decisions without transparency, JAX 'shows its work' behind every answer, providing transparent data and visible audit trails required to trace exactly how conclusions were reached [citation:5]. On the new 'Reconciled' page, business owners have full visibility over automation, can understand JAX's reasoning, make corrections, and view supporting documents to review transaction history—the software does the mechanical work while the user maintains control and oversight [citation:5]. Xero's AI capabilities extend beyond reconciliation to surfacing actionable insights in real-time, including current cash position and expense trending, moving beyond static quarterly P&L reports [citation:5]. Importantly, Xero's AI does not make decisions—those depend on context that software cannot fully see, like a client's risk tolerance or long-term goals. Instead, the system provides clarity so advisors can use their expertise to make final recommendations [citation:5]. Research from Xero shows that small businesses using AI daily are more than twice as likely to see revenue increases compared to non-users, with AI-adopting businesses seeing average revenue jumps of 18% (23% among those excited about AI) [citation:5]. With 81% of small business owners reporting work is more stressful than in previous years, Xero's Accountable Intelligence aims to reduce administrative friction while providing the strategic insights needed to architect future growth [citation:5].",
+  category: "Finance",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=xero.com&sz=64",
+  website: "https://xero.com",
+  features: ["JAX agentic AI platform", "Bank reconciliation automation (90%+)", "Verifiable audit trails", "Real-time cash flow insights", "Human-in-the-loop accountability", "Revenue growth analytics"]
+},
+{
+  id: 263,
+  name: "Angie",
+  description: "Self-hosted, event-driven personal AI assistant that runs as a background daemon connecting to email, calendar, smart home, and developer tools.",
+  fullDescription: "Angie is a self-hosted, event-driven personal AI assistant that runs as a persistent background daemon on your infrastructure—always on, always working, and always respecting your privacy [citation:6]. Unlike cloud-based AI assistants that send your data to third-party servers, Angie operates entirely on your own hardware, connecting directly to your real-world tools: email, calendar, smart home devices (Philips Hue, Home Assistant), music streaming (Spotify), GitHub, Slack, Discord, and more [citation:6]. Angie's architecture is built around specialized agents powered by LLMs, organized into teams that collaborate on related tasks. The platform includes a real-time chat interface for direct interaction, a unified inbox (under development) that routes messages from Slack, Discord, iMessage, and email to the appropriate agent automatically, scheduled tasks via cron jobs ('every weekday at 8am, summarize my email and post to Slack'), and multi-step workflows that chain agents together ('check calendar → summarize emails → control smart lights → send morning briefing') [citation:6]. Angie uses a layered 'prompt hierarchy' (SYSTEM → ANGIE → AGENT/USER) that feeds personalized context to every LLM call—through onboarding, Angie builds a private profile covering your personality, communication style, and preferences that shapes every interaction [citation:6]. The platform includes a full FastAPI backend with a Next.js dashboard for managing agents, teams, workflows, tasks, and events in real-time [citation:6]. For developers and privacy-conscious users tired of subscription-based, cloud-dependent AI assistants, Angie represents the open-source alternative: full control over your data, unlimited customization, and the ability to run on everything from a Raspberry Pi to a dedicated server, all while providing proactive, persistent assistance that works even without internet connectivity.",
+  category: "Productivity",
+  rating: 4.5,
+  pricing: "Open Source",
+  icon: "https://www.google.com/s2/favicons?domain=pypi.org&sz=64",
+  website: "https://pypi.org/project/angie-ai",
+  features: ["Self-hosted background daemon", "Event-driven architecture", "Multi-agent collaboration (teams)", "Scheduled cron tasks", "Unified messaging inbox (Slack, Discord, email)", "Smart home & developer tool integration"]
+},
+{
+  id: 264,
+  name: "Estimatic AI",
+  description: "AI estimating tool for contractors that generates bids from text prompts, photos, blueprints, with real-time material and labor pricing.",
+  fullDescription: "Estimatic AI is a groundbreaking artificial intelligence estimating solution integrated into Contractor Plus V2, designed specifically for contractors in the trades who need to generate professional bids in minutes rather than hours or days [citation:7]. Founded by former contractor Justin Smith, Contractor Plus identified a major gap in the field service management market: existing solutions from players like Jobber, Housecall Pro, and ServiceTitan consisted of independent modules that didn't easily communicate with one another and paywalled critical features behind expensive tiers [citation:7]. Estimatic AI solves the estimating bottleneck by allowing contractors to type a prompt describing a job (simple or detailed), upload site photos, blueprints, or even competitor bids, and then the AI pulls in live material pricing and real-time local labor rates to generate a ready-to-send estimate [citation:7]. The system automatically syncs across the entire Contractor Plus ecosystem—a change order is immediately sent to the customer for eSign, once signed it automatically populates on the invoice, and updates the rest of the system without manual re-entry [citation:7]. Smith describes Estimatic as 'going to change the trades forever,' noting that contractors previously spent hours or even days on estimating for complex projects [citation:7]. The most attractive feature for volume contractors is that Estimatic AI is unlimited on the team plan, meaning no per-estimate fees that eat into margins. For electrical, plumbing, HVAC, roofing, general contracting, and other trade businesses, Estimatic AI transforms estimating from a dreaded administrative burden into a competitive advantage—enabling faster bid turnaround, more accurate pricing that reflects current material costs, and the ability to bid more jobs without hiring additional estimators. By democratizing access to real-time pricing data that previously required expensive subscriptions, Estimatic AI levels the playing field between small contractors and large enterprises [citation:7].",
+  category: "Productivity",
+  rating: 4.7,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=contractorplus.com&sz=64",
+  website: "https://contractorplus.com",
+  features: ["Prompt-to-bid generation", "Photo & blueprint upload", "Real-time material pricing", "Local labor rate integration", "Auto-sync with invoicing & eSign", "Unlimited estimates on team plan"]
+},
+{
+  id: 265,
+  name: "Omni Box",
+  description: "AI knowledge management tool that collects web content, parses files, and enables Q&A on a private knowledge base.",
+  fullDescription: "Omni Box (also known as Xiaohei OmniBox) is an AI-powered knowledge management platform developed by Hangzhou Xiaohei Intelligent Technology Co. Ltd. that creates a complete closed loop for personal and team knowledge: from collection to organization to application to sharing [citation:8]. In an era of information explosion where users often find themselves 'endlessly collecting, never processing,' Omni Box serves as a 'second brain' that goes beyond traditional note-taking apps by adding AI-driven understanding and Q&A capabilities [citation:8]. The platform offers seamless multi-source collection: full web page saving via mobile link sharing or browser extensions, multi-format upload (documents, images, audio and video files with AI automatic transcription), and WeChat Assistant integration for saving text, voice, video, and links from social scenarios [citation:8]. Key AI features include intelligent automatic organization (AI automatically extracts abstracts and adds tags to content, eliminating manual classification), AI Q&A based on private knowledge base (answers reference content from the user's personal library rather than generic internet searches, ensuring accurate and reliable information sources), and intelligent semantic search that supports fuzzy search to retrieve relevant documents even when users forget exact keywords [citation:8]. For teams, Omni Box offers shared workspaces where members can collaborate on document creation and efficient teamwork. Developer-friendly features include iOS Shortcuts adaptation for the Apple ecosystem and an open API supporting custom automated workflows [citation:8]. The developer does not collect any data from the app, making privacy a core differentiator compared to cloud-based alternatives. With real-time data sync across mobile terminals, web platforms, and other devices, and the ability to create shareable private/public links with customizable validity periods and passwords, Omni Box serves knowledge workers who need their information organized, searchable, and accessible from anywhere without sacrificing privacy [citation:8].",
+  category: "Productivity",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=omnibox.com&sz=64",
+  website: "https://omnibox.com",
+  features: ["Multi-source web content collection", "AI auto-tagging & summarization", "Private knowledge base Q&A", "Semantic & fuzzy search", "Team collaboration workspaces", "Open API & iOS Shortcuts"]
+},
+{
+  id: 266,
+  name: "SendX",
+  description: "Email marketing platform with AI editor that generates content via slash commands and tone selection, with no usage limits.",
+  fullDescription: "SendX is an email marketing platform that distinguishes itself through its integrated AI Editor, which combines a modern block-based interface with AI-powered content generation that has no usage limits [citation:9]. Available on every SendX plan at no extra cost, the AI Editor allows users to generate email content by using slash commands to access an AI Writer, describing what they want, selecting from tone options (professional, casual, friendly, urgent, etc.), and receiving generated text that can be inserted, edited, or discarded and regenerated as many times as needed [citation:9]. Beyond the AI Editor, SendX offers two additional editors: a Drag-and-Drop Editor for visual building and a Plain Text/HTML Editor for developers who prefer working with code [citation:9]. The AI Editor's workflow is intuitive for modern content creators: type '/' to open the command menu, select 'AI Writer,' enter a description like 'Christmas 2025 sale in New York with festive imagery and urgency,' choose a tone, click generate, review the output, and insert it into the email [citation:9]. The block-based interface supports text blocks of various heading sizes, image blocks, buttons, and other elements that can be rearranged visually. Merge tags enable personalization for each contact (first name, email, custom fields). The platform includes preview functionality across devices and test email sending before campaign deployment [citation:9]. For marketers sending regular campaigns, the absence of usage limits on AI generation is a significant advantage compared to competitors that cap monthly AI words or charge per generation. Whether you're a solo entrepreneur sending weekly newsletters or an agency managing dozens of client campaigns, SendX's AI Editor accelerates email creation while maintaining brand voice through tone controls, eliminating writer's block and reducing the time from blank page to send button [citation:9].",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=sendx.io&sz=64",
+  website: "https://sendx.io",
+  features: ["AI Editor with slash commands", "Unlimited AI content generation", "Tone selection (professional, casual, etc.)", "Block-based email builder", "Merge tag personalization", "Multi-device preview & testing"]
+},
+{
+  id: 267,
+  name: "Crayo",
+  description: "AI video dubbing and translation app that adds voiceover in multiple languages with voice changer and teleprompter features.",
+  fullDescription: "Crayo is a mobile AI video dubbing application developed by FERMAVE LLC that enables content creators to dub any video in seconds, adding voiceovers in multiple languages or changing the original speaker's voice [citation:10]. The app offers a comprehensive suite of video and audio tools including video dubbing, translation, a built-in teleprompter, voice changer functionality, audio extraction (video to MP3), and accent removal [citation:10]. For creators producing content for international audiences, Crayo solves the problem of linguistic reach—instead of creating separate videos for each language, users can dub their existing content and reach viewers who prefer consuming content in their native language. The app's teleprompter feature helps creators record scripts naturally without memorization, while voice changer enables character voices, privacy protection, or stylistic variation. Crayo's pricing follows a subscription model with options including weekly ($12.99-14.99), monthly ($19.99), and annual ($190.00) tiers, plus credit packages for pay-as-you-go usage [citation:10]. The developer offers some free features including the teleprompter, video downloader, and video-to-MP3 conversion, while premium dubbing and translation require subscription [citation:10]. User reviews praise Crayo for creating TikToks, Reels, and Shorts in any language with fantastic dubbing quality, while criticisms focus on the inability to test features without subscribing [citation:10]. For social media managers, YouTubers, and international marketers, Crayo dramatically reduces the cost and effort of multilingual content production—instead of hiring voice actors for each target language or creating entirely separate videos, creators can dub their existing library in minutes, expanding audience reach without multiplying production time [citation:10].",
+  category: "Video",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=crayo.app&sz=64",
+  website: "https://crayo.app",
+  features: ["AI video dubbing", "Multi-language translation", "Voice changer", "Built-in teleprompter", "Audio extraction (video to MP3)", "Accent removal"]
+},
+{
+  id: 268,
+  name: "Crayo",
+  description: "AI video dubbing and translation app that adds voiceover in multiple languages with voice changer and teleprompter features.",
+  fullDescription: "Crayo is a mobile AI video dubbing application developed by FERMAVE LLC that enables content creators to dub any video in seconds, adding voiceovers in multiple languages or changing the original speaker's voice [citation:10]. The app offers a comprehensive suite of video and audio tools including video dubbing, translation, a built-in teleprompter, voice changer functionality, audio extraction (video to MP3), and accent removal [citation:10]. For creators producing content for international audiences, Crayo solves the problem of linguistic reach—instead of creating separate videos for each language, users can dub their existing content and reach viewers who prefer consuming content in their native language. The app's teleprompter feature helps creators record scripts naturally without memorization, while voice changer enables character voices, privacy protection, or stylistic variation. Crayo's pricing follows a subscription model with options including weekly ($12.99-14.99), monthly ($19.99), and annual ($190.00) tiers, plus credit packages for pay-as-you-go usage [citation:10]. The developer offers some free features including the teleprompter, video downloader, and video-to-MP3 conversion, while premium dubbing and translation require subscription [citation:10]. User reviews praise Crayo for creating TikToks, Reels, and Shorts in any language with fantastic dubbing quality, while criticisms focus on the inability to test features without subscribing [citation:10]. For social media managers, YouTubers, and international marketers, Crayo dramatically reduces the cost and effort of multilingual content production—instead of hiring voice actors for each target language or creating entirely separate videos, creators can dub their existing library in minutes, expanding audience reach without multiplying production time [citation:10].",
+  category: "Video",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=crayo.app&sz=64",
+  website: "https://crayo.app",
+  features: ["AI video dubbing", "Multi-language translation", "Voice changer", "Built-in teleprompter", "Audio extraction (video to MP3)", "Accent removal"]
+},
+  
   
   
   
