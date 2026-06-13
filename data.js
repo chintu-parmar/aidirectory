@@ -3690,7 +3690,56 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=anybiz.ai&sz=64",
   website: "https://anybiz.ai",
   features: ["Natural language automation", "100+ business app connectors", "Custom internal tool generation", "Visual workflow editor", "Scheduled & event triggers", "User roles & permissions"]
-},  
+},
+{
+  id: 301,
+  name: "Prompt Builder",
+  description: "AI-powered prompt engineering tool that helps users craft, test, and optimize prompts for any LLM.",
+  fullDescription: "Prompt Builder is a specialized platform designed for prompt engineers, AI application developers, and power users who need to systematically craft, test, and optimize prompts for large language models. Unlike manual prompt development where users guess at structure and iterate blindly, Prompt Builder provides a structured environment with real-time feedback, version control, and optimization recommendations. The platform supports all major LLM providers including OpenAI (GPT-4, GPT-3.5), Anthropic (Claude), Google (Gemini), and open-source models. Key features include prompt templates (library of proven prompt structures for common tasks: summarization, classification, extraction, role-playing, chain-of-thought, few-shot learning), variable management (create reusable variables like {{user_name}}, {{product_name}} for personalization), response testing (test prompts across multiple models or temperatures simultaneously, compare outputs side-by-side), performance analytics (track metrics like response length, adherence to format, consistency across runs), and optimization suggestions (AI analyzes your prompts and recommends improvements: more specific instructions, examples, output formatting). The platform includes a prompt library for storing and sharing prompts within teams, version history to track changes and revert to working versions, and API export to deploy optimized prompts directly to applications. For teams building LLM applications, Prompt Builder provides the infrastructure for prompt engineering discipline—treating prompts as code that can be versioned, tested, and optimized. The platform includes collaboration features: shared prompt libraries, review workflows, and comment threads. Pricing follows a subscription model with free tier for basic use. For developers frustrated by the trial-and-error nature of prompt engineering, Prompt Builder replaces guesswork with systematic optimization, reducing development time and improving output reliability.",
+  category: "Developer Tools",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=promptbuilder.ai&sz=64",
+  website: "https://promptbuilder.ai",
+  features: ["Multi-LLM prompt testing", "Prompt template library", "Variable management & personalization", "Performance analytics & comparison", "Optimization recommendations", "Version control & team sharing"]
+},
+{
+  id: 302,
+  name: "Google Workspace",
+  description: "Google's integrated productivity suite with AI capabilities across Gmail, Docs, Sheets, Slides, and Meet.",
+  fullDescription: "Google Workspace (formerly G Suite) is Google's cloud-based productivity and collaboration platform that has integrated AI capabilities across all its core applications: Gmail, Google Docs, Google Sheets, Google Slides, Google Meet, Google Chat, and Google Drive. The platform's AI features, branded as 'Duet AI' (now integrated as Gemini for Workspace), provide intelligent assistance directly within familiar productivity tools. In Gmail, AI suggests smart replies, composes complete emails from brief prompts, summarizes long email threads, and prioritizes important messages. In Google Docs, AI assists with writing (generate, summarize, rewrite, adjust tone), formatting, and translation, plus 'help me write' features for press releases, job descriptions, and marketing copy. In Google Sheets, AI simplifies data analysis: users can type questions in natural language ('show me average sales by region for Q4') and Sheets generates formulas, pivot tables, and charts automatically. In Google Slides, AI generates entire presentations from prompts, creates AI-generated images for slides, and summarizes existing presentations. In Google Meet, AI provides studio lighting and sound adjustments, noise cancellation, automatic live captions, and post-meeting summaries with action items. Additional AI features include automatic categorization in Drive, document summarization, and translation across 100+ languages. For businesses, Workspace includes enterprise-grade security, compliance (HIPAA, FINRA), and administration controls. Pricing ranges from business plans ($12-18/user/month) to enterprise plans with advanced AI features and security. With over 3 billion users across consumer and business accounts, Google Workspace has become the standard for cloud collaboration, and its deep AI integration transforms productivity applications from passive tools into active assistants that reduce busy work and accelerate creative and analytical tasks.",
+  category: "Productivity",
+  rating: 4.7,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+  website: "https://workspace.google.com",
+  features: ["AI writing in Gmail & Docs", "Natural language data analysis in Sheets", "AI presentation generation in Slides", "Meeting summaries in Google Meet", "100+ language translation", "Enterprise security & compliance"]
+},
+{
+  id: 303,
+  name: "Sora",
+  description: "OpenAI's text-to-video generation model that creates photorealistic videos up to 60 seconds from text descriptions.",
+  fullDescription: "Sora is OpenAI's groundbreaking text-to-video generation model that creates photorealistic videos up to 60 seconds in length directly from text descriptions. Announced in February 2024 as a research preview, Sora represents a significant leap beyond previous video generation models (which typically produced short, low-quality, surreal clips) by generating high-resolution (up to 1080p) videos with consistent physics, realistic motion, coherent scene transitions, and object permanence (characters and objects remain consistent when moving behind obstacles). Sora can generate videos from single prompts ('a golden retriever playing in the snow, cinematic lighting, slow motion') or from existing images or videos (extending, filling in missing frames, or creating new versions). The model understands not just what the prompt describes but also how objects behave in the physical world—water ripples when disturbed, fabric drapes when hanging, light reflects appropriately off surfaces. For creative professionals, Sora enables rapid pre-visualization of concepts, storyboarding, mood setting, and concept art. For filmmakers, it allows generating B-roll, establishing shots, or visual effects elements that would be expensive or impossible to film. For marketers, it enables creating custom video assets for campaigns without shooting new footage. As of early 2025, Sora remains in limited research preview (available to select visual artists, designers, and filmmakers for testing and feedback), with no announced public release date. OpenAI has emphasized safety measures including C2PA content credentials (identifying videos as AI-generated), watermarking, and refusal to generate violent, sexual, or celebrity content. When Sora becomes publicly available, it is expected to be offered through ChatGPT Plus or a separate pricing tier. For video creators facing the time and cost of traditional production, Sora promises to democratize video creation similarly to how DALL-E democratized image generation—transforming what's possible for solo creators and small teams.",
+  category: "Video",
+  rating: 4.8,
+  pricing: "Not yet publicly available",
+  icon: "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  website: "https://openai.com/sora",
+  features: ["60-second photorealistic video generation", "1080p resolution", "Consistent physics & object permanence", "Image-to-video & video extension", "Cinematic lighting & motion", "Content credentials & watermarking"]
+},
+{
+  id: 304,
+  name: "Meet Greek",
+  description: "AI-powered networking platform that facilitates meaningful conversations and connections at virtual and in-person events.",
+  fullDescription: "Meet Greek is an AI-powered networking platform designed for conferences, corporate events, universities, and community gatherings that facilitates meaningful connections between attendees. Unlike traditional event networking that relies on random matching or manual searches, Meet Greek uses AI to analyze attendee profiles, interests, goals, and conversation styles to suggest optimal matches for productive, enjoyable conversations. The platform integrates with event registration systems to import attendee data, then uses natural language processing to understand what each attendee hopes to gain from the event ('find potential clients,' 'learn about X technology,' 'hire senior developers'). The AI's matching algorithm considers multiple factors: complementary interests (not just similar), conversation compatibility (based on communication style), scheduling availability, and physical proximity (for in-person events). Key features include smart scheduling (AI suggests meeting times that work for both parties, sends calendar invites), conversation starters (AI generates personalized icebreakers based on shared interests), real-time feedback (after conversations, attendees rate quality, and the AI learns to improve future matches), and virtual meeting rooms (built-in video chat for remote events). For event organizers, Meet Greek provides analytics: match acceptance rates, conversation quality scores, attendee satisfaction, and ROI metrics (connections leading to business outcomes). The platform includes white-label options (custom branding), API integration with existing event apps, and compliance with privacy regulations (GDPR, CCPA). For attendees at large events where meeting the right people feels like finding a needle in a haystack, Meet Greek replaces random networking with intelligent matching, ensuring every conversation has purpose and potential. For organizers, it differentiates their events, improves attendee satisfaction, and provides data on networking effectiveness.",
+  category: "Productivity",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=meetgreek.com&sz=64",
+  website: "https://meetgreek.com",
+  features: ["AI-powered attendee matching", "Smart scheduling & calendar invites", "Personalized conversation starters", "Virtual & in-person event support", "Real-time feedback & learning", "White-label & API integration"]
+},
+  
   
   
   
