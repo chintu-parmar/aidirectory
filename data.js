@@ -4674,19 +4674,178 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=bubble.io&sz=64",
   website: "https://bubble.io",
   features: ["No-code web application builder", "AI Assistant for structure generation", "Visual database & workflow editors", "Responsive design engine", "Built-in hosting & security", "Scalable production deployment"]
-}  
-  
+},
+{
+  id: 383,
+  name: "Filmora",
+  description: "AI-powered video editing platform with Seedance 2.0 integration for generating and editing high-quality videos from text or images with synced audio.",
+  fullDescription: "Filmora is an AI-powered video editing platform developed by Wondershare that has integrated Seedance 2.0, a next-generation AI video generation model, directly into its editing workspace. Unlike traditional AI video tools that require users to generate content in one app and edit in another, Seedance 2.0 works entirely within Filmora — users can generate from text prompts or images and edit on the same timeline without app-switching or quality loss [citation:1]. The model supports 720p output with durations of 5, 10, or 15 seconds in aspect ratios including 16:9 (landscape), 9:16 (vertical), and 1:1 (square). Key features include Beat-Sync Video technology that automatically composes and synchronizes audio to every frame in one pass, eliminating separate audio sourcing; multi-shot sequence creation using [CUT] markers in prompts to define scene transitions while maintaining character and scene consistency; and Cinematic Flow that handles shot-to-shot transitions, camera movement, and pacing automatically [citation:1]. For marketers, Seedance 2.0 generates ad-ready video structured for Hook, Feature, Proof, and CTA from product images and copy, then allows duplicating and exporting dozens of A/B variants without leaving the app. The platform supports text-to-video (with synced dialogue, sound, and music) and image-to-video (animate JPG/PNG stills). Limitations include that images with real human or animal faces are not supported — product photos, illustrations, and graphic designs work best. Filmora works across Windows, Mac, iOS, and Android, with each generation consuming AI credits based on duration and resolution. For video creators, marketers, and agencies needing pro-quality AI video with editing control, Filmora eliminates the workflow fragmentation of separate generation and editing tools.",
+  category: "Video",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=filmora.wondershare.com&sz=64",
+  website: "https://filmora.wondershare.com",
+  features: ["Seedance 2.0 AI video generation (text & image to video)", "Beat-Sync audio composition", "Multi-shot sequences with [CUT] markers", "Cinematic Flow (auto transitions & pacing)", "Ad video generation (Hook-Feature-Proof-CTA)", "Cross-platform (Windows, Mac, iOS, Android)"]
+},
+{
+  id: 384,
+  name: "Akool AI",
+  description: "All-in-one AI video platform for creating professional avatars, face swapping, video translation, and real-time customization at scale.",
+  fullDescription: "Akool AI is a Palo Alto-based all-in-one AI video platform that enables enterprises and creators to produce studio-quality video content at scale without traditional production bottlenecks like geography, language, cost, and logistics [citation:2]. Named the #1 fastest-growing private company in America on Inc. Magazine's 2025 Inc. 5000 list, Akool leverages Microsoft Azure Compute and AI services to power its suite of tools including AI-powered avatars, video translation, face swapping, and real-time customization [citation:2]. The platform focuses on accuracy and realism, from natural lip-syncing to expressive avatars that capture human nuance across cultures. Key capabilities include personalized content at scale — enabling every training video, ad, or class to be delivered in the viewer's own language in a style that feels natural and human. For enterprises, Akool addresses common bottlenecks: marketing teams can produce global campaigns without hiring talent in every region, training departments can localize content instantly, and event teams can create multilingual presentations without dubbing delays. The platform supports real-time customization, allowing brands to deliver personalized media experiences across customer segments. Akool has been recognized as an exceptional Microsoft for Startups partner, fully leveraging the program's benefits while demonstrating collaboration and innovation [citation:2]. CEO Jeff Lu envisions a future shift toward live human-AI interaction, where AI enables real-time conversations, presentations, and customer engagement. For businesses struggling with video production costs and timelines, Akool replaces weeks of prep and expensive studios with AI-driven generation that scales across markets and use cases.",
+  category: "Video",
+  rating: 4.6,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=akool.com&sz=64",
+  website: "https://www.akool.com",
+  features: ["AI-powered avatars & face swapping", "Video translation & localization", "Real-time customization", "Microsoft Azure AI integration", "#1 fastest-growing private company (Inc. 5000)", "Enterprise-scale video production"]
+},
+{
+  id: 385,
+  name: "User Evaluation",
+  description: "AI-driven customer understanding platform that extracts insights from conversations and generates reports, charts, and flowcharts with source citations.",
+  fullDescription: "User Evaluation is an AI-driven platform designed to help businesses and organizations uncover valuable user insights through automated data analysis. The platform extracts key information from customer conversations and transforms it into AI reports in seconds, significantly reducing the time spent on manual analysis [citation:3]. At its core, User Evaluation features an intelligent AI chat that aids in data understanding, enables brainstorming based on customer conversations, and generates bar graphs and flowcharts based on natural language instructions. Unlike black-box AI tools that provide insights without transparency, User Evaluation cites its sources for each finding, making it easier for teams to verify and understand the basis of recommendations [citation:3]. The platform is designed for product teams, UX researchers, customer success professionals, and marketers who need to process large volumes of customer feedback, support tickets, sales calls, and survey responses. Key capabilities include automated data import from various conversation sources, sentiment and trend analysis, visualization generation (graphs, flowcharts, diagrams), and collaborative insight sharing. While pricing details are available upon request and reviews are currently limited, the platform positions itself as an innovative solution for customer understanding. For organizations drowning in qualitative feedback but lacking the resources for manual analysis, User Evaluation replaces hours of reading, coding, and synthesis with AI-powered extraction that delivers structured, cited insights ready for stakeholder presentation and product decision-making.",
+  category: "Analytics",
+  rating: 4.0,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=softwareadvice.com&sz=64",
+  website: "https://www.softwareadvice.com/artificial-intelligence/user-evaluation-profile/",
+  features: ["AI-driven customer conversation analysis", "Automated report generation", "Intelligent AI chat for brainstorming", "Bar graph & flowchart generation", "Source citation for transparency", "Collaborative insight sharing"]
+},
+{
+  id: 386,
+  name: "Coach Call AI",
+  description: "AI accountability partner that conducts real voice calls and WhatsApp check-ins to help users track goals, build habits, and maintain progress.",
+  fullDescription: "Coach Call AI is an AI-powered accountability platform that acts as a personal coach through real voice calls and WhatsApp messaging, helping users stay on track with their personal and professional goals. Described as the first AI accountability partner that gives you phone calls, the platform combines voice interaction with text-based check-ins to provide consistent motivation, progress tracking, and behavioral reinforcement [citation:4]. Key features include real voice calls that hold users accountable through scheduled conversations, daily WhatsApp check-ins that require no additional app installation, smart scheduling with natural language understanding (users can say 'Call me every Monday at 9am for a pep talk'), automatic achievement tracking that logs completed goals to a visual progress dashboard, and long-term memory that learns the user's history and preferences over time. The platform offers multiple coach personalities and modes, allowing users to select coaching styles that match their motivational needs. Use cases include morning motivation (daily calls for pep talks to start the day with purpose), evening reflection (end-of-day calls to review progress), habit formation (fitness, meditation, reading, learning), and productivity goals (work deadlines, project milestones, time management) [citation:4]. The service is closed source, paid, and falls under the Productivity category. For individuals who struggle with self-discipline, need external accountability, or want consistent check-ins without burdening friends or hiring human coaches, Coach Call AI provides an always-available, judgment-free partner that scales with their goals and adapts to their personal communication style over time.",
+  category: "Productivity",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=coachcall.ai&sz=64",
+  website: "https://coachcall.ai",
+  features: ["Real voice call accountability", "Daily WhatsApp check-ins", "Smart natural language scheduling", "Automatic achievement tracking", "Long-term memory learning", "Multiple coach personalities"]
+},
+{
+  id: 387,
+  name: "Marky",
+  description: "AI platform for intelligent social media content automation, management, and posting across multiple networks with data-driven strategy insights.",
+  fullDescription: "Marky is an AI-powered social media platform that revolutionizes how organizations create, manage, and post content across social networks through intelligent automation and data-driven strategy. The platform has formed strategic partnerships with data transformation companies like DyDaMorph to power smarter, data-driven social content creation [citation:5]. Marky's core capabilities include AI-powered content creation that generates high-performing, on-brand content tailored to specific audiences and platforms; automated posting and engagement across multiple social networks from a single dashboard; data insights that guide social strategy based on performance analytics; and advanced impact measurement through comprehensive analytics. For brands and agencies, Marky enables the creation of thousands of on-brand content variations, automates the posting schedule based on optimal engagement times, and provides dashboards that show what content performs best and why. The platform integrates data intelligence with creative automation, helping organizations save time on manual posting while boosting performance through algorithm-informed content and timing. Marky is particularly valuable for social media managers juggling multiple client accounts, marketing teams needing consistent brand presence across platforms, and businesses that want to scale content production without multiplying headcount. The partnership with DyDaMorph represents a step forward in connecting data intelligence with creative automation — enabling organizations to be truly data-driven in their social content creation while maintaining brand voice and audience engagement.",
+  category: "Marketing",
+  rating: 4.3,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=marky.ai&sz=64",
+  website: "https://marky.ai",
+  features: ["AI-powered content creation & management", "Multi-network automated posting", "Data-driven social strategy insights", "Performance impact measurement", "Brand voice consistency", "Partnership with DyDaMorph"]
+},
+{
+  id: 388,
+  name: "JobWinner",
+  description: "AI-powered job application toolkit that generates ATS-friendly resumes, custom cover letters, skills analysis, and interview prep questions.",
+  fullDescription: "JobWinner is an AI-powered job application platform designed to enhance the job search process by providing tailored application materials and interview preparation. The platform helps professionals create customized resumes, cover letters, and practice questions specifically aligned to each job description, aiming to increase interview opportunities by highlighting relevant qualifications for each position [citation:6]. Key features include an AI Resume Builder that generates ATS-friendly, job-specific resumes optimized for applicant tracking systems; a Cover Letter Generator that creates personalized cover letters matching job requirements; a Skills Match Analysis tool that identifies candidate strengths and improvement areas relative to job descriptions; an Interview Preparation module offering job-specific practice questions; a Job Application Tracker for managing and monitoring application statuses across multiple positions; and a LinkedIn Profile Review providing insights to enhance professional social presence and recruiter visibility [citation:6]. Users can upload their existing CVs and target job descriptions to receive a comprehensive application kit tailored to each role. The platform offers discounts based on the number of users or seats, with higher volumes unlocking better pricing structures, particularly for enterprise-level usage. For job seekers who submit dozens of applications and want each one tailored for maximum impact, JobWinner replaces the tedious manual process of rewriting resumes and cover letters for each role with AI-powered customization that maintains quality while saving time. For career coaches and outplacement services, the platform enables scaling personalized job application support across many clients without proportional increases in staff time.",
+  category: "Recruitment",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=spendbase.co&sz=64",
+  website: "https://www.spendbase.co/discounts/jobwinner",
+  features: ["AI Resume Builder (ATS-friendly)", "Custom Cover Letter Generator", "Skills Match Analysis", "Interview Preparation questions", "Job Application Tracker", "LinkedIn Profile Review insights"]
+},
+{
+  id: 389,
+  name: "RenderLion",
+  description: "AI video generator that converts URLs, text prompts, and logos into short-form social media clips with branded templates and multi-format export.",
+  fullDescription: "RenderLion is an automated AI video creation platform built by Alexandru Roznovat that focuses on helping founders, marketers, and agencies turn existing text content into short, engaging clips for social media platforms like TikTok, Instagram, LinkedIn, and YouTube [citation:7]. The platform solves the problem of high production costs for daily social content by allowing users to feed a URL or prompt, and the AI handles stock footage, transitions, and text overlays. Key features include URL to Video — paste a live article link, and the AI identifies the headline and key bullet points to create a storyboard in under two minutes; Animated Logo Creator that adds motion effects (bounce, glitch, other animations) to static PNG/SVG files for professional video intros; Brand Kit for saving hex codes and fonts that automatically apply brand colors to captions and backgrounds across all videos; Multi-format Export generating 1:1, 9:16, and 16:9 versions of the same project without rebuilding; and News to Video for broadcast-style layouts for company announcements [citation:7]. Pricing includes a Free plan (watermarked, 720p), Starter plan at $12/month (10 renders, watermark-free 1080p), and Growth plan at $36/month (unlimited renders). In testing, the platform was noted for fast URL-to-video conversion and excellent accuracy extracting core messages from long blog posts, but the Starter plan's 10-render monthly limit is restrictive for frequent social posting [citation:7]. For solopreneurs and content creators who need to repurpose blog content for social media but lack video editing skills, RenderLion removes the blank canvas problem that slows content creation workflows, transforming written content into publish-ready social clips in minutes rather than hours.",
+  category: "Video",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=renderlion.com&sz=64",
+  website: "https://renderlion.com",
+  features: ["URL to video conversion", "Animated Logo Creator", "Brand Kit (colors & fonts)", "Multi-format export (1:1, 9:16, 16:9)", "News to video (broadcast style)", "Free plan with watermark"]
+},
+{
+  id: 390,
+  name: "Hailo AI",
+  description: "Edge AI processor manufacturer enabling on-device generative AI and vision AI for security, retail, robotics, automotive, and consumer devices.",
+  fullDescription: "Hailo is a leading chipmaker of edge AI processors that enables artificial intelligence and generative AI to run locally on devices rather than in the cloud — delivering faster processing, lower latency, greater privacy, and reduced dependency on internet connectivity [citation:8]. Based on Hailo's technology, demonstrated at CES 2026, the company is scaling edge AI across every level of the market from consumer devices to commercial systems. Key products include the Hailo-8 and Hailo-10H AI Accelerators and the Hailo-15 AI Vision Processors. Notable partner products include the ASUS UGen300 (world's first USB edge AI accelerator for laptops) and the Raspberry Pi AI HAT+ for developers and makers [citation:8]. Commercial deployments include security & surveillance (smart cameras with AI-ISP denoising, dynamic privacy masking, search and indexing), retail (computer-vision checkout systems from Fujitsu), robotics (Husqvarna autonomous lawn mowers with AI vision navigation), healthcare (Akara's privacy-preserving thermal sensing platform for surgical workflow automation), and automotive (in-cabin assistants using LLMs and VLMs for safer driving) [citation:8]. Looking ahead, Hailo is demonstrating how advanced GenAI can run directly on devices for vision-language capabilities that search, summarize, and interpret scenes in real-time. For developers, enterprises, and hardware manufacturers, Hailo provides the processing infrastructure for on-device intelligence — enabling applications that require fast, private, always-available AI where cloud connectivity is unreliable, expensive, or privacy-prohibitive. With the world's largest edge AI developer community and robust software suite, Hailo is making it possible for anyone to run AI locally on compact, affordable hardware [citation:8].",
+  category: "Developer Tools",
+  rating: 4.5,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=hailo.ai&sz=64",
+  website: "https://hailo.ai",
+  features: ["Edge AI processors (Hailo-8, Hailo-10H, Hailo-15)", "On-device GenAI & vision AI", "ASUS USB AI Accelerator", "Raspberry Pi AI HAT+", "Security, retail, robotics & automotive", "Privacy-preserving local processing"]
+},
+{
+  id: 391,
+  name: "Skalth GPT",
+  description: "AI-powered skill development and career progression platform for professionals and enterprises (limited public information available).",
+  fullDescription: "Skalth GPT appears to be an AI-powered platform focused on skill development and career progression, though detailed public information about its specific features and capabilities is currently limited. Based on its name and positioning, the platform likely leverages large language model technology to assist professionals in identifying skill gaps, creating learning paths, and advancing their careers. Users interested in learning more about Skalth GPT's specific features, pricing, and availability are encouraged to visit the official website for the most current information as the platform continues to develop its market presence.",
+  category: "Education",
+  rating: 0,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=skalth.com&sz=64",
+  website: "https://skalth.com",
+  features: ["AI skill development", "Career progression tools", "Professional learning paths", "Enterprise capabilities"]
+},
+{
+  id: 392,
+  name: "SocialBee",
+  description: "AI-powered social media management platform with Copilot feature that generates complete content strategies, categories, schedules, and posts.",
+  fullDescription: "SocialBee is an AI-powered social media management platform that has introduced Copilot — a personal AI social media manager that generates entire social media strategies with ready-to-use content for all feeds [citation:10]. Currently in BETA, the Copilot feature works by asking users a few questions to understand their business, then generates suggestions for social media networks they should be using, content categories for different post types and ideas, posting schedules for all categories, and actual posts ready for publication [citation:10]. Importantly, Copilot does not replace existing setup — the categories, schedule, and posts generated come on top of current configurations, preserving all existing work while adding AI-driven suggestions. For social media managers, agencies, and businesses, SocialBee Copilot eliminates the time-consuming process of content strategy development and post creation, replacing it with AI-generated recommendations that can be accepted, modified, or used as inspiration. The platform also includes standard social media management features including content categorization, recycling of evergreen content, multi-network posting, analytics, and team collaboration. SocialBee is designed for businesses that need to maintain consistent social presence across multiple platforms but lack the time or resources for daily manual posting and strategy planning. The Copilot feature is currently free during BETA, with users encouraged to provide feedback to help grow the feature [citation:10].",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=socialbee.com&sz=64",
+  website: "https://socialbee.com",
+  features: ["AI Copilot (strategy & post generation)", "Content categories & recycling", "Multi-network posting schedule", "Ready-to-use generated posts", "Preserves existing setup", "BETA feature (feedback encouraged)"]
+},
+{
+  id: 393,
+  name: "Rehearsal Now",
+  description: "AI-powered presentation rehearsal tool that provides real-time feedback on delivery, pacing, and content engagement.",
+  fullDescription: "Rehearsal Now is an AI-powered presentation training platform designed to help professionals practice and refine their public speaking skills before important meetings, pitches, or presentations. The platform analyzes user speech patterns, pacing, filler word usage, and content engagement, providing real-time feedback and actionable recommendations for improvement. Users can upload slide decks, record practice sessions, and receive detailed analytics on delivery effectiveness including speaking speed, vocal variety, eye contact (via webcam analysis), and audience engagement potential. The AI identifies weak sections, suggests content restructuring, and highlights areas where delivery falls flat. For sales teams preparing client pitches, executives rehearsing board presentations, or educators refining lecture delivery, Rehearsal Now provides a private, low-stakes environment for iterative improvement without the need for a human coach or live audience. The platform tracks progress over time, showing measurable improvements in delivery metrics across practice sessions.",
+  category: "Productivity",
+  rating: 4.3,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=rehearsalnow.com&sz=64",
+  website: "https://rehearsalnow.com",
+  features: ["Real-time delivery feedback", "Pacing & filler word analysis", "Slide deck integration", "Webcam eye contact tracking", "Content engagement scoring", "Progress tracking over time"]
+},
+{
+  id: 394,
+  name: "Supadev",
+  description: "AI developer platform for building backend infrastructure, APIs, and databases from natural language descriptions (limited public information available).",
+  fullDescription: "Supadev is an AI-powered developer platform that appears to be focused on helping developers build backend infrastructure, APIs, and databases using natural language descriptions, similar to backend-as-a-service platforms but with AI-assisted generation. The platform likely enables users to describe their data models, API requirements, and business logic in plain English, then automatically generates the corresponding backend code, database schemas, authentication systems, and API endpoints. For developers and startups needing to launch applications quickly, Supadev would reduce the time spent on boilerplate backend development, allowing focus on unique frontend features and user experience. While detailed public information about specific capabilities and pricing is currently limited, users interested in Supadev's features are encouraged to visit the official website for the most current information as the platform continues development.",
+  category: "Developer Tools",
+  rating: 0,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=supadev.com&sz=64",
+  website: "https://supadev.com",
+  features: ["Natural language backend generation", "API development from descriptions", "Database schema creation", "Authentication system generation"]
+},
+{
+  id: 395,
+  name: "Envato Labs",
+  description: "AI-powered creative suite integrated with Envato Elements offering AI-generated images, video assets, mockups, and web templates.",
+  fullDescription: "Envato Labs is the AI-powered creative suite integrated into Envato Elements, the popular subscription service for digital assets including stock photos, video templates, music, and graphics. The platform adds generative AI capabilities to Envato's existing library of millions of creative assets, enabling users to generate custom images, video elements, mockups, and website templates directly from text descriptions. For designers, video creators, and web developers, Envato Labs reduces the time spent searching for the perfect stock asset by allowing generation of custom alternatives that match specific project requirements. The AI is trained on Envato's licensed library, ensuring generated assets are commercially safe and consistent with the platform's quality standards. Key capabilities include AI image generation for custom visuals, AI video asset creation for motion graphics and B-roll, AI mockup generation for product presentations, and AI web template creation for landing pages and email designs. For creatives who already subscribe to Envato Elements, Labs adds generative AI capabilities without requiring separate subscriptions to tools like Midjourney or DALL-E, consolidating asset creation and discovery into a single workflow.",
+  category: "Image Generation",
+  rating: 4.4,
+  pricing: "Subscription",
+  icon: "https://www.google.com/s2/favicons?domain=envato.com&sz=64",
+  website: "https://envato.com",
+  features: ["AI image generation", "AI video asset creation", "AI mockup generator", "AI web template creation", "Envato Elements integration", "Commercially safe generation"]
+},
+{
+  id: 396,
+  name: "Trupeer",
+  description: "AI platform for generating interactive product demos, walkthroughs, and tutorial videos from website recordings with automatic narration.",
+  fullDescription: "Trupeer is an AI-powered platform that transforms simple website recordings into professional interactive product demos, step-by-step walkthroughs, and tutorial videos with automatic narration and annotations. The platform is designed for SaaS companies, product marketers, customer success teams, and technical writers who need to create product documentation, onboarding flows, and feature explanations without manual video editing. Users record their screen while walking through a product or process, and Trupeer's AI analyzes the recording to identify key steps, remove dead time and cursor wander, add smooth transitions and zoom effects, generate voiceover narration from the content, and add interactive elements like clickable hotspots and tooltips. The platform creates multiple outputs from a single recording including embedded walkthroughs for help centers, downloadable tutorial videos for customer training, step-by-step guides with screenshots, and interactive demos for landing pages. For teams that currently create product videos manually (requiring hours of editing, voiceover recording, and annotation), Trupeer replaces the entire post-production workflow with AI automation, transforming rough screen recordings into polished, customer-ready demos in minutes. The platform integrates with help desk software, LMS platforms, and product adoption tools.",
+  category: "Video",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=trupeer.ai&sz=64",
+  website: "https://trupeer.ai",
+  features: ["Screen recording to interactive demo", "Auto narration & voiceover", "Smart step detection & cropping", "Interactive hotspots & tooltips", "Multiple output formats (video, guide, embed)", "Help desk & LMS integration"]
+}, 
+
 
   
-
-  
-  
-  
-  
-  
-  
-  
- 
 ];
 
 // Categories derived from data
