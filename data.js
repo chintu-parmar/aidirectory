@@ -4842,7 +4842,152 @@ const AI_TOOLS = [
   icon: "https://www.google.com/s2/favicons?domain=trupeer.ai&sz=64",
   website: "https://trupeer.ai",
   features: ["Screen recording to interactive demo", "Auto narration & voiceover", "Smart step detection & cropping", "Interactive hotspots & tooltips", "Multiple output formats (video, guide, embed)", "Help desk & LMS integration"]
-}, 
+},
+{
+  id: 397,
+  name: "SEOMatic",
+  description: "SEO content automation platform that uses variables to generate thousands of unique, optimized pages from CSV datasets or Google Sheets.",
+  fullDescription: "SEOMatic is a powerful SEO content automation platform designed to help content marketers and SEO professionals generate thousands of unique, search-optimized pages at scale using dynamic variables. The platform enables users to upload datasets via CSV or Google Sheets integration, where each column name becomes a dynamic variable (e.g., `{{City}}`, `{{ProductName}}`) that can be inserted into content templates [citation:1]. When generating content, SEOMatic replaces these variables with corresponding values from each row of the dataset, creating unique personalized pages for every entry. The platform supports dynamic listicles, dynamic links, and dynamic image URLs, allowing for rich, varied content across thousands of pages. Users can combine variables with spin syntax to create unique variations (e.g., `Best restaurants in {{City}} [today|this week]`) or use generative AI prompts to produce context-rich content based on variables [citation:1]. Each unique combination of variables in the Title or Slug field automatically creates a separate page, making large-scale programmatic SEO projects manageable without manual page creation. The platform is ideal for local SEO campaigns (creating city-specific landing pages), e-commerce product variations, and large directory sites. For SEO professionals managing content at scale, SEOMatic transforms spreadsheet data into fully optimized, indexable pages, dramatically reducing the time spent on repetitive page creation while maintaining quality and relevance across thousands of URLs.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=seomatic.ai&sz=64",
+  website: "https://seomatic.ai",
+  features: ["CSV & Google Sheets dataset upload", "Dynamic variable replacement (e.g., {{City}})", "Spin syntax for content variations", "Generative AI prompts with variables", "Automatic page generation per unique variable combination", "Dynamic links, listicles & image URLs"]
+},
+{
+  id: 398,
+  name: "Biread",
+  description: "Browser extension for bilingual reading that transforms web pages into dual-language text with AI translation and language learning mode.",
+  fullDescription: "Biread is a bilingual reading browser extension designed for people who want to consume content in foreign languages while maintaining comprehension and accelerating learning. With one click, the AI extension transforms any webpage into dual-language text — displaying the original language alongside an AI-generated translation — allowing users to read global content without switching between tabs or translation tools [citation:2]. The extension supports over 100 languages and offers a dedicated language learning mode that shows the user's native language next to the original text, making it ideal for language learners who want to build vocabulary and comprehension through contextual reading. Biread's AI delivers high-quality translations that preserve meaning and nuance better than traditional machine translation. Key use cases include international news reading, academic research across language barriers, foreign language learning through immersion, and professional research requiring multilingual sources [citation:2]. The platform offers a free tier with basic features and paid plans for advanced translation capabilities. For language learners, researchers, and global content consumers, Biread eliminates the friction of language barriers, enabling seamless reading across the multilingual web while passively building language skills through consistent exposure to side-by-side native and translated text.",
+  category: "Productivity",
+  rating: 4.3,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=biread.io&sz=64",
+  website: "https://biread.io",
+  features: ["One-click bilingual web page transformation", "100+ language support", "Language learning mode (native + original)", "AI-powered accurate translation", "Chrome extension", "Free tier available"]
+},
+{
+  id: 399,
+  name: "Code AI",
+  description: "Mobile coding assistant that generates code from text, translates between programming languages, scans codebases, and provides AI explanations.",
+  fullDescription: "Code AI is a comprehensive mobile coding assistant app (available on iOS) that brings advanced AI programming capabilities to smartphones and iPads, supporting developers, students, and coding enthusiasts across 50+ programming languages including Python, JavaScript, Java, C++, Go, Rust, Ruby, SQL, Swift, TypeScript, and many more [citation:3]. The app leverages GPT-4, GPT-4o, and GPT-4o-mini models to provide a wide range of coding assistance features. Users can generate functional code snippets from natural language descriptions, seamlessly translate code between different programming languages to enhance cross-platform development, scan and analyze existing codebases to understand structure and functionality, leverage AI to interpret documentation files and implement solutions, get clear AI-generated explanations for complex or unfamiliar code segments, and detect bugs with precision while receiving AI-driven suggestions for fixes [citation:3]. The app is designed for both beginners learning to code and experienced developers seeking to accelerate their workflow. Code AI is free to download with in-app purchases for premium features (Code AI Premium and Code AI Premium Pro) that unlock advanced capabilities. Importantly, the developer does not collect any data from the app, making it a privacy-friendly choice for handling sensitive code and proprietary algorithms. For developers who need coding assistance while away from their desktop, students learning multiple programming languages, or professionals who want to quickly prototype or debug code on mobile devices, Code AI brings professional-grade AI coding capabilities to the palm of the hand.",
+  category: "Developer Tools",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=apps.apple.com&sz=64",
+  website: "https://apps.apple.com/tr/app/code-ai/id6469298113",
+  features: ["Text-to-code generation (50+ languages)", "Cross-language code translation", "Codebase scanning & analysis", "Documentation interpretation", "Complex code explanation", "Bug detection & fix suggestions"]
+},
+{
+  id: 400,
+  name: "Guidejar",
+  description: "AI-powered documentation tool that records workflows and auto-generates step-by-step guides, videos, and SOPs with voiceovers.",
+  fullDescription: "Guidejar is an AI-powered documentation platform that helps fast-growing teams create training materials, SOPs, user onboarding guides, and support documentation without manual writing. The Chrome extension records users' workflows as they walk through processes, automatically capturing every click and action in the background, then generates professional step-by-step guides with auto-generated instructions [citation:4]. Users can customize guides with branding elements (logos, colors), fine-tune click targets, add AI-generated voiceovers or talking head videos, and translate content for international teams. Finished guides can be shared via links, embedded into websites, support docs, or internal wikis, or exported as PDFs or high-quality videos for offline use in presentations, training PDFs, or social content [citation:4]. For teams training new employees, Guidejar replaces hours of manual documentation writing with AI-assisted guide generation that produces clear, visual instructions from actual workflows. For support teams, guides embedded in help docs reduce repetitive tickets by enabling self-service. For sales teams, personalized product demos created with Guidejar help close deals faster by showing prospects exactly how products work. The tool runs as a Chrome extension with version 2.2.2 released in March 2026, has a 3.7MiB size, and is developed by Shrinivas Subramanian with support email hello@guidejar.com. For growing teams that need to scale training and support documentation without proportional headcount growth, Guidejar turns process recording into publish-ready documentation in minutes rather than hours.",
+  category: "Productivity",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=guidejar.com&sz=64",
+  website: "https://guidejar.com",
+  features: ["Workflow recording to auto-generated guides", "AI voiceover & talking head addition", "Custom branding & fine-tuning", "Multi-platform embedding (websites, docs, wikis)", "PDF & video export", "Translation support"]
+},
+{
+  id: 401,
+  name: "NeuralText",
+  description: "AI content creation platform for SEO and marketing teams that analyzes competitors, creates content briefs, and generates optimized drafts.",
+  fullDescription: "NeuralText is an AI-powered content creation platform designed specifically for SEO professionals, content marketers, and copywriters who need to produce high-quality, search-optimized content efficiently. The platform uses natural language processing to analyze competitor content across the web, identify relevant keywords and topics, and generate comprehensive content briefs that guide writers on structure, headings, and key points to cover [citation:5]. NeuralText aims to cut research and writing time in half while producing SEO-friendly content that ranks. Key features include competitor content analysis to understand what's already ranking, keyword research and suggestion tools, content brief generation with outline and talking points, and AI draft text generation for blog posts, ads, landing pages, and more. The platform is used by marketers, content creators, copywriters, and journalists who need to produce optimized content at scale. Pricing starts at $49 per month with a free version and free trial available. NeuralText has received mixed reviews: users praise its market research capabilities and outline tools for helping determine what content will rank, but some note that the content generation quality has varied over time, with some users describing the content generation feature as needing improvement to become an industry leader [citation:5]. For SEO professionals and content teams who struggle with the research and planning phase of content creation, NeuralText replaces hours of manual competitor analysis and outlining with AI-assisted research that delivers actionable briefs and drafts, allowing writers to focus on refinement and unique value-add rather than starting from scratch.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=neuraltext.com&sz=64",
+  website: "https://neuraltext.com",
+  features: ["Competitor content analysis", "Keyword research & suggestions", "Content brief generation (outline, headings)", "AI draft text generation", "SEO optimization for blogs & landing pages", "Free trial & free version available"]
+},
+{
+  id: 402,
+  name: "AI Detector Pro",
+  description: "Mobile app that detects AI-generated text (up to 10,000 words) and images, plus humanizes AI text with adjustable rewriting levels.",
+  fullDescription: "AI Detector Pro is a comprehensive mobile application (available on iOS) that helps users detect AI-generated content across both text and images, while also providing text humanization capabilities to rewrite AI-detected content into natural, human-sounding prose [citation:6]. For text detection, users can paste or write up to 10,000 words, and the app returns an accurate percentage score from 0% to 100% indicating the likelihood of AI generation, along with detailed analysis showing human content, AI-generated content, and mixed content segments, plus a confidence level indicator for reliable results [citation:6]. For image detection, users can upload or capture photos in JPG, PNG, and WebP formats for instant recognition of whether images are real or AI-generated — useful for verifying social media content and digital designs [citation:6]. The Humanize feature rewrites text flagged as AI-generated into natural, fluent writing with adjustable levels (light, medium, or strong), preserving original meaning while reducing detection risk — suitable for research papers, assignments, articles, and resumes [citation:6]. Key users include students checking assignments before submission, teachers verifying academic integrity, content creators and bloggers ensuring authentic-sounding content, and HR professionals screening resumes and cover letters. The app offers a free tier with two daily text or image scans, with weekly, monthly, and annual subscriptions for unlimited scanning and rewriting. Privacy is a priority — scanned texts and images are not stored on the app's servers. For anyone concerned about AI detection flags affecting academic submissions, job applications, or content credibility, AI Detector Pro provides a dual-purpose tool for both verification and refinement, giving users confidence that their content meets authenticity standards.",
+  category: "Text Generation",
+  rating: 4.4,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=aidetectorpro.app&sz=64",
+  website: "https://www.aidetectorpro.app",
+  features: ["AI text detection (up to 10,000 words)", "AI image detection (JPG, PNG, WebP)", "Humanize text rewriting (light/medium/strong)", "Confidence level indicators", "Free tier (2 scans/day)", "Privacy-first (no data storage)"]
+},
+{
+  id: 403,
+  name: "Jupitrr AI",
+  description: "AI video marketing platform for teams that automatically turns talking footage into engaging, on-brand videos for social media.",
+  fullDescription: "Jupitrr AI is an all-in-one video marketing platform designed for business owners and marketing teams to create consistent, engaging video content without extensive editing skills or resources. Founded in 2023 and headquartered in London, Jupitrr automatically transforms talking footage — such as interviews, presentations, webinars, or vlogs — into polished, on-brand videos optimized for social media and marketing channels [citation:7]. The platform focuses on eliminating the time-consuming editing process that traditionally follows video recording, enabling teams to produce more content with less effort. As a small company with 2-10 employees, Jupitrr specializes in video generation and video marketing, serving the growing creator economy and business video marketing needs [citation:7]. Key capabilities include automatic B-roll addition, dynamic captions, brand kit integration (colors, logos, fonts), scene detection and smart cutting, and social media format optimization (landscape, square, vertical). For marketing teams that record customer testimonials, product demos, or thought leadership interviews but struggle with the post-production bottleneck, Jupitrr converts raw footage into publish-ready marketing assets in minutes. The platform is accessible via web browser at jupitrr.com. For businesses that recognize video as essential for marketing but lack dedicated video editors or the budget for agencies, Jupitrr democratizes professional video production through AI automation, enabling consistent content output that builds audience engagement and brand presence across social channels.",
+  category: "Video",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=jupitrr.com&sz=64",
+  website: "https://jupitrr.com",
+  features: ["Talking footage to branded video conversion", "Automatic B-roll & dynamic captions", "Brand kit integration (colors, logos)", "Scene detection & smart cutting", "Social media format optimization", "Founded 2023 in London"]
+},
+{
+  id: 404,
+  name: "Link Whisper AI",
+  description: "WordPress plugin for automated internal linking that uses semantic analysis to suggest relevant links, fix orphan pages, and improve SEO.",
+  fullDescription: "Link Whisper is an AI-powered internal linking plugin for WordPress trusted by over 50,000 site owners that automates one of the most time-consuming SEO tasks: building relevant, strategic internal links across your website [citation:8]. Unlike traditional internal linking tools that only match keywords, Link Whisper's AI reads content like a human editor — understanding context, topic relationships, and semantic relevance — to surface linking suggestions that a senior SEO would make manually, resulting in higher-quality suggestions with less noise, especially on larger sites where keyword-only matching creates too many irrelevant results [citation:8]. The plugin works directly inside the WordPress editor, whispering smart, contextual internal link suggestions in real-time as users write, allowing them to accept suggestions with a click. Users have created over 10 million links in the past 30 days alone and report saving around 12 hours per week on internal linking tasks [citation:8]. Key features include orphan page detection to identify posts with zero internal links, link health reports showing inbound/outbound link distribution, and semantic analysis for topic clustering. The premium version adds one-click auto-linking across entire sites, bulk link addition, broken link checking and repair, cross-site linking between multiple WordPress sites, and import of target SEO keywords from Yoast and RankMath [citation:8]. For bloggers, SEO professionals, and content-heavy WordPress sites, internal linking is critical for helping search engines understand content relationships and distribute authority, but manual linking becomes impossible as sites grow. Link Whisper replaces manual linking with AI-powered automation, turning what was once a time-intensive chore into a strategic SEO advantage that improves crawlability, user navigation, and rankings.",
+  category: "Marketing",
+  rating: 4.6,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=linkwhisper.com&sz=64",
+  website: "https://linkwhisper.com",
+  features: ["AI semantic internal link suggestions", "Orphan page detection (zero links)", "Real-time WordPress editor integration", "Link health reporting (inbound/outbound)", "Premium: one-click auto-linking", "Premium: broken link checker"]
+},
+{
+  id: 405,
+  name: "Postwise",
+  description: "AI social media writing assistant that clones successful creator styles and generates viral posts for LinkedIn, X, and Threads.",
+  fullDescription: "Postwise is an AI-powered social media writing assistant that helps creators, professionals, and marketers craft engaging posts for LinkedIn, X (Twitter), and Threads without writer's block or hours of manual writing. The platform is trained on the world's best-performing content, enabling it to understand what makes posts go viral and replicate those patterns for each user's unique voice and audience [citation:9]. With over 38,000 creators and professionals already using the platform, Postwise's standout feature is the ability to clone a favorite creator's style — users can analyze successful creators in their niche and generate posts that capture similar tone, structure, and engagement patterns [citation:9]. The workflow is designed for effortless content creation: users open Postwise, clone a creator's style, go for a walk while recording a quick voice note, hit 'Create', and receive three viral-ready posts in seconds — then edit if needed, schedule, and close the laptop [citation:9]. Beyond its core writing assistant, Postwise offers several free tools including a LinkedIn Headline Generator, LinkedIn Summary Generator, X/Twitter Bio Generator, Facebook Post Generator, and YouTube Title Generator, available at postwise.ai/tools. For professionals who struggle with consistent social media posting, lack time for daily content creation, or want to replicate the success of top creators in their space, Postwise combines style cloning, voice-to-post conversion, and viral pattern recognition to produce high-quality posts that would otherwise take hours of brainstorming, drafting, and editing.",
+  category: "Marketing",
+  rating: 4.5,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=postwise.ai&sz=64",
+  website: "https://postwise.ai",
+  features: ["Creator style cloning (analyze successful profiles)", "Voice note to viral posts conversion", "LinkedIn, X & Threads optimization", "Scheduling & publishing", "Free tools (headline, bio, title generators)", "38,000+ creator users"]
+},
+{
+  id: 406,
+  name: "MimicPC",
+  description: "Browser-based platform for running open-source AI applications without local hardware, offering private cloud workspaces from $0.49/unit.",
+  fullDescription: "MimicPC is a browser-run AI platform that enables users to access and run diverse open-source AI applications directly through their web browser without requiring expensive local hardware, technical expertise, or complex installations [citation:10]. The platform is device-agnostic — compatible with any computer, tablet, or mobile device with a browser and internet connection — providing dedicated private cloud workspaces where users can create, learn, and experiment with AI while maintaining privacy and quality [citation:10]. Unlike traditional AI tools that require high-end GPUs, local installations, or advanced technical knowledge, MimicPC democratizes AI access by handling all compute resources in the cloud and streaming the interface to users' browsers. The platform supports a variety of open-source applications across image generation, language models, and creative AI tools. Key benefits include no hardware requirements, no software installation, cross-device compatibility (including mobile), user-friendly interface suitable for beginners, private cloud workspaces for data protection, and freemium pricing with paid options starting from $0.49 per unit [citation:10]. Limitations include dependency on internet connectivity, limited offline functionality (browser-based only), potential data privacy concerns inherent to cloud services, and limited documentation and user support currently available. For developers, researchers, students, and AI enthusiasts who want to experiment with open-source AI models but lack high-end hardware or want to avoid complex local setups, MimicPC provides a low-cost, accessible entry point to the world of AI applications, with flexible pay-as-you-go pricing that scales with usage and skill level.",
+  category: "Developer Tools",
+  rating: 4.2,
+  pricing: "Freemium",
+  icon: "https://www.google.com/s2/favicons?domain=mimicpc.com&sz=64",
+  website: "https://mimicpc.com",
+  features: ["Browser-based open-source AI access", "No hardware or technical expertise needed", "Cross-device compatible (including mobile)", "Private cloud workspaces", "Freemium from $0.49/unit", "Platform agnostic (any browser)"]
+},
+{
+  id: 407,
+  name: "TurboCage AI",
+  description: "Comprehensive AI prompt management tool for storing, organizing, and reusing prompts across multiple LLM platforms (limited public information).",
+  fullDescription: "TurboCage AI appears to be a prompt management and optimization platform designed for users who work with multiple large language models and need to organize, store, and reuse prompts across different AI assistants. Based on available information, the platform likely offers prompt organization features (folders, tagging, search), prompt versioning to track iterations and improvements, cross-platform prompt compatibility for use with ChatGPT, Claude, Gemini, and other LLMs, and possibly prompt optimization tools to improve output quality. For prompt engineers, AI application developers, and power users who regularly craft and refine prompts across multiple AI platforms, a dedicated prompt management tool prevents the common problem of losing effective prompts or maintaining inconsistent versions. Users interested in learning more about TurboCage's specific features, pricing, and availability are encouraged to visit the official website for the most current information as the platform continues to develop its market presence.",
+  category: "Productivity",
+  rating: 0,
+  pricing: "Contact",
+  icon: "https://www.google.com/s2/favicons?domain=turbocage.ai&sz=64",
+  website: "https://turbocage.ai",
+  features: ["Prompt storage & organization", "Multi-LLM compatibility (ChatGPT, Claude, Gemini)", "Prompt versioning", "Team sharing"]
+},
+{
+  id: 408,
+  name: "Hypefury",
+  description: "AI-powered Twitter (X) and LinkedIn growth tool for scheduling, analytics, engagement automation, and viral content creation.",
+  fullDescription: "Hypefury is an AI-powered social media growth platform focused on Twitter (X) and LinkedIn, helping creators, entrepreneurs, and brands build engaged audiences through intelligent scheduling, analytics, and engagement automation. The platform is designed for professionals who understand that consistent, strategic posting is the foundation of audience growth but struggle to maintain the daily output required for algorithmic success. Key features include smart scheduling with optimal timing recommendations based on audience engagement patterns, content recycling to automatically re-share evergreen posts, analytics dashboards showing impression and engagement trends, engagement automation for liking and replying to relevant conversations, and thread creation tools for structuring longer-form Twitter content. For users tired of spending hours on social media but committed to audience building, Hypefury automates the logistical aspects of posting while providing data-driven insights to improve content strategy. The platform is particularly popular among personal brands, indie makers, and founders who use Twitter and LinkedIn as primary customer acquisition channels. By maintaining consistent posting schedules and engaging with relevant conversations, Hypefury helps users grow their reach and influence without dedicating their entire day to social media management.",
+  category: "Marketing",
+  rating: 4.4,
+  pricing: "Paid",
+  icon: "https://www.google.com/s2/favicons?domain=hypefury.com&sz=64",
+  website: "https://hypefury.com",
+  features: ["Smart scheduling & optimal timing", "Content recycling (evergreen posts)", "Engagement automation (likes, replies)", "Analytics dashboards (impressions, engagement)", "Thread creation tools", "Twitter (X) & LinkedIn focus"]
+},
+  
 
 
   
