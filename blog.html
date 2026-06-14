@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI & Robotics Blog — AI Directory</title>
+  <meta name="description" content="Read the latest research, papers, and insights on AI, machine learning, robotics, and emerging technology." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E45DKPYH9H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E45DKPYH9H');
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon" aria-hidden="true">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </a>
+    <div class="nav__links" role="menubar">
+      <a href="index.html" class="nav__link" role="menuitem">Home</a>
+      <a href="category.html" class="nav__link" role="menuitem">Categories</a>
+      <a href="blog.html" class="nav__link active" role="menuitem">Blog</a>
+      <a href="#" class="nav__link btn-submit" role="menuitem">Submit Tool</a>
+    </div>
+    <div class="nav__actions">
+      <button class="btn-submit-nav"><i class="fas fa-plus" style="margin-right:6px"></i>Submit Tool</button>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav__mobile" id="mobileMenu">
+  <ul class="nav__mobile-links">
+    <li><a href="index.html" class="nav__mobile-link">Home</a></li>
+    <li><a href="category.html" class="nav__mobile-link">Categories</a></li>
+    <li><a href="blog.html" class="nav__mobile-link">Blog</a></li>
+    <li><a href="#" class="nav__mobile-link mobile-submit">Submit Tool</a></li>
+  </ul>
+</div>
+
+<main>
+  <!-- ── BLOG HERO ── -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="hero__tag"><i class="fas fa-book-open"></i> Research & Insights</div>
+      <h1 class="blog-hero__title">AI & Robotics <em>Blog</em></h1>
+      <p class="blog-hero__subtitle">Deep dives into AI research, robotics breakthroughs, and the tools shaping tomorrow.</p>
+
+      <!-- Search -->
+      <div class="blog-search">
+        <i class="fas fa-search"></i>
+        <input type="search" id="blogSearch" placeholder="Search articles, papers, topics…" autocomplete="off" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOPIC FILTERS ── -->
+  <section class="blog-filters">
+    <div class="container">
+      <div class="blog-filter-pills" id="blogFilters">
+        <button class="blog-pill active" data-tag="all">All</button>
+        <button class="blog-pill" data-tag="AI Research">AI Research</button>
+        <button class="blog-pill" data-tag="Robotics">Robotics</button>
+        <button class="blog-pill" data-tag="Machine Learning">Machine Learning</button>
+        <button class="blog-pill" data-tag="LLMs">LLMs</button>
+        <button class="blog-pill" data-tag="Computer Vision">Computer Vision</button>
+        <button class="blog-pill" data-tag="Tools">Tools</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURED POST ── -->
+  <section class="blog-featured" id="featuredPost">
+    <div class="container">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- ── BLOG GRID ── -->
+  <section class="blog-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Latest Articles</h2>
+        <span class="section-count" id="blogCount"></span>
+      </div>
+      <div class="blog-grid" id="blogGrid">
+        <!-- Injected by JS -->
+      </div>
+      <div class="load-more-wrap">
+        <button class="btn-load-more hidden" id="blogLoadMore">Load more articles</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PDF UPLOAD SECTION ── -->
+  <section class="pdf-section">
+    <div class="container">
+      <div class="pdf-upload-card">
+        <div class="pdf-upload-icon"><i class="fas fa-file-pdf"></i></div>
+        <h2 class="pdf-upload-title">Read a Research Paper</h2>
+        <p class="pdf-upload-desc">Upload any AI or Robotics PDF paper to read it here — beautifully rendered with page navigation.</p>
+        <label class="pdf-upload-btn" for="pdfInput">
+          <i class="fas fa-upload"></i> Upload PDF
+          <input type="file" id="pdfInput" accept=".pdf" style="display:none" />
+        </label>
+        <p class="pdf-upload-hint">Supports any PDF — research papers, whitepapers, reports</p>
+      </div>
+
+      <!-- PDF Viewer -->
+      <div class="pdf-viewer-wrap hidden" id="pdfViewerWrap">
+        <div class="pdf-viewer-header">
+          <div class="pdf-viewer-title" id="pdfTitle"></div>
+          <div class="pdf-viewer-controls">
+            <button class="pdf-ctrl-btn" id="pdfPrev"><i class="fas fa-chevron-left"></i></button>
+            <span class="pdf-page-info">Page <span id="pdfCurrentPage">1</span> of <span id="pdfTotalPages">-</span></span>
+            <button class="pdf-ctrl-btn" id="pdfNext"><i class="fas fa-chevron-right"></i></button>
+            <button class="pdf-ctrl-btn" id="pdfZoomIn"><i class="fas fa-search-plus"></i></button>
+            <button class="pdf-ctrl-btn" id="pdfZoomOut"><i class="fas fa-search-minus"></i></button>
+            <button class="pdf-ctrl-btn" id="pdfClose" title="Close"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+        <div class="pdf-canvas-wrap">
+          <canvas id="pdfCanvas"></canvas>
+        </div>
+        <div class="pdf-thumbnails" id="pdfThumbnails"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <div class="footer__logo-icon">✦</div>
+      <span>AI<strong>Directory</strong></span>
+    </div>
+    <p class="footer__copy">© 2025 AI Directory · Some links are affiliate links.</p>
+    <nav class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="category.html" class="footer__link">Categories</a>
+      <a href="blog.html" class="footer__link">Blog</a>
+      <a href="#" class="footer__link btn-submit">Submit Tool</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- PDF.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script src="blog.js"></script>
+</body>
+</html>
